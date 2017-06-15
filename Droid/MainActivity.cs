@@ -21,8 +21,8 @@ namespace ParkingGrandLyon.Droid
 			base.OnCreate(bundle);
 
 			global::Xamarin.Forms.Forms.Init(this, bundle);
-
-			LoadApplication(new App());
+			Person.convertPerson();
+			 LoadApplication(new App());
 		}
 	}
 }
