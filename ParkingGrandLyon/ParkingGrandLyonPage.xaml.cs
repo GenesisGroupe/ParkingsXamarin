@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Xamarin.Forms;
@@ -8,6 +9,8 @@ namespace ParkingGrandLyon
 {
 	public partial class ParkingGrandLyonPage : ContentPage
 	{
+
+		Location currentLocation = new Location(45.789285, 4.814896);
 		public ParkingGrandLyonPage()
 		{
 			InitializeComponent();
@@ -47,11 +50,15 @@ namespace ParkingGrandLyon
 				Parking parking = Parking.createFromJson(item["properties"].ToString());
 				JObject geometry = (JObject)item["geometry"];
 				JArray coordinates = (JArray)geometry["coordinates"];
-				float lat = (float)coordinates[1];
-				float longitude = (float)coordinates[0];
+				double lat = (double)coordinates[1];
+				double longitude = (double)coordinates[0];
 				parking.location = new Location(longitude, lat);
 				parkingManager.addParking(parking);
+				Task<string> jsonPoint = network.GetDistanceBetweenPoints(currentLocation, parking.location);
+				Location.ParseMapsResponse(jsonPoint);
 			}
+			Parking firstParking = (Parking)ParkingManager.sharedManager().allParkings[0];
+			Console.WriteLine("longitude : " + firstParking.location.longitude + ", latitude : " + firstParking.location.latitude);
 
 			Console.WriteLine("{0} parkings synchronizeds", parkingManager.countParkings());
 			listView.ItemsSource = null;

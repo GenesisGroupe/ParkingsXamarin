@@ -20,6 +20,7 @@ namespace ParkingGrandLyon
 		public String last_update { get; set; }
 		public String last_update_fme { get; set; }
 		public Location location { get; set; }
+		public int distanceToLocation { get; set; }
 
 		public static Parking createFromJson(String json)
 		{

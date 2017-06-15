@@ -1,31 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ParkingGrandLyon" x:Class="ParkingGrandLyon.ParkingGrandLyonPage">
-	<ListView x:Name="listView" ItemSelected="OnItemSelected" RowHeight="80">
-		<ListView.ItemTemplate>
-			<DataTemplate>
-				<ViewCell>
-					<Grid>
-						<Grid.ColumnDefinitions>
-							<ColumnDefinition Width="80" />
-							<ColumnDefinition Width="*" />
-							<ColumnDefinition Width="80" />
-						</Grid.ColumnDefinitions>
-						<StackLayout Grid.Row="0" Grid.Column="0" Padding="2" HorizontalOptions="Start" Orientation="Vertical" WidthRequest="80" BackgroundColor="#50e3c2">
-							<StackLayout Spacing="0" Orientation="Horizontal">
-								<Label Text="25" FontSize="25" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="#FFFFFF" />
-								<Label Text="/" FontSize="18" HorizontalTextAlignment="Start" VerticalTextAlignment="End" TextColor="#FFFFFF" />
-								<Label Text="{Binding capacitevoiture}" FontSize="18" HorizontalTextAlignment="Start" VerticalTextAlignment="End" TextColor="#FFFFFF" />
-							</StackLayout>
-							<Label FontSize="10" Text="PLACES DISPONIBLES" HorizontalTextAlignment="End" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="#FFFFFF" />
-						</StackLayout>
-						<Label Grid.Row="0" Grid.Column="1" Margin="0, 5, 0, 0" HorizontalOptions="StartAndExpand" FontSize="18" Text="{Binding nom}" TextColor="#9b9b9b" />
-						<StackLayout Grid.Row="0" Grid.Column="2" WidthRequest="80" HorizontalOptions="End" VerticalOptions="End" Spacing="5" Orientation="Vertical">
-							<Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontSize="15" Text="100m" TextColor="#9b9b9b" />
-							<Button Margin="5" Font="10" HeightRequest="32" TextColor="White" BackgroundColor="#ed7171" BorderRadius="5" Text="Y ALLER!" />
-						</StackLayout>
-					</Grid>
-				</ViewCell>
-			</DataTemplate>
-		</ListView.ItemTemplate>
-	</ListView>
+	        <ListView x:Name="listView" ItemSelected="OnItemSelected">
+            
+           
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="5" Orientation="Horizontal">
+                            <Label Text="{Binding nom}" />
+                            <Label Text="{Binding capacitevoiture}" TextColor="Green" FontSize="Large" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+
 </ContentPage>
