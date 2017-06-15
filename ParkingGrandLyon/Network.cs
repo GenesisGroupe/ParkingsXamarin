@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace ParkingGrandLyon
-{
+namespace ParkingGrandLyon {
     public class Network {
         HttpClient client = new HttpClient();
         public Network() {
-            GetParkings(10);
+            GetLocations();
         }
 
         public async void GetParkings(int limit) {
@@ -14,6 +13,12 @@ namespace ParkingGrandLyon
             Console.WriteLine(response);
 		}
 
+        public async void GetLocations() {
+			var response = await client.GetStringAsync("https://download.data.grandlyon.com/ws/grandlyon/pvo_patrimoine_voirie.pvoparking/the_geom.json");
+			Console.WriteLine(response);
+
+
+		}
 
     }
 }
