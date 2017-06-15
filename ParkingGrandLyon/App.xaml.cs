@@ -9,6 +9,7 @@ namespace ParkingGrandLyon
 			InitializeComponent();
 
 			MainPage = new ParkingGrandLyonPage();
+            Network network = new Network();
 			//Parking p = Parking.createFromJson("{\"nom\":\"test\" }");
 
 		}
