@@ -14,7 +14,7 @@
 							<StackLayout Spacing="0" Orientation="Horizontal">
 								<Label Text="25" FontSize="25" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="#FFFFFF" />
 								<Label Text="/" FontSize="18" HorizontalTextAlignment="Start" VerticalTextAlignment="End" TextColor="#FFFFFF" />
-								<Label Text="{Binding capacite}" FontSize="18" HorizontalTextAlignment="Start" VerticalTextAlignment="End" TextColor="#FFFFFF" />
+								<Label Text="{Binding capacitevoiture}" FontSize="18" HorizontalTextAlignment="Start" VerticalTextAlignment="End" TextColor="#FFFFFF" />
 							</StackLayout>
 							<Label FontSize="10" Text="PLACES DISPONIBLES" HorizontalTextAlignment="End" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="#FFFFFF" />
 						</StackLayout>
