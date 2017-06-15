@@ -9,6 +9,8 @@ namespace ParkingGrandLyon
 			InitializeComponent();
 
 			MainPage = new ParkingGrandLyonPage();
+			//Parking p = Parking.createFromJson("{\"nom\":\"test\" }");
+
 		}
 
 		protected override void OnStart()
