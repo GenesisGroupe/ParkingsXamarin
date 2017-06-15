@@ -5,7 +5,7 @@ namespace ParkingGrandLyon
 {
 	public class ParkingManager
 	{
-		ArrayList allParkings;
+		public ArrayList allParkings;
 
 		//This is known as early binding or initialization  
 		private static ParkingManager _instance = new ParkingManager();
@@ -29,7 +29,7 @@ namespace ParkingGrandLyon
 
 		public void addParking(Parking parking)
 		{
-			if (!this.alflParkings.Contains(parking))
+			if (!this.allParkings.Contains(parking))
 			{
 				this.allParkings.Add(parking);
 			}
