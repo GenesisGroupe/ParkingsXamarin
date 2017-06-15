@@ -1,20 +1,7 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace ParkingGrandLyon
-{
-    public class Parking
-    {
-        public Parking()
-        {
-            public int ID { get; set; }
-            public string name { get; set; }
-            public int availablePlaces { get; set; }
-        }
-    }
-=======
 using Newtonsoft.Json;
 
 namespace ParkingGrandLyon
@@ -59,5 +46,4 @@ public Location the_geom;
 		}
 			
 	}
->>>>>>> 52f625dc4e389a77cfe789c30966266e96913242
 }
