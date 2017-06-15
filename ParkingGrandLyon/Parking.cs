@@ -28,7 +28,7 @@ namespace ParkingGrandLyon
 		public String totalAvailablePlaces { get; set; }
 		public bool noDataAvailable { get; set; }
 
-		public ICommand btnGoCommand { get; set;}
+		public ICommand btnGoCommand { get; set; }
 
 		public static Parking createFromJson(String json)
 		{
@@ -49,7 +49,21 @@ namespace ParkingGrandLyon
 		{
 			//here you create your call to the startTimer() method
 			Console.Out.WriteLine("GO " + location.latitude + " / " + location.longitude);
-
+			switch (Device.RuntimePlatform)
+			{
+				case Device.iOS:
+					Device.OpenUri(new Uri(string.Format("http://maps.apple.com/?q={0},{1}", location.latitude, location.longitude)));
+					break;
+				case Device.Android:
+					Device.OpenUri(new Uri(string.Format("geo:0,0?q={0},{1}", location.latitude, location.longitude)));
+					break;
+				case Device.WinPhone:
+					Device.OpenUri (new Uri(string.Format ("bingmaps:?where={0},{1}", location.latitude, location.longitude)));
+					break;
+				case Device.Windows:
+				default:
+					break;
+			}
 		}
 
 		public void setEtat(String etat)
