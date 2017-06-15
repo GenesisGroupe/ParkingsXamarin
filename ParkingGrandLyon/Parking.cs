@@ -5,48 +5,41 @@ namespace ParkingGrandLyon
 {
 	public class Parking
 	{
-		String nom { get; set; }
-		//String idparking;
-		//int idparkingcriter;
-		//String commune;
-		//String proprietaire;
-		//String gestionnaire;
-		//String idfournisseur;
-		//String voieentree;
-		//String voiesortie;
-		//String avancement;
-		//int annee;
-		//String situation;
-		//String parkingtempsreel;
-		//float gabarit;
-		//int capacite;
-		//int capacite2rm;
-		//int capacitevelo;
-		//int capaciteautopartage;
-		//int capacitepmr;
-		//String usage;
-		//String vocation;
-		//String reglementation;
-		//String fermeture;
-		//String observation;
-		//int codetype;
-		//int gid;
-		//Location the_geom;
+		public String nom { get; set; }
+public String idparking;
+public int idparkingcriter;
+public String commune;
+public String proprietaire;
+public String gestionnaire;
+public String idfournisseur;
+public String voieentree;
+public String voiesortie;
+public String avancement;
+public int annee;
+public String situation;
+public String parkingtempsreel;
+public float gabarit;
+public int capacite;
+public int capacite2rm;
+public int capacitevelo;
+public int capaciteautopartage;
+public int capacitepmr;
+public String usage;
+public String vocation;
+public String reglementation;
+public String fermeture;
+public String observation;
+public int codetype;
+public int gid;
+public Location the_geom; 
 
 
 		public static Parking createFromJson(String json)
 		{
-			Parking parkingTest = new Parking { nom = "myParking" };
-			Console.Out.WriteLine("parking cree : " + parkingTest.nom);
-			var myJson = JsonConvert.SerializeObject(parkingTest);
-			Console.Out.WriteLine("serialized object : " + myJson);
-			Parking deserializedParking = JsonConvert.DeserializeObject<Parking>(myJson);
-			Console.Out.WriteLine("deserialized parking :  " + deserializedParking.nom);
-			return null;
-			//Parking p = JsonConvert.DeserializeObject<Parking>(json);
-			//Console.Out.WriteLine("json object : "  + json);
-			//Console.Out.WriteLine("deserialized object : " + p.nom);
-			//return p;
+			Parking p = JsonConvert.DeserializeObject<Parking>(json);
+			Console.Out.WriteLine("json object : "  + json);
+			Console.Out.WriteLine("deserialized object : " + p.nom);
+			return p;
 		}
 			
 	}

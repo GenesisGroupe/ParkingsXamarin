@@ -6,7 +6,7 @@ namespace ParkingGrandLyon
 	public class Person
 	{
 
-		String lastname { get; set; }
+		public String lastname { get; set; }
 		public static void convertPerson()
 		{
 			Person person = new Person { lastname = "laure" };
@@ -14,7 +14,7 @@ namespace ParkingGrandLyon
 			var json = JsonConvert.SerializeObject(person);
 			Console.WriteLine("json : " + json);
 			var newPerson = JsonConvert.DeserializeObject<Person>(json);
-			Console.WriteLine("new perosn : " + person.lastname);
+			Console.WriteLine("new perosn : " + newPerson.lastname);
 		}
 	}
 }
