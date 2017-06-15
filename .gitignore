@@ -15,5 +15,3 @@ obj
 *.pfx
 
 *_ReSharper.*/
-Droid/ParkingGrandLyon.Droid.csproj
-iOS/ParkingGrandLyon.iOS.csproj
