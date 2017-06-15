@@ -16,8 +16,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)ParkingCellPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ParkingGrandLyonPage.xaml.cs">
       <DependentUpon>ParkingGrandLyonPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Data.cs" />
   </ItemGroup>
 </Project>

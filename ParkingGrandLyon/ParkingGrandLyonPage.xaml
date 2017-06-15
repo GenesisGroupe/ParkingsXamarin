@@ -1,4 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ParkingGrandLyon" x:Class="ParkingGrandLyon.ParkingGrandLyonPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Custom" Padding="0, 20, 0, 0" x:Class="ParkingGrandLyon.ParkingGrandLyonPage">
+    <ContentPage.Content>
+        <ListView x:Name="listView" ItemSelected="OnItemSelected">
+            
+            <StackLayout VerticalOptions="StartAndExpand" Padding="30">
+                <maps:Map WidthRequest="320" HeightRequest="200"
+                    x:Name="MyMap"
+                    IsShowingUser="true"
+                    MapType="Hybrid"
+                />
+            </StackLayout>
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="5" Orientation="Horizontal">
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding AvailablePlaces}" TextColor="Green" FontSize="Large" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            
+        </ListView>
+    </ContentPage.Content>
 </ContentPage>
