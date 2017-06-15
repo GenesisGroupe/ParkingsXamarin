@@ -1,4 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ParkingGrandLyon" x:Class="ParkingGrandLyon.ParkingGrandLyonPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	<TableView RowHeight="80" Intent="Settings">
+		<TableRoot>
+			<TableSection>
+				<ViewCell>
+					<StackLayout Orientation="Horizontal">
+						<StackLayout Padding="2" Orientation="Vertical" WidthRequest="80" BackgroundColor="#50e3c2">
+							<StackLayout Spacing="0" Orientation="Horizontal">
+								<Label Text="25" FontSize="25" HorizontalTextAlignment="End" VerticalTextAlignment="End" TextColor="#FFFFFF" />
+								<Label Text="/100" FontSize="18" HorizontalTextAlignment="Start" VerticalTextAlignment="End" TextColor="#FFFFFF" />
+							</StackLayout>
+							<Label FontSize="10" Text="PLACES DISPONIBLES" HorizontalTextAlignment="End" VerticalOptions="EndAndExpand" HorizontalOptions="EndAndExpand" TextColor="#FFFFFF" />
+						</StackLayout>
+						<Label Margin="0, 5, 0, 0" HorizontalOptions="StartAndExpand" FontSize="18" Text="NOM DU PARKING" TextColor="#9b9b9b" />
+						<StackLayout WidthRequest="80" HorizontalOptions="End" VerticalOptions="End" Spacing="5" Orientation="Vertical" >
+							<Label HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" FontSize="15" Text="100m" TextColor="#9b9b9b" />
+							<Button Margin="5" Font="10" HeightRequest="32" TextColor="White" BackgroundColor="#ed7171" BorderRadius="5" Text="Y ALLER!" />
+						</StackLayout>
+					</StackLayout>
+				</ViewCell>
+			</TableSection>
+		</TableRoot>
+	</TableView>
 </ContentPage>
