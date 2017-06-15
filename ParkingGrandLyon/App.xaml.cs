@@ -9,6 +9,7 @@ namespace ParkingGrandLyon
 			InitializeComponent();
 
 			MainPage = new ParkingGrandLyonPage();
+            Network network = new Network();
 		}
 
 		protected override void OnStart()
