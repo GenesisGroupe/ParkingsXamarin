@@ -3,11 +3,13 @@ namespace ParkingGrandLyon
 {
 	public class Location
 	{
-		float latitutde { get; set; }
-		float longitude { get; set; }
+		public float latitude { get; set; }
+		public float longitude { get; set; }
 
-		public Location()
+		public Location(float longitude, float lat)
 		{
+			this.latitude = lat;
+			this.longitude = longitude;
 		}
 	}
 }

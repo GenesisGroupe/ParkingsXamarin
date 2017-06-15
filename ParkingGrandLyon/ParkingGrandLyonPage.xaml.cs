@@ -31,28 +31,33 @@ namespace ParkingGrandLyon
 
 
 		// Function to load datas asynchronislou
-			async void loadDatas()
-	
+		async void loadDatas()
+
+		{
+			Network network = new Network();
+			Task<string> task = network.GetParkings(100);
+
+			string stringReturned = await task;
+			var json = JObject.Parse(stringReturned);
+			JArray featuresArray = (JArray)json["features"];
+
+			ParkingManager parkingManager = ParkingManager.sharedManager();
+			foreach (var item in featuresArray.Children())
 			{
-				Network network = new Network();
-				Task<string> task = network.GetParkings(100);
+				Parking parking = Parking.createFromJson(item["properties"].ToString());
+				JObject geometry = (JObject)item["geometry"];
+				JArray coordinates = (JArray)geometry["coordinates"];
+				float lat = (float)coordinates[1];
+				float longitude = (float)coordinates[0];
+				parking.location = new Location(longitude, lat);
+				parkingManager.addParking(parking);
+			}
 
-				string stringReturned = await task;
-				var json = JObject.Parse(stringReturned);
-				JArray array = (JArray)json["values"];
-				ParkingManager parkingManager = ParkingManager.sharedManager();
-				foreach (var item in array.Children())
-				{
-					parkingManager.addParking(Parking.createFromJson(item.ToString()));
-				}
-
-				Console.WriteLine("{0} parkings synchronizeds", parkingManager.countParkings());
+			Console.WriteLine("{0} parkings synchronizeds", parkingManager.countParkings());
 			listView.ItemsSource = null;
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
-			//Console.WriteLine("array type : " + array.GetType());
-			//Parking p = Parking.createFromJson("{\"idfournisseur\": \"None\", \"commune\": \"DARDILLY\", \"reglementation\": \"Gratuit\", \"proprietaire\": \"GRAND LYON\", \"codetype\": \"5\", \"vocation\": \"None\", \"capacite2rm\": \"0\", \"idparking\": \"P578\", \"avancement\": \"Existant\", \"voieentree\": \"Avenue de Verdun\", \"gid\": \"1\", \"usage\": \"Libre\", \"voiesortie\": \"Avenue de Verdun\", \"nom\": \"Gendarmerie\", \"capacite\": \"5\", \"gabarit\": \"None\", \"capaciteautopartage\": \"0\", \"capacitevelo\": \"3\", \"annee\": \"2008\", \"capacitepmr\": \"1\", \"observation\": \"None\", \"typeparking\": \"Poche de stationnement\", \"parkingtempsreel\": \"Non\", \"gestionnaire\": \"GRAND LYON\", \"idparkingcriter\": \"None\", \"situation\": \"En surface\", \"fermeture\": \"Ouvert 24h/24h\" }");
 
 		}
 
 	}
-	}
+}
