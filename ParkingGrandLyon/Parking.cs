@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using Xamarin.Forms;
 using System.Text.RegularExpressions;
+using System.Windows.Input;
 
 namespace ParkingGrandLyon
 {
@@ -27,13 +28,28 @@ namespace ParkingGrandLyon
 		public String totalAvailablePlaces { get; set; }
 		public bool noDataAvailable { get; set; }
 
+		public ICommand btnGoCommand { get; set;}
+
 		public static Parking createFromJson(String json)
 		{
 			Parking p = JsonConvert.DeserializeObject<Parking>(json);
 			p.setEtat(p.etat);
 			Console.Out.WriteLine("json object : " + json);
 			Console.Out.WriteLine("deserialized object : " + p.capacitevoiture);
+			p.setBtnGoCommand();
 			return p;
+		}
+
+		public void setBtnGoCommand()
+		{
+			btnGoCommand = new Command(param => GoCommand((Location)param));
+		}
+
+		public void GoCommand(Location location)
+		{
+			//here you create your call to the startTimer() method
+			Console.Out.WriteLine("GO " + location.latitude + " / " + location.longitude);
+
 		}
 
 		public void setEtat(String etat)
