@@ -1,15 +1,12 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
-=======
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
 using Newtonsoft.Json.Linq;
 using System.Linq;
->>>>>>> 52f625dc4e389a77cfe789c30966266e96913242
 
 namespace ParkingGrandLyon
 {
@@ -19,7 +16,6 @@ namespace ParkingGrandLyon
 		{
 			InitializeComponent();
 
-<<<<<<< HEAD
             // Set Datasource to the Parking List
             listView.ItemsSource = Data.ParkingList;
 
@@ -44,11 +40,6 @@ namespace ParkingGrandLyon
                 DisplayAlert("You selected", selectedParking.Name, "OK");
             }
         }
-=======
-
-
-
-		}
 
 		async void onClick(object sender, EventArgs e)
 		{
@@ -71,6 +62,5 @@ namespace ParkingGrandLyon
 
 		}
 
->>>>>>> 52f625dc4e389a77cfe789c30966266e96913242
 	}
 }
