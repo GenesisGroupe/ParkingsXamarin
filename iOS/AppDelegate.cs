@@ -16,6 +16,8 @@ namespace ParkingGrandLyon.iOS
 
 			LoadApplication(new App());
 
+			Parking parking = new Parking();
+
 			return base.FinishedLaunching(app, options);
 		}
 	}

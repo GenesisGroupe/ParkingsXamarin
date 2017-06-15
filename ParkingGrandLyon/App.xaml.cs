@@ -10,6 +10,8 @@ namespace ParkingGrandLyon
 
 			MainPage = new ParkingGrandLyonPage();
             Network network = new Network();
+			//Parking p = Parking.createFromJson("{\"nom\":\"test\" }");
+
 		}
 
 		protected override void OnStart()
