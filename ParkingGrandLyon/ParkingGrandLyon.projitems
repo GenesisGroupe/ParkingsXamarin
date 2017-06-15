@@ -20,6 +20,14 @@
     <Compile Include="$(MSBuildThisFileDirectory)ParkingGrandLyonPage.xaml.cs">
       <DependentUpon>ParkingGrandLyonPage.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="$(MSBuildThisFileDirectory)Data.cs" />
+=======
+    <Compile Include="$(MSBuildThisFileDirectory)Network.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Parking.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Person.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ParkingManager.cs" />
+>>>>>>> 52f625dc4e389a77cfe789c30966266e96913242
   </ItemGroup>
 </Project>

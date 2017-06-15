@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" Title="Custom" Padding="0, 20, 0, 0" x:Class="ParkingGrandLyon.ParkingGrandLyonPage">
     <ContentPage.Content>
         <ListView x:Name="listView" ItemSelected="OnItemSelected">
@@ -25,3 +26,9 @@
         </ListView>
     </ContentPage.Content>
 </ContentPage>
+=======
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ParkingGrandLyon" x:Class="ParkingGrandLyon.ParkingGrandLyonPage">
+	<Label Text="Welcome to Coucou Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+	<Button Text="test" Clicked="onClick"/>
+</ContentPage>
+>>>>>>> 52f625dc4e389a77cfe789c30966266e96913242

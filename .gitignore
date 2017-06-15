@@ -1,40 +1,17 @@
-# Autosave files
-*~
+Components
+packages
+Resource.designer.cs
 
-# build
-[Oo]bj/
-[Bb]in/
-packages/
-TestResults/
+bin
+obj
 
-# globs
-Makefile.in
-*.DS_Store
-*.sln.cache
-*.suo
-*.cache
 *.pidb
 *.userprefs
-*.usertasks
-config.log
-config.make
-config.status
-aclocal.m4
-install-sh
-autom4te.cache/
+*.swp
+*.DS_Store
+*.nib
+*.suo
 *.user
-*.tar.gz
-tarballs/
-test-results/
-Thumbs.db
+*.pfx
 
-# Mac bundle stuff
-*.dmg
-*.app
-
-# resharper
-*_Resharper.*
-*.Resharper
-
-# dotCover
-*.dotCover
+*_ReSharper.*/
