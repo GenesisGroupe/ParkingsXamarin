@@ -8,7 +8,7 @@
                     <ViewCell>
                         <StackLayout Padding="5" Orientation="Horizontal">
                             <Label Text="{Binding nom}" />
-                            <Label Text="{Binding capacite}" TextColor="Green" FontSize="Large" />
+                            <Label Text="{Binding capacitevoiture}" TextColor="Green" FontSize="Large" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
