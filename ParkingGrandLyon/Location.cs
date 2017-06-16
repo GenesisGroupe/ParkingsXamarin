@@ -28,18 +28,14 @@ namespace ParkingGrandLyon
             if (locator.AllowsBackgroundUpdates) {
 				var position = await locator.GetPositionAsync(timeoutMilliseconds: 10000);
 
-				Console.WriteLine("Position Status: {0}", position.Timestamp);
-
-				Console.WriteLine("Position Latitude: {0}", position.Latitude);
-
-				Console.WriteLine("Position Longitude: {0}", position.Longitude);
-
 				Location location = new Location((float)position.Longitude, (float)position.Latitude);
 
 				return location;
             } 
 
-            return null;
+            Location currentLocation = new Location(45.789285, 4.814896);
+
+            return currentLocation;
         }
 
 	}
