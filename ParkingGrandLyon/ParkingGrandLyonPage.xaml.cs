@@ -1,12 +1,13 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
+using Plugin.Geolocator.Abstractions;
 using Xamarin.Forms;
 
 
 namespace ParkingGrandLyon
 {
-	public partial class ParkingGrandLyonPage : ContentPage
+    public partial class ParkingGrandLyonPage : ContentPage, PositionListener
 	{
 		public ParkingGrandLyonPage()
 		{
@@ -16,8 +17,7 @@ namespace ParkingGrandLyon
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
-
-		}
+         }
 
 
 		public async void loadPosition()
@@ -43,8 +43,12 @@ namespace ParkingGrandLyon
 
 		// Function to load datas asynchronislou
 		async void loadDatas()
-
 		{
+
+
+            Geolocation geolocation = new Geolocation(this);
+            await geolocation.getPositionListener();
+
 			Network network = new Network();
 			Task<string> task = network.GetParkings(100);
 
@@ -76,5 +80,9 @@ namespace ParkingGrandLyon
 
 		}
 
-	}
+        public void positionChanged(Position position)
+        {
+            Console.WriteLine("Position changed : {0}, {1}.", position.Latitude, position.Longitude);
+		}
+    }
 }

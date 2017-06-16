@@ -27,6 +27,1946 @@ namespace ParkingGrandLyon.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarSize;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_fade_in = global::ParkingGrandLyon.Droid.Resource.Animation.abc_fade_in;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_fade_out = global::ParkingGrandLyon.Droid.Resource.Animation.abc_fade_out;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::ParkingGrandLyon.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_popup_enter = global::ParkingGrandLyon.Droid.Resource.Animation.abc_popup_enter;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_popup_exit = global::ParkingGrandLyon.Droid.Resource.Animation.abc_popup_exit;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ParkingGrandLyon.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_slide_in_bottom = global::ParkingGrandLyon.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_slide_in_top = global::ParkingGrandLyon.Droid.Resource.Animation.abc_slide_in_top;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_slide_out_bottom = global::ParkingGrandLyon.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.abc_slide_out_top = global::ParkingGrandLyon.Droid.Resource.Animation.abc_slide_out_top;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::ParkingGrandLyon.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::ParkingGrandLyon.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.design_fab_in = global::ParkingGrandLyon.Droid.Resource.Animation.design_fab_in;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.design_fab_out = global::ParkingGrandLyon.Droid.Resource.Animation.design_fab_out;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.design_snackbar_in = global::ParkingGrandLyon.Droid.Resource.Animation.design_snackbar_in;
+			global::Wapps.Forms.Map.Droid.Resource.Animation.design_snackbar_out = global::ParkingGrandLyon.Droid.Resource.Animation.design_snackbar_out;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.MediaRouteControllerWindowBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarDivider = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarDivider;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarItemBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarPopupTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarSize = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarSize;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarSplitStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarTabBarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarTabStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarTabTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionBarWidgetTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionDropDownStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.actionLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionMenuTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionMenuTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeCloseDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeCopyDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeCutDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeFindDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModePasteDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModePopupWindowStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeShareDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeSplitBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionOverflowButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionOverflowMenuStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionProviderClass = global::ParkingGrandLyon.Droid.Resource.Attribute.actionProviderClass;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.actionViewClass = global::ParkingGrandLyon.Droid.Resource.Attribute.actionViewClass;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.activityChooserViewStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.alertDialogCenterButtons = global::ParkingGrandLyon.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.alertDialogStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.alertDialogStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.alertDialogTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.alertDialogTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.allowStacking = global::ParkingGrandLyon.Droid.Resource.Attribute.allowStacking;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.ambientEnabled = global::ParkingGrandLyon.Droid.Resource.Attribute.ambientEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.arrowHeadLength = global::ParkingGrandLyon.Droid.Resource.Attribute.arrowHeadLength;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.arrowShaftLength = global::ParkingGrandLyon.Droid.Resource.Attribute.arrowShaftLength;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.background = global::ParkingGrandLyon.Droid.Resource.Attribute.background;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.backgroundSplit = global::ParkingGrandLyon.Droid.Resource.Attribute.backgroundSplit;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.backgroundStacked = global::ParkingGrandLyon.Droid.Resource.Attribute.backgroundStacked;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.backgroundTint = global::ParkingGrandLyon.Droid.Resource.Attribute.backgroundTint;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.backgroundTintMode = global::ParkingGrandLyon.Droid.Resource.Attribute.backgroundTintMode;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.barLength = global::ParkingGrandLyon.Droid.Resource.Attribute.barLength;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.behavior_hideable = global::ParkingGrandLyon.Droid.Resource.Attribute.behavior_hideable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.behavior_overlapTop = global::ParkingGrandLyon.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.behavior_peekHeight = global::ParkingGrandLyon.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.borderWidth = global::ParkingGrandLyon.Droid.Resource.Attribute.borderWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.borderlessButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.bottomSheetDialogTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.bottomSheetStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonBarButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonBarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonPanelSideLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonSize = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonSize;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonStyleSmall = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonTint = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonTint;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.buttonTintMode = global::ParkingGrandLyon.Droid.Resource.Attribute.buttonTintMode;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cameraBearing = global::ParkingGrandLyon.Droid.Resource.Attribute.cameraBearing;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cameraTargetLat = global::ParkingGrandLyon.Droid.Resource.Attribute.cameraTargetLat;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cameraTargetLng = global::ParkingGrandLyon.Droid.Resource.Attribute.cameraTargetLng;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cameraTilt = global::ParkingGrandLyon.Droid.Resource.Attribute.cameraTilt;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cameraZoom = global::ParkingGrandLyon.Droid.Resource.Attribute.cameraZoom;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cardBackgroundColor = global::ParkingGrandLyon.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cardCornerRadius = global::ParkingGrandLyon.Droid.Resource.Attribute.cardCornerRadius;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cardElevation = global::ParkingGrandLyon.Droid.Resource.Attribute.cardElevation;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cardMaxElevation = global::ParkingGrandLyon.Droid.Resource.Attribute.cardMaxElevation;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cardPreventCornerOverlap = global::ParkingGrandLyon.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.cardUseCompatPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.checkboxStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.checkboxStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.checkedTextViewStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.circleCrop = global::ParkingGrandLyon.Droid.Resource.Attribute.circleCrop;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.closeIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.closeIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.closeItemLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.closeItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.collapseContentDescription = global::ParkingGrandLyon.Droid.Resource.Attribute.collapseContentDescription;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.collapseIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.collapseIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.collapsedTitleGravity = global::ParkingGrandLyon.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.color = global::ParkingGrandLyon.Droid.Resource.Attribute.color;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorAccent = global::ParkingGrandLyon.Droid.Resource.Attribute.colorAccent;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorButtonNormal = global::ParkingGrandLyon.Droid.Resource.Attribute.colorButtonNormal;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorControlActivated = global::ParkingGrandLyon.Droid.Resource.Attribute.colorControlActivated;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorControlHighlight = global::ParkingGrandLyon.Droid.Resource.Attribute.colorControlHighlight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorControlNormal = global::ParkingGrandLyon.Droid.Resource.Attribute.colorControlNormal;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorPrimary = global::ParkingGrandLyon.Droid.Resource.Attribute.colorPrimary;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorPrimaryDark = global::ParkingGrandLyon.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorScheme = global::ParkingGrandLyon.Droid.Resource.Attribute.colorScheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.colorSwitchThumbNormal = global::ParkingGrandLyon.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.commitIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.commitIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentInsetEnd = global::ParkingGrandLyon.Droid.Resource.Attribute.contentInsetEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentInsetLeft = global::ParkingGrandLyon.Droid.Resource.Attribute.contentInsetLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentInsetRight = global::ParkingGrandLyon.Droid.Resource.Attribute.contentInsetRight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentInsetStart = global::ParkingGrandLyon.Droid.Resource.Attribute.contentInsetStart;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.contentPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentPaddingBottom = global::ParkingGrandLyon.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentPaddingLeft = global::ParkingGrandLyon.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentPaddingRight = global::ParkingGrandLyon.Droid.Resource.Attribute.contentPaddingRight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentPaddingTop = global::ParkingGrandLyon.Droid.Resource.Attribute.contentPaddingTop;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.contentScrim = global::ParkingGrandLyon.Droid.Resource.Attribute.contentScrim;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.controlBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.controlBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.counterEnabled = global::ParkingGrandLyon.Droid.Resource.Attribute.counterEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.counterMaxLength = global::ParkingGrandLyon.Droid.Resource.Attribute.counterMaxLength;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.counterOverflowTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.counterTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.counterTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.customNavigationLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.customNavigationLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.defaultQueryHint = global::ParkingGrandLyon.Droid.Resource.Attribute.defaultQueryHint;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dialogPreferredPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dialogTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.dialogTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.displayOptions = global::ParkingGrandLyon.Droid.Resource.Attribute.displayOptions;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.divider = global::ParkingGrandLyon.Droid.Resource.Attribute.divider;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dividerHorizontal = global::ParkingGrandLyon.Droid.Resource.Attribute.dividerHorizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dividerPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.dividerPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dividerVertical = global::ParkingGrandLyon.Droid.Resource.Attribute.dividerVertical;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.drawableSize = global::ParkingGrandLyon.Droid.Resource.Attribute.drawableSize;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.drawerArrowStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dropDownListViewStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::ParkingGrandLyon.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.editTextBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.editTextBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.editTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.editTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.editTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.editTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.elevation = global::ParkingGrandLyon.Droid.Resource.Attribute.elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.errorEnabled = global::ParkingGrandLyon.Droid.Resource.Attribute.errorEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.errorTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.errorTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expanded = global::ParkingGrandLyon.Droid.Resource.Attribute.expanded;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleGravity = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleMargin = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleMarginBottom = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleMarginEnd = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleMarginStart = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleMarginTop = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.expandedTitleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.fabSize = global::ParkingGrandLyon.Droid.Resource.Attribute.fabSize;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.foregroundInsidePadding = global::ParkingGrandLyon.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.gapBetweenBars = global::ParkingGrandLyon.Droid.Resource.Attribute.gapBetweenBars;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.goIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.goIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.headerLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.headerLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.height = global::ParkingGrandLyon.Droid.Resource.Attribute.height;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.hideOnContentScroll = global::ParkingGrandLyon.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.hintAnimationEnabled = global::ParkingGrandLyon.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.hintEnabled = global::ParkingGrandLyon.Droid.Resource.Attribute.hintEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.hintTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.hintTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.homeAsUpIndicator = global::ParkingGrandLyon.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.homeLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.homeLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.icon = global::ParkingGrandLyon.Droid.Resource.Attribute.icon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.iconifiedByDefault = global::ParkingGrandLyon.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.imageAspectRatio = global::ParkingGrandLyon.Droid.Resource.Attribute.imageAspectRatio;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.imageAspectRatioAdjust = global::ParkingGrandLyon.Droid.Resource.Attribute.imageAspectRatioAdjust;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.imageButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.imageButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.indeterminateProgressStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.initialActivityCount = global::ParkingGrandLyon.Droid.Resource.Attribute.initialActivityCount;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.insetForeground = global::ParkingGrandLyon.Droid.Resource.Attribute.insetForeground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.isLightTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.isLightTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.itemBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.itemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.itemIconTint = global::ParkingGrandLyon.Droid.Resource.Attribute.itemIconTint;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.itemPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.itemPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.itemTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.itemTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.itemTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.itemTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.keylines = global::ParkingGrandLyon.Droid.Resource.Attribute.keylines;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout = global::ParkingGrandLyon.Droid.Resource.Attribute.layout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layoutManager = global::ParkingGrandLyon.Droid.Resource.Attribute.layoutManager;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_anchor = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_anchor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_anchorGravity = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_behavior = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_behavior;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_collapseMode = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_collapseMode;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_keyline = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_keyline;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_scrollFlags = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.layout_scrollInterpolator = global::ParkingGrandLyon.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::ParkingGrandLyon.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listDividerAlertDialog = global::ParkingGrandLyon.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listItemLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.listItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.listLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listPopupWindowStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listPreferredItemHeight = global::ParkingGrandLyon.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::ParkingGrandLyon.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::ParkingGrandLyon.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::ParkingGrandLyon.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::ParkingGrandLyon.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.liteMode = global::ParkingGrandLyon.Droid.Resource.Attribute.liteMode;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.logo = global::ParkingGrandLyon.Droid.Resource.Attribute.logo;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.logoDescription = global::ParkingGrandLyon.Droid.Resource.Attribute.logoDescription;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mapType = global::ParkingGrandLyon.Droid.Resource.Attribute.mapType;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.maxActionInlineWidth = global::ParkingGrandLyon.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.maxButtonHeight = global::ParkingGrandLyon.Droid.Resource.Attribute.maxButtonHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.measureWithLargestChild = global::ParkingGrandLyon.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteCastDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteConnectingDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteOffDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteOnDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::ParkingGrandLyon.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.menu = global::ParkingGrandLyon.Droid.Resource.Attribute.menu;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.multiChoiceItemLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.navigationContentDescription = global::ParkingGrandLyon.Droid.Resource.Attribute.navigationContentDescription;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.navigationIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.navigationIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.navigationMode = global::ParkingGrandLyon.Droid.Resource.Attribute.navigationMode;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.overlapAnchor = global::ParkingGrandLyon.Droid.Resource.Attribute.overlapAnchor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.paddingEnd = global::ParkingGrandLyon.Droid.Resource.Attribute.paddingEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.paddingStart = global::ParkingGrandLyon.Droid.Resource.Attribute.paddingStart;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.panelBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.panelBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.panelMenuListTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.panelMenuListWidth = global::ParkingGrandLyon.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.popupMenuStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.popupMenuStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.popupTheme = global::ParkingGrandLyon.Droid.Resource.Attribute.popupTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.popupWindowStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.popupWindowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.preserveIconSpacing = global::ParkingGrandLyon.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.pressedTranslationZ = global::ParkingGrandLyon.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.progressBarPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.progressBarPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.progressBarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.progressBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.queryBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.queryBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.queryHint = global::ParkingGrandLyon.Droid.Resource.Attribute.queryHint;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.radioButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.radioButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.ratingBarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.ratingBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.ratingBarStyleIndicator = global::ParkingGrandLyon.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.ratingBarStyleSmall = global::ParkingGrandLyon.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.reverseLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.reverseLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.rippleColor = global::ParkingGrandLyon.Droid.Resource.Attribute.rippleColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.scopeUris = global::ParkingGrandLyon.Droid.Resource.Attribute.scopeUris;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.searchHintIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.searchHintIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.searchIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.searchIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.searchViewStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.searchViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.seekBarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.seekBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.selectableItemBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.selectableItemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::ParkingGrandLyon.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.showAsAction = global::ParkingGrandLyon.Droid.Resource.Attribute.showAsAction;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.showDividers = global::ParkingGrandLyon.Droid.Resource.Attribute.showDividers;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.showText = global::ParkingGrandLyon.Droid.Resource.Attribute.showText;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.singleChoiceItemLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.spanCount = global::ParkingGrandLyon.Droid.Resource.Attribute.spanCount;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.spinBars = global::ParkingGrandLyon.Droid.Resource.Attribute.spinBars;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.spinnerStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.spinnerStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.splitTrack = global::ParkingGrandLyon.Droid.Resource.Attribute.splitTrack;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.srcCompat = global::ParkingGrandLyon.Droid.Resource.Attribute.srcCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.stackFromEnd = global::ParkingGrandLyon.Droid.Resource.Attribute.stackFromEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.state_above_anchor = global::ParkingGrandLyon.Droid.Resource.Attribute.state_above_anchor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.statusBarBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.statusBarBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.statusBarScrim = global::ParkingGrandLyon.Droid.Resource.Attribute.statusBarScrim;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.submitBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.submitBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.subtitle = global::ParkingGrandLyon.Droid.Resource.Attribute.subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.subtitleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.subtitleTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.subtitleTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.subtitleTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.suggestionRowLayout = global::ParkingGrandLyon.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.switchMinWidth = global::ParkingGrandLyon.Droid.Resource.Attribute.switchMinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.switchPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.switchPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.switchStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.switchStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.switchTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.switchTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabBackground = global::ParkingGrandLyon.Droid.Resource.Attribute.tabBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabContentStart = global::ParkingGrandLyon.Droid.Resource.Attribute.tabContentStart;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabGravity = global::ParkingGrandLyon.Droid.Resource.Attribute.tabGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabIndicatorColor = global::ParkingGrandLyon.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabIndicatorHeight = global::ParkingGrandLyon.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabMaxWidth = global::ParkingGrandLyon.Droid.Resource.Attribute.tabMaxWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabMinWidth = global::ParkingGrandLyon.Droid.Resource.Attribute.tabMinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabMode = global::ParkingGrandLyon.Droid.Resource.Attribute.tabMode;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.tabPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabPaddingBottom = global::ParkingGrandLyon.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabPaddingEnd = global::ParkingGrandLyon.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabPaddingStart = global::ParkingGrandLyon.Droid.Resource.Attribute.tabPaddingStart;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabPaddingTop = global::ParkingGrandLyon.Droid.Resource.Attribute.tabPaddingTop;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabSelectedTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.tabTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.tabTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.tabTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAllCaps = global::ParkingGrandLyon.Droid.Resource.Attribute.textAllCaps;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::ParkingGrandLyon.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAppearanceListItem = global::ParkingGrandLyon.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAppearanceListItemSmall = global::ParkingGrandLyon.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ParkingGrandLyon.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::ParkingGrandLyon.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::ParkingGrandLyon.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textColorAlertDialogListItem = global::ParkingGrandLyon.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textColorError = global::ParkingGrandLyon.Droid.Resource.Attribute.textColorError;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.textColorSearchUrl = global::ParkingGrandLyon.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.theme = global::ParkingGrandLyon.Droid.Resource.Attribute.theme;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.thickness = global::ParkingGrandLyon.Droid.Resource.Attribute.thickness;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.thumbTextPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.thumbTextPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.title = global::ParkingGrandLyon.Droid.Resource.Attribute.title;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleEnabled = global::ParkingGrandLyon.Droid.Resource.Attribute.titleEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleMarginBottom = global::ParkingGrandLyon.Droid.Resource.Attribute.titleMarginBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleMarginEnd = global::ParkingGrandLyon.Droid.Resource.Attribute.titleMarginEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleMarginStart = global::ParkingGrandLyon.Droid.Resource.Attribute.titleMarginStart;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleMarginTop = global::ParkingGrandLyon.Droid.Resource.Attribute.titleMarginTop;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleMargins = global::ParkingGrandLyon.Droid.Resource.Attribute.titleMargins;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Attribute.titleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleTextColor = global::ParkingGrandLyon.Droid.Resource.Attribute.titleTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.titleTextStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.titleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.toolbarId = global::ParkingGrandLyon.Droid.Resource.Attribute.toolbarId;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.toolbarStyle = global::ParkingGrandLyon.Droid.Resource.Attribute.toolbarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.track = global::ParkingGrandLyon.Droid.Resource.Attribute.track;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiCompass = global::ParkingGrandLyon.Droid.Resource.Attribute.uiCompass;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiMapToolbar = global::ParkingGrandLyon.Droid.Resource.Attribute.uiMapToolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiRotateGestures = global::ParkingGrandLyon.Droid.Resource.Attribute.uiRotateGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiScrollGestures = global::ParkingGrandLyon.Droid.Resource.Attribute.uiScrollGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiTiltGestures = global::ParkingGrandLyon.Droid.Resource.Attribute.uiTiltGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiZoomControls = global::ParkingGrandLyon.Droid.Resource.Attribute.uiZoomControls;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.uiZoomGestures = global::ParkingGrandLyon.Droid.Resource.Attribute.uiZoomGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.useCompatPadding = global::ParkingGrandLyon.Droid.Resource.Attribute.useCompatPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.useViewLifecycle = global::ParkingGrandLyon.Droid.Resource.Attribute.useViewLifecycle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.voiceIcon = global::ParkingGrandLyon.Droid.Resource.Attribute.voiceIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowActionBar = global::ParkingGrandLyon.Droid.Resource.Attribute.windowActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowActionBarOverlay = global::ParkingGrandLyon.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowActionModeOverlay = global::ParkingGrandLyon.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowFixedHeightMajor = global::ParkingGrandLyon.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowFixedHeightMinor = global::ParkingGrandLyon.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowFixedWidthMajor = global::ParkingGrandLyon.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowFixedWidthMinor = global::ParkingGrandLyon.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowMinWidthMajor = global::ParkingGrandLyon.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowMinWidthMinor = global::ParkingGrandLyon.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.windowNoTitle = global::ParkingGrandLyon.Droid.Resource.Attribute.windowNoTitle;
+			global::Wapps.Forms.Map.Droid.Resource.Attribute.zOrderOnTop = global::ParkingGrandLyon.Droid.Resource.Attribute.zOrderOnTop;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Wapps.Forms.Map.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::ParkingGrandLyon.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::ParkingGrandLyon.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_color_highlight_material = global::ParkingGrandLyon.Droid.Resource.Color.abc_color_highlight_material;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_input_method_navigation_guard = global::ParkingGrandLyon.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::ParkingGrandLyon.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_primary_text_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_primary_text_material_light = global::ParkingGrandLyon.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_search_url_text = global::ParkingGrandLyon.Droid.Resource.Color.abc_search_url_text;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_search_url_text_normal = global::ParkingGrandLyon.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_search_url_text_pressed = global::ParkingGrandLyon.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_search_url_text_selected = global::ParkingGrandLyon.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_secondary_text_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.abc_secondary_text_material_light = global::ParkingGrandLyon.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.accent_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.accent_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.accent_material_light = global::ParkingGrandLyon.Droid.Resource.Color.accent_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.background_floating_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.background_floating_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.background_floating_material_light = global::ParkingGrandLyon.Droid.Resource.Color.background_floating_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.background_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.background_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.background_material_light = global::ParkingGrandLyon.Droid.Resource.Color.background_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.bright_foreground_disabled_material_light = global::ParkingGrandLyon.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.bright_foreground_inverse_material_light = global::ParkingGrandLyon.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.bright_foreground_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.bright_foreground_material_light = global::ParkingGrandLyon.Droid.Resource.Color.bright_foreground_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.button_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.button_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.button_material_light = global::ParkingGrandLyon.Droid.Resource.Color.button_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.cardview_dark_background = global::ParkingGrandLyon.Droid.Resource.Color.cardview_dark_background;
+			global::Wapps.Forms.Map.Droid.Resource.Color.cardview_light_background = global::ParkingGrandLyon.Droid.Resource.Color.cardview_light_background;
+			global::Wapps.Forms.Map.Droid.Resource.Color.cardview_shadow_end_color = global::ParkingGrandLyon.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.cardview_shadow_start_color = global::ParkingGrandLyon.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_action_bar_splitter = global::ParkingGrandLyon.Droid.Resource.Color.common_action_bar_splitter;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_dark = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_dark_default = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_dark_focused = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_dark_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_light = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_light_default = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_light_default;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_light_disabled = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_light_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_light_focused = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_light_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_google_signin_btn_text_light_pressed = global::ParkingGrandLyon.Droid.Resource.Color.common_google_signin_btn_text_light_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_dark = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_dark_default = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_dark_default;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_dark_disabled = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_dark_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_dark_focused = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_dark_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_dark_pressed = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_dark_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_light = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_light_default = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_light_default;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_light_disabled = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_light_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_light_focused = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_light_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Color.common_plus_signin_btn_text_light_pressed = global::ParkingGrandLyon.Droid.Resource.Color.common_plus_signin_btn_text_light_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_shadow_end_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_shadow_mid_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_shadow_start_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::ParkingGrandLyon.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_snackbar_background_color = global::ParkingGrandLyon.Droid.Resource.Color.design_snackbar_background_color;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_textinput_error_color_dark = global::ParkingGrandLyon.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.design_textinput_error_color_light = global::ParkingGrandLyon.Droid.Resource.Color.design_textinput_error_color_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.dim_foreground_disabled_material_light = global::ParkingGrandLyon.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.dim_foreground_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.dim_foreground_material_light = global::ParkingGrandLyon.Droid.Resource.Color.dim_foreground_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.foreground_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.foreground_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.foreground_material_light = global::ParkingGrandLyon.Droid.Resource.Color.foreground_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.highlighted_text_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.highlighted_text_material_light = global::ParkingGrandLyon.Droid.Resource.Color.highlighted_text_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.hint_foreground_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.hint_foreground_material_light = global::ParkingGrandLyon.Droid.Resource.Color.hint_foreground_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_blue_grey_800 = global::ParkingGrandLyon.Droid.Resource.Color.material_blue_grey_800;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_blue_grey_900 = global::ParkingGrandLyon.Droid.Resource.Color.material_blue_grey_900;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_blue_grey_950 = global::ParkingGrandLyon.Droid.Resource.Color.material_blue_grey_950;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_deep_teal_200 = global::ParkingGrandLyon.Droid.Resource.Color.material_deep_teal_200;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_deep_teal_500 = global::ParkingGrandLyon.Droid.Resource.Color.material_deep_teal_500;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_100 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_100;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_300 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_300;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_50 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_50;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_600 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_600;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_800 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_800;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_850 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_850;
+			global::Wapps.Forms.Map.Droid.Resource.Color.material_grey_900 = global::ParkingGrandLyon.Droid.Resource.Color.material_grey_900;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_dark_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.primary_dark_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_dark_material_light = global::ParkingGrandLyon.Droid.Resource.Color.primary_dark_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.primary_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_material_light = global::ParkingGrandLyon.Droid.Resource.Color.primary_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_text_default_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_text_default_material_light = global::ParkingGrandLyon.Droid.Resource.Color.primary_text_default_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_text_disabled_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.primary_text_disabled_material_light = global::ParkingGrandLyon.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.ripple_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.ripple_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.ripple_material_light = global::ParkingGrandLyon.Droid.Resource.Color.ripple_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.secondary_text_default_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.secondary_text_default_material_light = global::ParkingGrandLyon.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.secondary_text_disabled_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.secondary_text_disabled_material_light = global::ParkingGrandLyon.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.switch_thumb_disabled_material_light = global::ParkingGrandLyon.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.switch_thumb_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.switch_thumb_material_light = global::ParkingGrandLyon.Droid.Resource.Color.switch_thumb_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Color.switch_thumb_normal_material_dark = global::ParkingGrandLyon.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Color.switch_thumb_normal_material_light = global::ParkingGrandLyon.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_button_min_height_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_button_min_width_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_control_corner_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_control_inset_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_control_padding_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_min_width_major = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_padding_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_floating_window_z = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_panel_menu_list_width = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_search_view_preferred_width = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_search_view_text_min_width = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_switch_padding = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_switch_padding;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_body_1_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_body_2_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_button_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_caption_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_display_1_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_display_2_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_display_3_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_display_4_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_headline_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_large_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_medium_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_menu_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_small_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_subhead_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_title_material = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::ParkingGrandLyon.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::ParkingGrandLyon.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.cardview_default_elevation = global::ParkingGrandLyon.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.cardview_default_radius = global::ParkingGrandLyon.Droid.Resource.Dimension.cardview_default_radius;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_appbar_elevation = global::ParkingGrandLyon.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ParkingGrandLyon.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::ParkingGrandLyon.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_fab_border_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_fab_border_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_fab_elevation = global::ParkingGrandLyon.Droid.Resource.Dimension.design_fab_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_fab_image_size = global::ParkingGrandLyon.Droid.Resource.Dimension.design_fab_image_size;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_fab_size_mini = global::ParkingGrandLyon.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_fab_size_normal = global::ParkingGrandLyon.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::ParkingGrandLyon.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_navigation_elevation = global::ParkingGrandLyon.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_navigation_icon_padding = global::ParkingGrandLyon.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_navigation_icon_size = global::ParkingGrandLyon.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_navigation_max_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_navigation_padding_bottom = global::ParkingGrandLyon.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::ParkingGrandLyon.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_elevation = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_max_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_min_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_snackbar_text_size = global::ParkingGrandLyon.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_tab_max_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_tab_max_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::ParkingGrandLyon.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_tab_text_size = global::ParkingGrandLyon.Droid.Resource.Dimension.design_tab_text_size;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.design_tab_text_size_2line = global::ParkingGrandLyon.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.disabled_alpha_material_dark = global::ParkingGrandLyon.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.disabled_alpha_material_light = global::ParkingGrandLyon.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.highlight_alpha_material_colored = global::ParkingGrandLyon.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.highlight_alpha_material_dark = global::ParkingGrandLyon.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.highlight_alpha_material_light = global::ParkingGrandLyon.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ParkingGrandLyon.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ParkingGrandLyon.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ParkingGrandLyon.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::ParkingGrandLyon.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::ParkingGrandLyon.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::ParkingGrandLyon.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::ParkingGrandLyon.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::ParkingGrandLyon.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::ParkingGrandLyon.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.notification_large_icon_height = global::ParkingGrandLyon.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.notification_large_icon_width = global::ParkingGrandLyon.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Wapps.Forms.Map.Droid.Resource.Dimension.notification_subtext_size = global::ParkingGrandLyon.Droid.Resource.Dimension.notification_subtext_size;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_borderless_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_check_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_colored_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_radio_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_cab_background_top_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_control_background_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_control_background_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_dialog_material_background_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_dialog_material_background_light = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_edit_text_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_item_background_holo_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_item_background_holo_light = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_focused_holo = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_longpressed_holo = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_list_selector_holo_light = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ratingbar_full_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_ratingbar_small_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_seekbar_track_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_switch_thumb_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_tab_indicator_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_text_cursor_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.abc_textfield_search_material = global::ParkingGrandLyon.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_full_open_on_phone = global::ParkingGrandLyon.Droid.Resource.Drawable.common_full_open_on_phone;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_light = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_light_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_light_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_icon_light_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_icon_light_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_dark_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_dark_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_dark_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_dark_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_light = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_light_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_light_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_google_signin_btn_text_light_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_google_signin_btn_text_light_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_ic_googleplayservices = global::ParkingGrandLyon.Droid.Resource.Drawable.common_ic_googleplayservices;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_dark_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_light = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_icon_light_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_dark_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_light = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_light_disabled = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_light_disabled;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_light_focused = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_light_focused;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_light_normal = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_light_normal;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.common_plus_signin_btn_text_light_pressed = global::ParkingGrandLyon.Droid.Resource.Drawable.common_plus_signin_btn_text_light_pressed;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.design_fab_background = global::ParkingGrandLyon.Droid.Resource.Drawable.design_fab_background;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.design_snackbar_background = global::ParkingGrandLyon.Droid.Resource.Drawable.design_snackbar_background;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_audiotrack = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_audiotrack;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_audiotrack_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_bluetooth_grey = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_bluetooth_grey;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_bluetooth_white = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_bluetooth_white;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_disabled_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_grey = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_grey;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_off_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_off_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_on_0_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_on_1_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_on_2_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_on_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_on_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_cast_white = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_cast_white;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_close_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_close_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_close_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_close_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00000 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00000;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00001 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00001;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00002 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00002;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00003 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00003;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00004 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00004;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00005 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00005;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00006 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00006;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00007 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00007;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00008 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00008;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00009 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00009;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00010 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00010;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00011 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00011;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00012 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00012;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00013 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00013;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00014 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00014;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_collapse_00015 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_collapse_00015;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00000 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00000;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00001 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00001;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00002 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00002;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00003 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00003;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00004 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00004;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00005 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00005;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00006 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00006;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00007 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00007;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00008 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00008;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00009 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00009;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00010 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00010;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00011 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00011;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00012 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00012;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00013 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00013;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00014 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00014;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_expand_00015 = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_expand_00015;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_pause = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_pause;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_play = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_play;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_route_off_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_media_route_on_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_pause_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_pause_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_pause_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_pause_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_play_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_play_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_play_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_play_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_speaker_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_speaker_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_speaker_group_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_speaker_group_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_speaker_group_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_speaker_group_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_speaker_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_speaker_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_tv_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_tv_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.ic_tv_light = global::ParkingGrandLyon.Droid.Resource.Drawable.ic_tv_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_dialog_material_background_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_audiotrack_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_audiotrack_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_cast_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_cast_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_close_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_close_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_close_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_close_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_media_route_mono_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_media_route_mono_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_pause_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_pause_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_play_dark = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.mr_ic_play_light = global::ParkingGrandLyon.Droid.Resource.Drawable.mr_ic_play_light;
+			global::Wapps.Forms.Map.Droid.Resource.Drawable.notification_template_icon_bg = global::ParkingGrandLyon.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action0 = global::ParkingGrandLyon.Droid.Resource.Id.action0;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar = global::ParkingGrandLyon.Droid.Resource.Id.action_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar_activity_content = global::ParkingGrandLyon.Droid.Resource.Id.action_bar_activity_content;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar_container = global::ParkingGrandLyon.Droid.Resource.Id.action_bar_container;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar_root = global::ParkingGrandLyon.Droid.Resource.Id.action_bar_root;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar_spinner = global::ParkingGrandLyon.Droid.Resource.Id.action_bar_spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar_subtitle = global::ParkingGrandLyon.Droid.Resource.Id.action_bar_subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_bar_title = global::ParkingGrandLyon.Droid.Resource.Id.action_bar_title;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_context_bar = global::ParkingGrandLyon.Droid.Resource.Id.action_context_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_divider = global::ParkingGrandLyon.Droid.Resource.Id.action_divider;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_menu_divider = global::ParkingGrandLyon.Droid.Resource.Id.action_menu_divider;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_menu_presenter = global::ParkingGrandLyon.Droid.Resource.Id.action_menu_presenter;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_mode_bar = global::ParkingGrandLyon.Droid.Resource.Id.action_mode_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_mode_bar_stub = global::ParkingGrandLyon.Droid.Resource.Id.action_mode_bar_stub;
+			global::Wapps.Forms.Map.Droid.Resource.Id.action_mode_close_button = global::ParkingGrandLyon.Droid.Resource.Id.action_mode_close_button;
+			global::Wapps.Forms.Map.Droid.Resource.Id.activity_chooser_view_content = global::ParkingGrandLyon.Droid.Resource.Id.activity_chooser_view_content;
+			global::Wapps.Forms.Map.Droid.Resource.Id.adjust_height = global::ParkingGrandLyon.Droid.Resource.Id.adjust_height;
+			global::Wapps.Forms.Map.Droid.Resource.Id.adjust_width = global::ParkingGrandLyon.Droid.Resource.Id.adjust_width;
+			global::Wapps.Forms.Map.Droid.Resource.Id.alertTitle = global::ParkingGrandLyon.Droid.Resource.Id.alertTitle;
+			global::Wapps.Forms.Map.Droid.Resource.Id.always = global::ParkingGrandLyon.Droid.Resource.Id.always;
+			global::Wapps.Forms.Map.Droid.Resource.Id.auto = global::ParkingGrandLyon.Droid.Resource.Id.auto;
+			global::Wapps.Forms.Map.Droid.Resource.Id.beginning = global::ParkingGrandLyon.Droid.Resource.Id.beginning;
+			global::Wapps.Forms.Map.Droid.Resource.Id.bottom = global::ParkingGrandLyon.Droid.Resource.Id.bottom;
+			global::Wapps.Forms.Map.Droid.Resource.Id.buttonPanel = global::ParkingGrandLyon.Droid.Resource.Id.buttonPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Id.cancel_action = global::ParkingGrandLyon.Droid.Resource.Id.cancel_action;
+			global::Wapps.Forms.Map.Droid.Resource.Id.center = global::ParkingGrandLyon.Droid.Resource.Id.center;
+			global::Wapps.Forms.Map.Droid.Resource.Id.center_horizontal = global::ParkingGrandLyon.Droid.Resource.Id.center_horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Id.center_vertical = global::ParkingGrandLyon.Droid.Resource.Id.center_vertical;
+			global::Wapps.Forms.Map.Droid.Resource.Id.checkbox = global::ParkingGrandLyon.Droid.Resource.Id.checkbox;
+			global::Wapps.Forms.Map.Droid.Resource.Id.chronometer = global::ParkingGrandLyon.Droid.Resource.Id.chronometer;
+			global::Wapps.Forms.Map.Droid.Resource.Id.clip_horizontal = global::ParkingGrandLyon.Droid.Resource.Id.clip_horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Id.clip_vertical = global::ParkingGrandLyon.Droid.Resource.Id.clip_vertical;
+			global::Wapps.Forms.Map.Droid.Resource.Id.collapseActionView = global::ParkingGrandLyon.Droid.Resource.Id.collapseActionView;
+			global::Wapps.Forms.Map.Droid.Resource.Id.contentPanel = global::ParkingGrandLyon.Droid.Resource.Id.contentPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Id.custom = global::ParkingGrandLyon.Droid.Resource.Id.custom;
+			global::Wapps.Forms.Map.Droid.Resource.Id.customPanel = global::ParkingGrandLyon.Droid.Resource.Id.customPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Id.dark = global::ParkingGrandLyon.Droid.Resource.Id.dark;
+			global::Wapps.Forms.Map.Droid.Resource.Id.decor_content_parent = global::ParkingGrandLyon.Droid.Resource.Id.decor_content_parent;
+			global::Wapps.Forms.Map.Droid.Resource.Id.default_activity_button = global::ParkingGrandLyon.Droid.Resource.Id.default_activity_button;
+			global::Wapps.Forms.Map.Droid.Resource.Id.design_bottom_sheet = global::ParkingGrandLyon.Droid.Resource.Id.design_bottom_sheet;
+			global::Wapps.Forms.Map.Droid.Resource.Id.design_menu_item_action_area = global::ParkingGrandLyon.Droid.Resource.Id.design_menu_item_action_area;
+			global::Wapps.Forms.Map.Droid.Resource.Id.design_menu_item_action_area_stub = global::ParkingGrandLyon.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Wapps.Forms.Map.Droid.Resource.Id.design_menu_item_text = global::ParkingGrandLyon.Droid.Resource.Id.design_menu_item_text;
+			global::Wapps.Forms.Map.Droid.Resource.Id.design_navigation_view = global::ParkingGrandLyon.Droid.Resource.Id.design_navigation_view;
+			global::Wapps.Forms.Map.Droid.Resource.Id.disableHome = global::ParkingGrandLyon.Droid.Resource.Id.disableHome;
+			global::Wapps.Forms.Map.Droid.Resource.Id.edit_query = global::ParkingGrandLyon.Droid.Resource.Id.edit_query;
+			global::Wapps.Forms.Map.Droid.Resource.Id.end = global::ParkingGrandLyon.Droid.Resource.Id.end;
+			global::Wapps.Forms.Map.Droid.Resource.Id.end_padder = global::ParkingGrandLyon.Droid.Resource.Id.end_padder;
+			global::Wapps.Forms.Map.Droid.Resource.Id.enterAlways = global::ParkingGrandLyon.Droid.Resource.Id.enterAlways;
+			global::Wapps.Forms.Map.Droid.Resource.Id.enterAlwaysCollapsed = global::ParkingGrandLyon.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Wapps.Forms.Map.Droid.Resource.Id.exitUntilCollapsed = global::ParkingGrandLyon.Droid.Resource.Id.exitUntilCollapsed;
+			global::Wapps.Forms.Map.Droid.Resource.Id.expand_activities_button = global::ParkingGrandLyon.Droid.Resource.Id.expand_activities_button;
+			global::Wapps.Forms.Map.Droid.Resource.Id.expanded_menu = global::ParkingGrandLyon.Droid.Resource.Id.expanded_menu;
+			global::Wapps.Forms.Map.Droid.Resource.Id.fill = global::ParkingGrandLyon.Droid.Resource.Id.fill;
+			global::Wapps.Forms.Map.Droid.Resource.Id.fill_horizontal = global::ParkingGrandLyon.Droid.Resource.Id.fill_horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Id.fill_vertical = global::ParkingGrandLyon.Droid.Resource.Id.fill_vertical;
+			global::Wapps.Forms.Map.Droid.Resource.Id.@fixed = global::ParkingGrandLyon.Droid.Resource.Id.@fixed;
+			global::Wapps.Forms.Map.Droid.Resource.Id.home = global::ParkingGrandLyon.Droid.Resource.Id.home;
+			global::Wapps.Forms.Map.Droid.Resource.Id.homeAsUp = global::ParkingGrandLyon.Droid.Resource.Id.homeAsUp;
+			global::Wapps.Forms.Map.Droid.Resource.Id.hybrid = global::ParkingGrandLyon.Droid.Resource.Id.hybrid;
+			global::Wapps.Forms.Map.Droid.Resource.Id.icon = global::ParkingGrandLyon.Droid.Resource.Id.icon;
+			global::Wapps.Forms.Map.Droid.Resource.Id.icon_only = global::ParkingGrandLyon.Droid.Resource.Id.icon_only;
+			global::Wapps.Forms.Map.Droid.Resource.Id.ifRoom = global::ParkingGrandLyon.Droid.Resource.Id.ifRoom;
+			global::Wapps.Forms.Map.Droid.Resource.Id.image = global::ParkingGrandLyon.Droid.Resource.Id.image;
+			global::Wapps.Forms.Map.Droid.Resource.Id.info = global::ParkingGrandLyon.Droid.Resource.Id.info;
+			global::Wapps.Forms.Map.Droid.Resource.Id.item_touch_helper_previous_elevation = global::ParkingGrandLyon.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Id.left = global::ParkingGrandLyon.Droid.Resource.Id.left;
+			global::Wapps.Forms.Map.Droid.Resource.Id.light = global::ParkingGrandLyon.Droid.Resource.Id.light;
+			global::Wapps.Forms.Map.Droid.Resource.Id.line1 = global::ParkingGrandLyon.Droid.Resource.Id.line1;
+			global::Wapps.Forms.Map.Droid.Resource.Id.line3 = global::ParkingGrandLyon.Droid.Resource.Id.line3;
+			global::Wapps.Forms.Map.Droid.Resource.Id.listMode = global::ParkingGrandLyon.Droid.Resource.Id.listMode;
+			global::Wapps.Forms.Map.Droid.Resource.Id.list_item = global::ParkingGrandLyon.Droid.Resource.Id.list_item;
+			global::Wapps.Forms.Map.Droid.Resource.Id.media_actions = global::ParkingGrandLyon.Droid.Resource.Id.media_actions;
+			global::Wapps.Forms.Map.Droid.Resource.Id.middle = global::ParkingGrandLyon.Droid.Resource.Id.middle;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mini = global::ParkingGrandLyon.Droid.Resource.Id.mini;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_art = global::ParkingGrandLyon.Droid.Resource.Id.mr_art;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_chooser_list = global::ParkingGrandLyon.Droid.Resource.Id.mr_chooser_list;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_chooser_route_desc = global::ParkingGrandLyon.Droid.Resource.Id.mr_chooser_route_desc;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_chooser_route_icon = global::ParkingGrandLyon.Droid.Resource.Id.mr_chooser_route_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_chooser_route_name = global::ParkingGrandLyon.Droid.Resource.Id.mr_chooser_route_name;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_close = global::ParkingGrandLyon.Droid.Resource.Id.mr_close;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_control_divider = global::ParkingGrandLyon.Droid.Resource.Id.mr_control_divider;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_control_play_pause = global::ParkingGrandLyon.Droid.Resource.Id.mr_control_play_pause;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_control_subtitle = global::ParkingGrandLyon.Droid.Resource.Id.mr_control_subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_control_title = global::ParkingGrandLyon.Droid.Resource.Id.mr_control_title;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_control_title_container = global::ParkingGrandLyon.Droid.Resource.Id.mr_control_title_container;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_custom_control = global::ParkingGrandLyon.Droid.Resource.Id.mr_custom_control;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_default_control = global::ParkingGrandLyon.Droid.Resource.Id.mr_default_control;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_dialog_area = global::ParkingGrandLyon.Droid.Resource.Id.mr_dialog_area;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_expandable_area = global::ParkingGrandLyon.Droid.Resource.Id.mr_expandable_area;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_group_expand_collapse = global::ParkingGrandLyon.Droid.Resource.Id.mr_group_expand_collapse;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_media_main_control = global::ParkingGrandLyon.Droid.Resource.Id.mr_media_main_control;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_name = global::ParkingGrandLyon.Droid.Resource.Id.mr_name;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_playback_control = global::ParkingGrandLyon.Droid.Resource.Id.mr_playback_control;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_title_bar = global::ParkingGrandLyon.Droid.Resource.Id.mr_title_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_volume_control = global::ParkingGrandLyon.Droid.Resource.Id.mr_volume_control;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_volume_group_list = global::ParkingGrandLyon.Droid.Resource.Id.mr_volume_group_list;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_volume_item_icon = global::ParkingGrandLyon.Droid.Resource.Id.mr_volume_item_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Id.mr_volume_slider = global::ParkingGrandLyon.Droid.Resource.Id.mr_volume_slider;
+			global::Wapps.Forms.Map.Droid.Resource.Id.multiply = global::ParkingGrandLyon.Droid.Resource.Id.multiply;
+			global::Wapps.Forms.Map.Droid.Resource.Id.navigation_header_container = global::ParkingGrandLyon.Droid.Resource.Id.navigation_header_container;
+			global::Wapps.Forms.Map.Droid.Resource.Id.never = global::ParkingGrandLyon.Droid.Resource.Id.never;
+			global::Wapps.Forms.Map.Droid.Resource.Id.none = global::ParkingGrandLyon.Droid.Resource.Id.none;
+			global::Wapps.Forms.Map.Droid.Resource.Id.normal = global::ParkingGrandLyon.Droid.Resource.Id.normal;
+			global::Wapps.Forms.Map.Droid.Resource.Id.parallax = global::ParkingGrandLyon.Droid.Resource.Id.parallax;
+			global::Wapps.Forms.Map.Droid.Resource.Id.parentPanel = global::ParkingGrandLyon.Droid.Resource.Id.parentPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Id.pin = global::ParkingGrandLyon.Droid.Resource.Id.pin;
+			global::Wapps.Forms.Map.Droid.Resource.Id.progress_circular = global::ParkingGrandLyon.Droid.Resource.Id.progress_circular;
+			global::Wapps.Forms.Map.Droid.Resource.Id.progress_horizontal = global::ParkingGrandLyon.Droid.Resource.Id.progress_horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Id.radio = global::ParkingGrandLyon.Droid.Resource.Id.radio;
+			global::Wapps.Forms.Map.Droid.Resource.Id.right = global::ParkingGrandLyon.Droid.Resource.Id.right;
+			global::Wapps.Forms.Map.Droid.Resource.Id.satellite = global::ParkingGrandLyon.Droid.Resource.Id.satellite;
+			global::Wapps.Forms.Map.Droid.Resource.Id.screen = global::ParkingGrandLyon.Droid.Resource.Id.screen;
+			global::Wapps.Forms.Map.Droid.Resource.Id.scroll = global::ParkingGrandLyon.Droid.Resource.Id.scroll;
+			global::Wapps.Forms.Map.Droid.Resource.Id.scrollIndicatorDown = global::ParkingGrandLyon.Droid.Resource.Id.scrollIndicatorDown;
+			global::Wapps.Forms.Map.Droid.Resource.Id.scrollIndicatorUp = global::ParkingGrandLyon.Droid.Resource.Id.scrollIndicatorUp;
+			global::Wapps.Forms.Map.Droid.Resource.Id.scrollView = global::ParkingGrandLyon.Droid.Resource.Id.scrollView;
+			global::Wapps.Forms.Map.Droid.Resource.Id.scrollable = global::ParkingGrandLyon.Droid.Resource.Id.scrollable;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_badge = global::ParkingGrandLyon.Droid.Resource.Id.search_badge;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_bar = global::ParkingGrandLyon.Droid.Resource.Id.search_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_button = global::ParkingGrandLyon.Droid.Resource.Id.search_button;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_close_btn = global::ParkingGrandLyon.Droid.Resource.Id.search_close_btn;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_edit_frame = global::ParkingGrandLyon.Droid.Resource.Id.search_edit_frame;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_go_btn = global::ParkingGrandLyon.Droid.Resource.Id.search_go_btn;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_mag_icon = global::ParkingGrandLyon.Droid.Resource.Id.search_mag_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_plate = global::ParkingGrandLyon.Droid.Resource.Id.search_plate;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_src_text = global::ParkingGrandLyon.Droid.Resource.Id.search_src_text;
+			global::Wapps.Forms.Map.Droid.Resource.Id.search_voice_btn = global::ParkingGrandLyon.Droid.Resource.Id.search_voice_btn;
+			global::Wapps.Forms.Map.Droid.Resource.Id.select_dialog_listview = global::ParkingGrandLyon.Droid.Resource.Id.select_dialog_listview;
+			global::Wapps.Forms.Map.Droid.Resource.Id.shortcut = global::ParkingGrandLyon.Droid.Resource.Id.shortcut;
+			global::Wapps.Forms.Map.Droid.Resource.Id.showCustom = global::ParkingGrandLyon.Droid.Resource.Id.showCustom;
+			global::Wapps.Forms.Map.Droid.Resource.Id.showHome = global::ParkingGrandLyon.Droid.Resource.Id.showHome;
+			global::Wapps.Forms.Map.Droid.Resource.Id.showTitle = global::ParkingGrandLyon.Droid.Resource.Id.showTitle;
+			global::Wapps.Forms.Map.Droid.Resource.Id.snackbar_action = global::ParkingGrandLyon.Droid.Resource.Id.snackbar_action;
+			global::Wapps.Forms.Map.Droid.Resource.Id.snackbar_text = global::ParkingGrandLyon.Droid.Resource.Id.snackbar_text;
+			global::Wapps.Forms.Map.Droid.Resource.Id.snap = global::ParkingGrandLyon.Droid.Resource.Id.snap;
+			global::Wapps.Forms.Map.Droid.Resource.Id.spacer = global::ParkingGrandLyon.Droid.Resource.Id.spacer;
+			global::Wapps.Forms.Map.Droid.Resource.Id.split_action_bar = global::ParkingGrandLyon.Droid.Resource.Id.split_action_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Id.src_atop = global::ParkingGrandLyon.Droid.Resource.Id.src_atop;
+			global::Wapps.Forms.Map.Droid.Resource.Id.src_in = global::ParkingGrandLyon.Droid.Resource.Id.src_in;
+			global::Wapps.Forms.Map.Droid.Resource.Id.src_over = global::ParkingGrandLyon.Droid.Resource.Id.src_over;
+			global::Wapps.Forms.Map.Droid.Resource.Id.standard = global::ParkingGrandLyon.Droid.Resource.Id.standard;
+			global::Wapps.Forms.Map.Droid.Resource.Id.start = global::ParkingGrandLyon.Droid.Resource.Id.start;
+			global::Wapps.Forms.Map.Droid.Resource.Id.status_bar_latest_event_content = global::ParkingGrandLyon.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Wapps.Forms.Map.Droid.Resource.Id.submit_area = global::ParkingGrandLyon.Droid.Resource.Id.submit_area;
+			global::Wapps.Forms.Map.Droid.Resource.Id.tabMode = global::ParkingGrandLyon.Droid.Resource.Id.tabMode;
+			global::Wapps.Forms.Map.Droid.Resource.Id.terrain = global::ParkingGrandLyon.Droid.Resource.Id.terrain;
+			global::Wapps.Forms.Map.Droid.Resource.Id.text = global::ParkingGrandLyon.Droid.Resource.Id.text;
+			global::Wapps.Forms.Map.Droid.Resource.Id.text2 = global::ParkingGrandLyon.Droid.Resource.Id.text2;
+			global::Wapps.Forms.Map.Droid.Resource.Id.textSpacerNoButtons = global::ParkingGrandLyon.Droid.Resource.Id.textSpacerNoButtons;
+			global::Wapps.Forms.Map.Droid.Resource.Id.time = global::ParkingGrandLyon.Droid.Resource.Id.time;
+			global::Wapps.Forms.Map.Droid.Resource.Id.title = global::ParkingGrandLyon.Droid.Resource.Id.title;
+			global::Wapps.Forms.Map.Droid.Resource.Id.title_template = global::ParkingGrandLyon.Droid.Resource.Id.title_template;
+			global::Wapps.Forms.Map.Droid.Resource.Id.top = global::ParkingGrandLyon.Droid.Resource.Id.top;
+			global::Wapps.Forms.Map.Droid.Resource.Id.topPanel = global::ParkingGrandLyon.Droid.Resource.Id.topPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Id.touch_outside = global::ParkingGrandLyon.Droid.Resource.Id.touch_outside;
+			global::Wapps.Forms.Map.Droid.Resource.Id.up = global::ParkingGrandLyon.Droid.Resource.Id.up;
+			global::Wapps.Forms.Map.Droid.Resource.Id.useLogo = global::ParkingGrandLyon.Droid.Resource.Id.useLogo;
+			global::Wapps.Forms.Map.Droid.Resource.Id.view_offset_helper = global::ParkingGrandLyon.Droid.Resource.Id.view_offset_helper;
+			global::Wapps.Forms.Map.Droid.Resource.Id.volume_item_container = global::ParkingGrandLyon.Droid.Resource.Id.volume_item_container;
+			global::Wapps.Forms.Map.Droid.Resource.Id.wide = global::ParkingGrandLyon.Droid.Resource.Id.wide;
+			global::Wapps.Forms.Map.Droid.Resource.Id.withText = global::ParkingGrandLyon.Droid.Resource.Id.withText;
+			global::Wapps.Forms.Map.Droid.Resource.Id.wrap_content = global::ParkingGrandLyon.Droid.Resource.Id.wrap_content;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.abc_config_activityDefaultDur = global::ParkingGrandLyon.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.abc_config_activityShortDur = global::ParkingGrandLyon.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.abc_max_action_buttons = global::ParkingGrandLyon.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.bottom_sheet_slide_duration = global::ParkingGrandLyon.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.cancel_button_image_alpha = global::ParkingGrandLyon.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.design_snackbar_text_max_lines = global::ParkingGrandLyon.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.google_play_services_version = global::ParkingGrandLyon.Droid.Resource.Integer.google_play_services_version;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::ParkingGrandLyon.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::ParkingGrandLyon.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::ParkingGrandLyon.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::Wapps.Forms.Map.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::ParkingGrandLyon.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Wapps.Forms.Map.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::ParkingGrandLyon.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::Wapps.Forms.Map.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::ParkingGrandLyon.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_bar_title_item = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_bar_up_container = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_menu_item_layout = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_menu_layout = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_mode_bar = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_action_mode_close_item_material = global::ParkingGrandLyon.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_activity_chooser_view = global::ParkingGrandLyon.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::ParkingGrandLyon.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::ParkingGrandLyon.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_alert_dialog_material = global::ParkingGrandLyon.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_dialog_title_material = global::ParkingGrandLyon.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_expanded_menu_layout = global::ParkingGrandLyon.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::ParkingGrandLyon.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_list_menu_item_icon = global::ParkingGrandLyon.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_list_menu_item_layout = global::ParkingGrandLyon.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_list_menu_item_radio = global::ParkingGrandLyon.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_popup_menu_item_layout = global::ParkingGrandLyon.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_screen_content_include = global::ParkingGrandLyon.Droid.Resource.Layout.abc_screen_content_include;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_screen_simple = global::ParkingGrandLyon.Droid.Resource.Layout.abc_screen_simple;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ParkingGrandLyon.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_screen_toolbar = global::ParkingGrandLyon.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ParkingGrandLyon.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_search_view = global::ParkingGrandLyon.Droid.Resource.Layout.abc_search_view;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.abc_select_dialog_material = global::ParkingGrandLyon.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_bottom_sheet_dialog = global::ParkingGrandLyon.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_layout_snackbar = global::ParkingGrandLyon.Droid.Resource.Layout.design_layout_snackbar;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_layout_snackbar_include = global::ParkingGrandLyon.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_layout_tab_icon = global::ParkingGrandLyon.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_layout_tab_text = global::ParkingGrandLyon.Droid.Resource.Layout.design_layout_tab_text;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_menu_item_action_area = global::ParkingGrandLyon.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_navigation_item = global::ParkingGrandLyon.Droid.Resource.Layout.design_navigation_item;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_navigation_item_header = global::ParkingGrandLyon.Droid.Resource.Layout.design_navigation_item_header;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_navigation_item_separator = global::ParkingGrandLyon.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_navigation_item_subheader = global::ParkingGrandLyon.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_navigation_menu = global::ParkingGrandLyon.Droid.Resource.Layout.design_navigation_menu;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.design_navigation_menu_item = global::ParkingGrandLyon.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.mr_chooser_dialog = global::ParkingGrandLyon.Droid.Resource.Layout.mr_chooser_dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.mr_chooser_list_item = global::ParkingGrandLyon.Droid.Resource.Layout.mr_chooser_list_item;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.mr_controller_material_dialog_b = global::ParkingGrandLyon.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.mr_controller_volume_item = global::ParkingGrandLyon.Droid.Resource.Layout.mr_controller_volume_item;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.mr_playback_control = global::ParkingGrandLyon.Droid.Resource.Layout.mr_playback_control;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.mr_volume_control = global::ParkingGrandLyon.Droid.Resource.Layout.mr_volume_control;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_media_action = global::ParkingGrandLyon.Droid.Resource.Layout.notification_media_action;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_media_cancel_action = global::ParkingGrandLyon.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_template_big_media = global::ParkingGrandLyon.Droid.Resource.Layout.notification_template_big_media;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_template_big_media_narrow = global::ParkingGrandLyon.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_template_lines = global::ParkingGrandLyon.Droid.Resource.Layout.notification_template_lines;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_template_media = global::ParkingGrandLyon.Droid.Resource.Layout.notification_template_media;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_template_part_chronometer = global::ParkingGrandLyon.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.notification_template_part_time = global::ParkingGrandLyon.Droid.Resource.Layout.notification_template_part_time;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.select_dialog_item_material = global::ParkingGrandLyon.Droid.Resource.Layout.select_dialog_item_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.select_dialog_multichoice_material = global::ParkingGrandLyon.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.select_dialog_singlechoice_material = global::ParkingGrandLyon.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Wapps.Forms.Map.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::ParkingGrandLyon.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_action_bar_home_description = global::ParkingGrandLyon.Droid.Resource.String.abc_action_bar_home_description;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_action_bar_home_description_format = global::ParkingGrandLyon.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::ParkingGrandLyon.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_action_bar_up_description = global::ParkingGrandLyon.Droid.Resource.String.abc_action_bar_up_description;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_action_menu_overflow_description = global::ParkingGrandLyon.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_action_mode_done = global::ParkingGrandLyon.Droid.Resource.String.abc_action_mode_done;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_activity_chooser_view_see_all = global::ParkingGrandLyon.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_activitychooserview_choose_application = global::ParkingGrandLyon.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_capital_off = global::ParkingGrandLyon.Droid.Resource.String.abc_capital_off;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_capital_on = global::ParkingGrandLyon.Droid.Resource.String.abc_capital_on;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_search_hint = global::ParkingGrandLyon.Droid.Resource.String.abc_search_hint;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_searchview_description_clear = global::ParkingGrandLyon.Droid.Resource.String.abc_searchview_description_clear;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_searchview_description_query = global::ParkingGrandLyon.Droid.Resource.String.abc_searchview_description_query;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_searchview_description_search = global::ParkingGrandLyon.Droid.Resource.String.abc_searchview_description_search;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_searchview_description_submit = global::ParkingGrandLyon.Droid.Resource.String.abc_searchview_description_submit;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_searchview_description_voice = global::ParkingGrandLyon.Droid.Resource.String.abc_searchview_description_voice;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_shareactionprovider_share_with = global::ParkingGrandLyon.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::ParkingGrandLyon.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Wapps.Forms.Map.Droid.Resource.String.abc_toolbar_collapse_description = global::ParkingGrandLyon.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Wapps.Forms.Map.Droid.Resource.String.appbar_scrolling_view_behavior = global::ParkingGrandLyon.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Wapps.Forms.Map.Droid.Resource.String.auth_google_play_services_client_facebook_display_name = global::ParkingGrandLyon.Droid.Resource.String.auth_google_play_services_client_facebook_display_name;
+			global::Wapps.Forms.Map.Droid.Resource.String.auth_google_play_services_client_google_display_name = global::ParkingGrandLyon.Droid.Resource.String.auth_google_play_services_client_google_display_name;
+			global::Wapps.Forms.Map.Droid.Resource.String.bottom_sheet_behavior = global::ParkingGrandLyon.Droid.Resource.String.bottom_sheet_behavior;
+			global::Wapps.Forms.Map.Droid.Resource.String.character_counter_pattern = global::ParkingGrandLyon.Droid.Resource.String.character_counter_pattern;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_api_unavailable_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_api_unavailable_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_enable_button = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_enable_button;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_enable_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_enable_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_enable_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_enable_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_install_button = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_install_button;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_install_text_phone = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_install_text_phone;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_install_text_tablet = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_install_text_tablet;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_install_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_install_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_invalid_account_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_invalid_account_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_invalid_account_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_invalid_account_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_network_error_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_network_error_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_network_error_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_network_error_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_notification_ticker = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_notification_ticker;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_restricted_profile_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_restricted_profile_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_restricted_profile_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_restricted_profile_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_sign_in_failed_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_sign_in_failed_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_sign_in_failed_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_sign_in_failed_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_unknown_issue = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_unsupported_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_unsupported_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_unsupported_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_unsupported_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_update_button = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_update_button;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_update_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_update_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_update_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_update_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_updating_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_updating_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_updating_title = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_updating_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_google_play_services_wear_update_text = global::ParkingGrandLyon.Droid.Resource.String.common_google_play_services_wear_update_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_open_on_phone = global::ParkingGrandLyon.Droid.Resource.String.common_open_on_phone;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_signin_button_text = global::ParkingGrandLyon.Droid.Resource.String.common_signin_button_text;
+			global::Wapps.Forms.Map.Droid.Resource.String.common_signin_button_text_long = global::ParkingGrandLyon.Droid.Resource.String.common_signin_button_text_long;
+			global::Wapps.Forms.Map.Droid.Resource.String.library_name = global::ParkingGrandLyon.Droid.Resource.String.library_name;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_button_content_description = global::ParkingGrandLyon.Droid.Resource.String.mr_button_content_description;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_chooser_searching = global::ParkingGrandLyon.Droid.Resource.String.mr_chooser_searching;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_chooser_title = global::ParkingGrandLyon.Droid.Resource.String.mr_chooser_title;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_casting_screen = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_casting_screen;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_close_description = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_close_description;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_collapse_group = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_collapse_group;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_disconnect = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_disconnect;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_expand_group = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_expand_group;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_no_info_available = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_no_info_available;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_no_media_selected = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_no_media_selected;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_pause = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_pause;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_play = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_play;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_controller_stop = global::ParkingGrandLyon.Droid.Resource.String.mr_controller_stop;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_system_route_name = global::ParkingGrandLyon.Droid.Resource.String.mr_system_route_name;
+			global::Wapps.Forms.Map.Droid.Resource.String.mr_user_route_category_name = global::ParkingGrandLyon.Droid.Resource.String.mr_user_route_category_name;
+			global::Wapps.Forms.Map.Droid.Resource.String.status_bar_notification_info_overflow = global::ParkingGrandLyon.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.AlertDialog_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Animation_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::ParkingGrandLyon.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::ParkingGrandLyon.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ParkingGrandLyon.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_CardView = global::ParkingGrandLyon.Droid.Resource.Style.Base_CardView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ParkingGrandLyon.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ParkingGrandLyon.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::ParkingGrandLyon.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::ParkingGrandLyon.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ParkingGrandLyon.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ParkingGrandLyon.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::ParkingGrandLyon.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Style.CardView = global::ParkingGrandLyon.Droid.Resource.Style.CardView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.CardView_Dark = global::ParkingGrandLyon.Droid.Resource.Style.CardView_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.CardView_Light = global::ParkingGrandLyon.Droid.Resource.Style.CardView_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Platform_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_V11_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_V14_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ParkingGrandLyon.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ParkingGrandLyon.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ParkingGrandLyon.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_Counter = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_Error = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_Hint = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Design_Tab = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ParkingGrandLyon.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_Design = global::ParkingGrandLyon.Droid.Resource.Style.Theme_Design;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::ParkingGrandLyon.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_Design_Light = global::ParkingGrandLyon.Droid.Resource.Style.Theme_Design_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ParkingGrandLyon.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_Design_NoActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_MediaRouter = global::ParkingGrandLyon.Droid.Resource.Style.Theme_MediaRouter;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_MediaRouter_Light = global::ParkingGrandLyon.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::ParkingGrandLyon.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::ParkingGrandLyon.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::Wapps.Forms.Map.Droid.Resource.Style.ThemeOverlay_AppCompat = global::ParkingGrandLyon.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ParkingGrandLyon.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::ParkingGrandLyon.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Button = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_EditText = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ListView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_SearchView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Spinner = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ParkingGrandLyon.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_AppBarLayout = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_NavigationView = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_Snackbar = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_TabLayout = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_Design_TextInputLayout = global::ParkingGrandLyon.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Wapps.Forms.Map.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::ParkingGrandLyon.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_background = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_background;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_displayOptions = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_divider = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_divider;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_elevation = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_height = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_height;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_homeLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_icon = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_itemPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_logo = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_logo;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_navigationMode = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_popupTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_subtitle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_title = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_title;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBarLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBarLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMenuItemView = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMenuView = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMenuView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode_background = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode_background;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode_height = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode_height;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActivityChooserView = global::ParkingGrandLyon.Droid.Resource.Styleable.ActivityChooserView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ParkingGrandLyon.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog_android_layout = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog_listLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout_android_background = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout_elevation = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout_expanded = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout_LayoutParams = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::ParkingGrandLyon.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatImageView = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatImageView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatImageView_android_src = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTextView = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTextView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ParkingGrandLyon.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.BottomSheetBehavior_Params = global::ParkingGrandLyon.Droid.Resource.Styleable.BottomSheetBehavior_Params;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::ParkingGrandLyon.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ButtonBarLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::ParkingGrandLyon.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_android_minHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_android_minWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_cardCornerRadius = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_cardElevation = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_cardMaxElevation = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_contentPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_contentPaddingRight = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CardView_contentPaddingTop = global::ParkingGrandLyon.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ParkingGrandLyon.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CompoundButton = global::ParkingGrandLyon.Droid.Resource.Styleable.CompoundButton;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CompoundButton_android_button = global::ParkingGrandLyon.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CompoundButton_buttonTint = global::ParkingGrandLyon.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::ParkingGrandLyon.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::ParkingGrandLyon.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DesignTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.DesignTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DesignTheme_textColorError = global::ParkingGrandLyon.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_color = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::ParkingGrandLyon.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_elevation = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ForegroundLinearLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ParkingGrandLyon.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ParkingGrandLyon.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ParkingGrandLyon.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ParkingGrandLyon.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ListPopupWindow = global::ParkingGrandLyon.Droid.Resource.Styleable.ListPopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ParkingGrandLyon.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ParkingGrandLyon.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LoadingImageView = global::ParkingGrandLyon.Droid.Resource.Styleable.LoadingImageView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LoadingImageView_circleCrop = global::ParkingGrandLyon.Droid.Resource.Styleable.LoadingImageView_circleCrop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio = global::ParkingGrandLyon.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::ParkingGrandLyon.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_ambientEnabled = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_ambientEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_cameraBearing = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_cameraBearing;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_cameraTargetLat = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_cameraTargetLat;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_cameraTargetLng = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_cameraTargetLng;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_cameraTilt = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_cameraTilt;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_cameraZoom = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_cameraZoom;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_liteMode = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_liteMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_mapType = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_mapType;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiCompass = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiCompass;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiMapToolbar = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiMapToolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiRotateGestures = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiRotateGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiScrollGestures = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiScrollGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiTiltGestures = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiTiltGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiZoomControls = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiZoomControls;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_uiZoomGestures = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_uiZoomGestures;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_useViewLifecycle = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_useViewLifecycle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MapAttrs_zOrderOnTop = global::ParkingGrandLyon.Droid.Resource.Styleable.MapAttrs_zOrderOnTop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MediaRouteButton = global::ParkingGrandLyon.Droid.Resource.Styleable.MediaRouteButton;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::ParkingGrandLyon.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup_android_enabled = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup_android_id = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuGroup_android_visible = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_actionLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_actionViewClass = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_checkable = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_checked = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_enabled = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_icon = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_id = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_onClick = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_title = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_android_visible = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuItem_showAsAction = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_headerBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_itemBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::ParkingGrandLyon.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_android_background = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_elevation = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_headerLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_itemBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_itemIconTint = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_itemTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.NavigationView_menu = global::ParkingGrandLyon.Droid.Resource.Styleable.NavigationView_menu;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.PopupWindow = global::ParkingGrandLyon.Droid.Resource.Styleable.PopupWindow;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::ParkingGrandLyon.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.PopupWindowBackgroundState = global::ParkingGrandLyon.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ParkingGrandLyon.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.RecyclerView = global::ParkingGrandLyon.Droid.Resource.Styleable.RecyclerView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.RecyclerView_android_orientation = global::ParkingGrandLyon.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.RecyclerView_layoutManager = global::ParkingGrandLyon.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.RecyclerView_spanCount = global::ParkingGrandLyon.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ParkingGrandLyon.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ScrollingViewBehavior_Params = global::ParkingGrandLyon.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::ParkingGrandLyon.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_android_focusable = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_android_imeOptions = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_android_inputType = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_android_maxWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_closeIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_commitIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_goIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_layout = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_queryBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_queryHint = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_searchHintIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_searchIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_submitBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SearchView_voiceIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SignInButton = global::ParkingGrandLyon.Droid.Resource.Styleable.SignInButton;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SignInButton_buttonSize = global::ParkingGrandLyon.Droid.Resource.Styleable.SignInButton_buttonSize;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SignInButton_colorScheme = global::ParkingGrandLyon.Droid.Resource.Styleable.SignInButton_colorScheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SignInButton_scopeUris = global::ParkingGrandLyon.Droid.Resource.Styleable.SignInButton_scopeUris;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SnackbarLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.SnackbarLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SnackbarLayout_elevation = global::ParkingGrandLyon.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Spinner = global::ParkingGrandLyon.Droid.Resource.Styleable.Spinner;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Spinner_android_entries = global::ParkingGrandLyon.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Spinner_android_popupBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Spinner_android_prompt = global::ParkingGrandLyon.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Spinner_popupTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_showText = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.SwitchCompat_track = global::ParkingGrandLyon.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabItem = global::ParkingGrandLyon.Droid.Resource.Styleable.TabItem;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabItem_android_icon = global::ParkingGrandLyon.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabItem_android_layout = global::ParkingGrandLyon.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabItem_android_text = global::ParkingGrandLyon.Droid.Resource.Styleable.TabItem_android_text;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabBackground = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabContentStart = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabGravity = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabMode = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabPadding = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TabLayout_tabTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_textColor = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_textSize = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_android_typeface = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::ParkingGrandLyon.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_android_hint = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_android_gravity = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_android_minHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_collapseIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_logo = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_logo;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_logoDescription = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_navigationIcon = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_popupTheme = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_subtitle = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_title = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_title;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleMargins = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.Toolbar_titleTextColor = global::ParkingGrandLyon.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.View = global::ParkingGrandLyon.Droid.Resource.Styleable.View;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.View_android_focusable = global::ParkingGrandLyon.Droid.Resource.Styleable.View_android_focusable;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.View_android_theme = global::ParkingGrandLyon.Droid.Resource.Styleable.View_android_theme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.View_paddingEnd = global::ParkingGrandLyon.Droid.Resource.Styleable.View_paddingEnd;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.View_paddingStart = global::ParkingGrandLyon.Droid.Resource.Styleable.View_paddingStart;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.View_theme = global::ParkingGrandLyon.Droid.Resource.Styleable.View_theme;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewBackgroundHelper = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewStubCompat = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewStubCompat;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewStubCompat_android_id = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Wapps.Forms.Map.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::ParkingGrandLyon.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -93,953 +2033,1022 @@ namespace ParkingGrandLyon.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010004
-			public const int MediaRouteControllerWindowBackground = 2130771972;
-			
-			// aapt resource value: 0x7f010061
-			public const int actionBarDivider = 2130772065;
-			
-			// aapt resource value: 0x7f010062
-			public const int actionBarItemBackground = 2130772066;
-			
-			// aapt resource value: 0x7f01005b
-			public const int actionBarPopupTheme = 2130772059;
-			
-			// aapt resource value: 0x7f010060
-			public const int actionBarSize = 2130772064;
-			
-			// aapt resource value: 0x7f01005d
-			public const int actionBarSplitStyle = 2130772061;
-			
-			// aapt resource value: 0x7f01005c
-			public const int actionBarStyle = 2130772060;
-			
-			// aapt resource value: 0x7f010057
-			public const int actionBarTabBarStyle = 2130772055;
-			
-			// aapt resource value: 0x7f010056
-			public const int actionBarTabStyle = 2130772054;
-			
-			// aapt resource value: 0x7f010058
-			public const int actionBarTabTextStyle = 2130772056;
-			
-			// aapt resource value: 0x7f01005e
-			public const int actionBarTheme = 2130772062;
-			
-			// aapt resource value: 0x7f01005f
-			public const int actionBarWidgetTheme = 2130772063;
-			
-			// aapt resource value: 0x7f01007b
-			public const int actionButtonStyle = 2130772091;
-			
-			// aapt resource value: 0x7f010077
-			public const int actionDropDownStyle = 2130772087;
-			
-			// aapt resource value: 0x7f0100c9
-			public const int actionLayout = 2130772169;
-			
-			// aapt resource value: 0x7f010063
-			public const int actionMenuTextAppearance = 2130772067;
-			
-			// aapt resource value: 0x7f010064
-			public const int actionMenuTextColor = 2130772068;
-			
-			// aapt resource value: 0x7f010067
-			public const int actionModeBackground = 2130772071;
-			
-			// aapt resource value: 0x7f010066
-			public const int actionModeCloseButtonStyle = 2130772070;
-			
-			// aapt resource value: 0x7f010069
-			public const int actionModeCloseDrawable = 2130772073;
-			
-			// aapt resource value: 0x7f01006b
-			public const int actionModeCopyDrawable = 2130772075;
-			
-			// aapt resource value: 0x7f01006a
-			public const int actionModeCutDrawable = 2130772074;
-			
-			// aapt resource value: 0x7f01006f
-			public const int actionModeFindDrawable = 2130772079;
-			
-			// aapt resource value: 0x7f01006c
-			public const int actionModePasteDrawable = 2130772076;
-			
-			// aapt resource value: 0x7f010071
-			public const int actionModePopupWindowStyle = 2130772081;
-			
-			// aapt resource value: 0x7f01006d
-			public const int actionModeSelectAllDrawable = 2130772077;
-			
-			// aapt resource value: 0x7f01006e
-			public const int actionModeShareDrawable = 2130772078;
-			
-			// aapt resource value: 0x7f010068
-			public const int actionModeSplitBackground = 2130772072;
-			
-			// aapt resource value: 0x7f010065
-			public const int actionModeStyle = 2130772069;
-			
-			// aapt resource value: 0x7f010070
-			public const int actionModeWebSearchDrawable = 2130772080;
-			
-			// aapt resource value: 0x7f010059
-			public const int actionOverflowButtonStyle = 2130772057;
-			
-			// aapt resource value: 0x7f01005a
-			public const int actionOverflowMenuStyle = 2130772058;
-			
-			// aapt resource value: 0x7f0100cb
-			public const int actionProviderClass = 2130772171;
-			
-			// aapt resource value: 0x7f0100ca
-			public const int actionViewClass = 2130772170;
-			
-			// aapt resource value: 0x7f010083
-			public const int activityChooserViewStyle = 2130772099;
-			
-			// aapt resource value: 0x7f0100a6
-			public const int alertDialogButtonGroupStyle = 2130772134;
-			
-			// aapt resource value: 0x7f0100a7
-			public const int alertDialogCenterButtons = 2130772135;
-			
-			// aapt resource value: 0x7f0100a5
-			public const int alertDialogStyle = 2130772133;
-			
-			// aapt resource value: 0x7f0100a8
-			public const int alertDialogTheme = 2130772136;
-			
-			// aapt resource value: 0x7f0100ba
-			public const int allowStacking = 2130772154;
-			
-			// aapt resource value: 0x7f0100c1
-			public const int arrowHeadLength = 2130772161;
-			
-			// aapt resource value: 0x7f0100c2
-			public const int arrowShaftLength = 2130772162;
-			
-			// aapt resource value: 0x7f0100ad
-			public const int autoCompleteTextViewStyle = 2130772141;
-			
-			// aapt resource value: 0x7f010032
-			public const int background = 2130772018;
-			
-			// aapt resource value: 0x7f010034
-			public const int backgroundSplit = 2130772020;
-			
-			// aapt resource value: 0x7f010033
-			public const int backgroundStacked = 2130772019;
-			
-			// aapt resource value: 0x7f0100f5
-			public const int backgroundTint = 2130772213;
-			
-			// aapt resource value: 0x7f0100f6
-			public const int backgroundTintMode = 2130772214;
-			
-			// aapt resource value: 0x7f0100c3
-			public const int barLength = 2130772163;
-			
-			// aapt resource value: 0x7f0100fb
-			public const int behavior_hideable = 2130772219;
-			
-			// aapt resource value: 0x7f010121
-			public const int behavior_overlapTop = 2130772257;
-			
-			// aapt resource value: 0x7f0100fa
-			public const int behavior_peekHeight = 2130772218;
-			
-			// aapt resource value: 0x7f010117
-			public const int borderWidth = 2130772247;
-			
-			// aapt resource value: 0x7f010080
-			public const int borderlessButtonStyle = 2130772096;
-			
-			// aapt resource value: 0x7f010111
-			public const int bottomSheetDialogTheme = 2130772241;
-			
-			// aapt resource value: 0x7f010112
-			public const int bottomSheetStyle = 2130772242;
-			
-			// aapt resource value: 0x7f01007d
-			public const int buttonBarButtonStyle = 2130772093;
-			
-			// aapt resource value: 0x7f0100ab
-			public const int buttonBarNegativeButtonStyle = 2130772139;
-			
-			// aapt resource value: 0x7f0100ac
-			public const int buttonBarNeutralButtonStyle = 2130772140;
-			
-			// aapt resource value: 0x7f0100aa
-			public const int buttonBarPositiveButtonStyle = 2130772138;
-			
-			// aapt resource value: 0x7f01007c
-			public const int buttonBarStyle = 2130772092;
-			
-			// aapt resource value: 0x7f010045
-			public const int buttonPanelSideLayout = 2130772037;
-			
-			// aapt resource value: 0x7f0100ae
-			public const int buttonStyle = 2130772142;
-			
-			// aapt resource value: 0x7f0100af
-			public const int buttonStyleSmall = 2130772143;
-			
-			// aapt resource value: 0x7f0100bb
-			public const int buttonTint = 2130772155;
-			
-			// aapt resource value: 0x7f0100bc
-			public const int buttonTintMode = 2130772156;
-			
-			// aapt resource value: 0x7f01001b
-			public const int cardBackgroundColor = 2130771995;
-			
-			// aapt resource value: 0x7f01001c
-			public const int cardCornerRadius = 2130771996;
-			
-			// aapt resource value: 0x7f01001d
-			public const int cardElevation = 2130771997;
-			
-			// aapt resource value: 0x7f01001e
-			public const int cardMaxElevation = 2130771998;
-			
-			// aapt resource value: 0x7f010020
-			public const int cardPreventCornerOverlap = 2130772000;
-			
-			// aapt resource value: 0x7f01001f
-			public const int cardUseCompatPadding = 2130771999;
-			
-			// aapt resource value: 0x7f0100b0
-			public const int checkboxStyle = 2130772144;
-			
-			// aapt resource value: 0x7f0100b1
-			public const int checkedTextViewStyle = 2130772145;
-			
-			// aapt resource value: 0x7f0100d3
-			public const int closeIcon = 2130772179;
-			
-			// aapt resource value: 0x7f010042
-			public const int closeItemLayout = 2130772034;
-			
-			// aapt resource value: 0x7f0100ec
-			public const int collapseContentDescription = 2130772204;
-			
-			// aapt resource value: 0x7f0100eb
-			public const int collapseIcon = 2130772203;
-			
-			// aapt resource value: 0x7f010108
-			public const int collapsedTitleGravity = 2130772232;
-			
-			// aapt resource value: 0x7f010104
-			public const int collapsedTitleTextAppearance = 2130772228;
+			// aapt resource value: 0x7f010017
+			public const int MediaRouteControllerWindowBackground = 2130771991;
 			
 			// aapt resource value: 0x7f0100bd
-			public const int color = 2130772157;
-			
-			// aapt resource value: 0x7f01009e
-			public const int colorAccent = 2130772126;
-			
-			// aapt resource value: 0x7f0100a2
-			public const int colorButtonNormal = 2130772130;
-			
-			// aapt resource value: 0x7f0100a0
-			public const int colorControlActivated = 2130772128;
-			
-			// aapt resource value: 0x7f0100a1
-			public const int colorControlHighlight = 2130772129;
-			
-			// aapt resource value: 0x7f01009f
-			public const int colorControlNormal = 2130772127;
-			
-			// aapt resource value: 0x7f01009c
-			public const int colorPrimary = 2130772124;
-			
-			// aapt resource value: 0x7f01009d
-			public const int colorPrimaryDark = 2130772125;
-			
-			// aapt resource value: 0x7f0100a3
-			public const int colorSwitchThumbNormal = 2130772131;
-			
-			// aapt resource value: 0x7f0100d8
-			public const int commitIcon = 2130772184;
-			
-			// aapt resource value: 0x7f01003d
-			public const int contentInsetEnd = 2130772029;
-			
-			// aapt resource value: 0x7f01003e
-			public const int contentInsetLeft = 2130772030;
-			
-			// aapt resource value: 0x7f01003f
-			public const int contentInsetRight = 2130772031;
-			
-			// aapt resource value: 0x7f01003c
-			public const int contentInsetStart = 2130772028;
-			
-			// aapt resource value: 0x7f010021
-			public const int contentPadding = 2130772001;
-			
-			// aapt resource value: 0x7f010025
-			public const int contentPaddingBottom = 2130772005;
-			
-			// aapt resource value: 0x7f010022
-			public const int contentPaddingLeft = 2130772002;
-			
-			// aapt resource value: 0x7f010023
-			public const int contentPaddingRight = 2130772003;
-			
-			// aapt resource value: 0x7f010024
-			public const int contentPaddingTop = 2130772004;
-			
-			// aapt resource value: 0x7f010105
-			public const int contentScrim = 2130772229;
-			
-			// aapt resource value: 0x7f0100a4
-			public const int controlBackground = 2130772132;
-			
-			// aapt resource value: 0x7f010137
-			public const int counterEnabled = 2130772279;
-			
-			// aapt resource value: 0x7f010138
-			public const int counterMaxLength = 2130772280;
-			
-			// aapt resource value: 0x7f01013a
-			public const int counterOverflowTextAppearance = 2130772282;
-			
-			// aapt resource value: 0x7f010139
-			public const int counterTextAppearance = 2130772281;
-			
-			// aapt resource value: 0x7f010035
-			public const int customNavigationLayout = 2130772021;
-			
-			// aapt resource value: 0x7f0100d2
-			public const int defaultQueryHint = 2130772178;
-			
-			// aapt resource value: 0x7f010075
-			public const int dialogPreferredPadding = 2130772085;
-			
-			// aapt resource value: 0x7f010074
-			public const int dialogTheme = 2130772084;
-			
-			// aapt resource value: 0x7f01002b
-			public const int displayOptions = 2130772011;
-			
-			// aapt resource value: 0x7f010031
-			public const int divider = 2130772017;
-			
-			// aapt resource value: 0x7f010082
-			public const int dividerHorizontal = 2130772098;
-			
-			// aapt resource value: 0x7f0100c7
-			public const int dividerPadding = 2130772167;
-			
-			// aapt resource value: 0x7f010081
-			public const int dividerVertical = 2130772097;
-			
-			// aapt resource value: 0x7f0100bf
-			public const int drawableSize = 2130772159;
-			
-			// aapt resource value: 0x7f010026
-			public const int drawerArrowStyle = 2130772006;
-			
-			// aapt resource value: 0x7f010094
-			public const int dropDownListViewStyle = 2130772116;
-			
-			// aapt resource value: 0x7f010078
-			public const int dropdownListPreferredItemHeight = 2130772088;
-			
-			// aapt resource value: 0x7f010089
-			public const int editTextBackground = 2130772105;
-			
-			// aapt resource value: 0x7f010088
-			public const int editTextColor = 2130772104;
-			
-			// aapt resource value: 0x7f0100b2
-			public const int editTextStyle = 2130772146;
-			
-			// aapt resource value: 0x7f010040
-			public const int elevation = 2130772032;
-			
-			// aapt resource value: 0x7f010135
-			public const int errorEnabled = 2130772277;
-			
-			// aapt resource value: 0x7f010136
-			public const int errorTextAppearance = 2130772278;
-			
-			// aapt resource value: 0x7f010044
-			public const int expandActivityOverflowButtonDrawable = 2130772036;
-			
-			// aapt resource value: 0x7f0100f7
-			public const int expanded = 2130772215;
-			
-			// aapt resource value: 0x7f010109
-			public const int expandedTitleGravity = 2130772233;
-			
-			// aapt resource value: 0x7f0100fe
-			public const int expandedTitleMargin = 2130772222;
-			
-			// aapt resource value: 0x7f010102
-			public const int expandedTitleMarginBottom = 2130772226;
-			
-			// aapt resource value: 0x7f010101
-			public const int expandedTitleMarginEnd = 2130772225;
-			
-			// aapt resource value: 0x7f0100ff
-			public const int expandedTitleMarginStart = 2130772223;
-			
-			// aapt resource value: 0x7f010100
-			public const int expandedTitleMarginTop = 2130772224;
-			
-			// aapt resource value: 0x7f010103
-			public const int expandedTitleTextAppearance = 2130772227;
-			
-			// aapt resource value: 0x7f01001a
-			public const int externalRouteEnabledDrawable = 2130771994;
-			
-			// aapt resource value: 0x7f010115
-			public const int fabSize = 2130772245;
-			
-			// aapt resource value: 0x7f010119
-			public const int foregroundInsidePadding = 2130772249;
-			
-			// aapt resource value: 0x7f0100c0
-			public const int gapBetweenBars = 2130772160;
-			
-			// aapt resource value: 0x7f0100d4
-			public const int goIcon = 2130772180;
-			
-			// aapt resource value: 0x7f01011f
-			public const int headerLayout = 2130772255;
-			
-			// aapt resource value: 0x7f010027
-			public const int height = 2130772007;
-			
-			// aapt resource value: 0x7f01003b
-			public const int hideOnContentScroll = 2130772027;
-			
-			// aapt resource value: 0x7f01013b
-			public const int hintAnimationEnabled = 2130772283;
-			
-			// aapt resource value: 0x7f010134
-			public const int hintEnabled = 2130772276;
-			
-			// aapt resource value: 0x7f010133
-			public const int hintTextAppearance = 2130772275;
-			
-			// aapt resource value: 0x7f01007a
-			public const int homeAsUpIndicator = 2130772090;
-			
-			// aapt resource value: 0x7f010036
-			public const int homeLayout = 2130772022;
-			
-			// aapt resource value: 0x7f01002f
-			public const int icon = 2130772015;
-			
-			// aapt resource value: 0x7f0100d0
-			public const int iconifiedByDefault = 2130772176;
-			
-			// aapt resource value: 0x7f01008a
-			public const int imageButtonStyle = 2130772106;
-			
-			// aapt resource value: 0x7f010038
-			public const int indeterminateProgressStyle = 2130772024;
-			
-			// aapt resource value: 0x7f010043
-			public const int initialActivityCount = 2130772035;
-			
-			// aapt resource value: 0x7f010120
-			public const int insetForeground = 2130772256;
-			
-			// aapt resource value: 0x7f010028
-			public const int isLightTheme = 2130772008;
-			
-			// aapt resource value: 0x7f01011d
-			public const int itemBackground = 2130772253;
-			
-			// aapt resource value: 0x7f01011b
-			public const int itemIconTint = 2130772251;
-			
-			// aapt resource value: 0x7f01003a
-			public const int itemPadding = 2130772026;
-			
-			// aapt resource value: 0x7f01011e
-			public const int itemTextAppearance = 2130772254;
-			
-			// aapt resource value: 0x7f01011c
-			public const int itemTextColor = 2130772252;
-			
-			// aapt resource value: 0x7f01010b
-			public const int keylines = 2130772235;
-			
-			// aapt resource value: 0x7f0100cf
-			public const int layout = 2130772175;
-			
-			// aapt resource value: 0x7f010000
-			public const int layoutManager = 2130771968;
-			
-			// aapt resource value: 0x7f01010e
-			public const int layout_anchor = 2130772238;
-			
-			// aapt resource value: 0x7f010110
-			public const int layout_anchorGravity = 2130772240;
-			
-			// aapt resource value: 0x7f01010d
-			public const int layout_behavior = 2130772237;
-			
-			// aapt resource value: 0x7f0100fc
-			public const int layout_collapseMode = 2130772220;
-			
-			// aapt resource value: 0x7f0100fd
-			public const int layout_collapseParallaxMultiplier = 2130772221;
-			
-			// aapt resource value: 0x7f01010f
-			public const int layout_keyline = 2130772239;
-			
-			// aapt resource value: 0x7f0100f8
-			public const int layout_scrollFlags = 2130772216;
-			
-			// aapt resource value: 0x7f0100f9
-			public const int layout_scrollInterpolator = 2130772217;
-			
-			// aapt resource value: 0x7f01009b
-			public const int listChoiceBackgroundIndicator = 2130772123;
-			
-			// aapt resource value: 0x7f010076
-			public const int listDividerAlertDialog = 2130772086;
-			
-			// aapt resource value: 0x7f010049
-			public const int listItemLayout = 2130772041;
-			
-			// aapt resource value: 0x7f010046
-			public const int listLayout = 2130772038;
-			
-			// aapt resource value: 0x7f010095
-			public const int listPopupWindowStyle = 2130772117;
-			
-			// aapt resource value: 0x7f01008f
-			public const int listPreferredItemHeight = 2130772111;
-			
-			// aapt resource value: 0x7f010091
-			public const int listPreferredItemHeightLarge = 2130772113;
-			
-			// aapt resource value: 0x7f010090
-			public const int listPreferredItemHeightSmall = 2130772112;
-			
-			// aapt resource value: 0x7f010092
-			public const int listPreferredItemPaddingLeft = 2130772114;
-			
-			// aapt resource value: 0x7f010093
-			public const int listPreferredItemPaddingRight = 2130772115;
-			
-			// aapt resource value: 0x7f010030
-			public const int logo = 2130772016;
-			
-			// aapt resource value: 0x7f0100ef
-			public const int logoDescription = 2130772207;
-			
-			// aapt resource value: 0x7f010122
-			public const int maxActionInlineWidth = 2130772258;
-			
-			// aapt resource value: 0x7f0100ea
-			public const int maxButtonHeight = 2130772202;
-			
-			// aapt resource value: 0x7f0100c5
-			public const int measureWithLargestChild = 2130772165;
-			
-			// aapt resource value: 0x7f010005
-			public const int mediaRouteAudioTrackDrawable = 2130771973;
-			
-			// aapt resource value: 0x7f010006
-			public const int mediaRouteBluetoothIconDrawable = 2130771974;
-			
-			// aapt resource value: 0x7f010007
-			public const int mediaRouteButtonStyle = 2130771975;
-			
-			// aapt resource value: 0x7f010008
-			public const int mediaRouteCastDrawable = 2130771976;
-			
-			// aapt resource value: 0x7f010009
-			public const int mediaRouteChooserPrimaryTextStyle = 2130771977;
-			
-			// aapt resource value: 0x7f01000a
-			public const int mediaRouteChooserSecondaryTextStyle = 2130771978;
-			
-			// aapt resource value: 0x7f01000b
-			public const int mediaRouteCloseDrawable = 2130771979;
-			
-			// aapt resource value: 0x7f01000c
-			public const int mediaRouteCollapseGroupDrawable = 2130771980;
-			
-			// aapt resource value: 0x7f01000d
-			public const int mediaRouteConnectingDrawable = 2130771981;
-			
-			// aapt resource value: 0x7f01000e
-			public const int mediaRouteControllerPrimaryTextStyle = 2130771982;
-			
-			// aapt resource value: 0x7f01000f
-			public const int mediaRouteControllerSecondaryTextStyle = 2130771983;
-			
-			// aapt resource value: 0x7f010010
-			public const int mediaRouteControllerTitleTextStyle = 2130771984;
-			
-			// aapt resource value: 0x7f010011
-			public const int mediaRouteDefaultIconDrawable = 2130771985;
-			
-			// aapt resource value: 0x7f010012
-			public const int mediaRouteExpandGroupDrawable = 2130771986;
-			
-			// aapt resource value: 0x7f010013
-			public const int mediaRouteOffDrawable = 2130771987;
-			
-			// aapt resource value: 0x7f010014
-			public const int mediaRouteOnDrawable = 2130771988;
-			
-			// aapt resource value: 0x7f010015
-			public const int mediaRoutePauseDrawable = 2130771989;
-			
-			// aapt resource value: 0x7f010016
-			public const int mediaRoutePlayDrawable = 2130771990;
-			
-			// aapt resource value: 0x7f010017
-			public const int mediaRouteSpeakerGroupIconDrawable = 2130771991;
-			
-			// aapt resource value: 0x7f010018
-			public const int mediaRouteSpeakerIconDrawable = 2130771992;
-			
-			// aapt resource value: 0x7f010019
-			public const int mediaRouteTvIconDrawable = 2130771993;
-			
-			// aapt resource value: 0x7f01011a
-			public const int menu = 2130772250;
-			
-			// aapt resource value: 0x7f010047
-			public const int multiChoiceItemLayout = 2130772039;
-			
-			// aapt resource value: 0x7f0100ee
-			public const int navigationContentDescription = 2130772206;
-			
-			// aapt resource value: 0x7f0100ed
-			public const int navigationIcon = 2130772205;
-			
-			// aapt resource value: 0x7f01002a
-			public const int navigationMode = 2130772010;
-			
-			// aapt resource value: 0x7f0100cd
-			public const int overlapAnchor = 2130772173;
-			
-			// aapt resource value: 0x7f0100f3
-			public const int paddingEnd = 2130772211;
-			
-			// aapt resource value: 0x7f0100f2
-			public const int paddingStart = 2130772210;
-			
-			// aapt resource value: 0x7f010098
-			public const int panelBackground = 2130772120;
-			
-			// aapt resource value: 0x7f01009a
-			public const int panelMenuListTheme = 2130772122;
-			
-			// aapt resource value: 0x7f010099
-			public const int panelMenuListWidth = 2130772121;
-			
-			// aapt resource value: 0x7f010086
-			public const int popupMenuStyle = 2130772102;
-			
-			// aapt resource value: 0x7f010041
-			public const int popupTheme = 2130772033;
-			
-			// aapt resource value: 0x7f010087
-			public const int popupWindowStyle = 2130772103;
-			
-			// aapt resource value: 0x7f0100cc
-			public const int preserveIconSpacing = 2130772172;
-			
-			// aapt resource value: 0x7f010116
-			public const int pressedTranslationZ = 2130772246;
-			
-			// aapt resource value: 0x7f010039
-			public const int progressBarPadding = 2130772025;
-			
-			// aapt resource value: 0x7f010037
-			public const int progressBarStyle = 2130772023;
-			
-			// aapt resource value: 0x7f0100da
-			public const int queryBackground = 2130772186;
-			
-			// aapt resource value: 0x7f0100d1
-			public const int queryHint = 2130772177;
-			
-			// aapt resource value: 0x7f0100b3
-			public const int radioButtonStyle = 2130772147;
-			
-			// aapt resource value: 0x7f0100b4
-			public const int ratingBarStyle = 2130772148;
-			
-			// aapt resource value: 0x7f0100b5
-			public const int ratingBarStyleIndicator = 2130772149;
-			
-			// aapt resource value: 0x7f0100b6
-			public const int ratingBarStyleSmall = 2130772150;
-			
-			// aapt resource value: 0x7f010002
-			public const int reverseLayout = 2130771970;
-			
-			// aapt resource value: 0x7f010114
-			public const int rippleColor = 2130772244;
-			
-			// aapt resource value: 0x7f0100d6
-			public const int searchHintIcon = 2130772182;
-			
-			// aapt resource value: 0x7f0100d5
-			public const int searchIcon = 2130772181;
-			
-			// aapt resource value: 0x7f01008e
-			public const int searchViewStyle = 2130772110;
-			
-			// aapt resource value: 0x7f0100b7
-			public const int seekBarStyle = 2130772151;
-			
-			// aapt resource value: 0x7f01007e
-			public const int selectableItemBackground = 2130772094;
-			
-			// aapt resource value: 0x7f01007f
-			public const int selectableItemBackgroundBorderless = 2130772095;
-			
-			// aapt resource value: 0x7f0100c8
-			public const int showAsAction = 2130772168;
-			
-			// aapt resource value: 0x7f0100c6
-			public const int showDividers = 2130772166;
-			
-			// aapt resource value: 0x7f0100e2
-			public const int showText = 2130772194;
-			
-			// aapt resource value: 0x7f010048
-			public const int singleChoiceItemLayout = 2130772040;
-			
-			// aapt resource value: 0x7f010001
-			public const int spanCount = 2130771969;
+			public const int actionBarDivider = 2130772157;
 			
 			// aapt resource value: 0x7f0100be
-			public const int spinBars = 2130772158;
+			public const int actionBarItemBackground = 2130772158;
 			
-			// aapt resource value: 0x7f010079
-			public const int spinnerDropDownItemStyle = 2130772089;
+			// aapt resource value: 0x7f0100b7
+			public const int actionBarPopupTheme = 2130772151;
 			
-			// aapt resource value: 0x7f0100b8
-			public const int spinnerStyle = 2130772152;
-			
-			// aapt resource value: 0x7f0100e1
-			public const int splitTrack = 2130772193;
-			
-			// aapt resource value: 0x7f01004a
-			public const int srcCompat = 2130772042;
-			
-			// aapt resource value: 0x7f010003
-			public const int stackFromEnd = 2130771971;
-			
-			// aapt resource value: 0x7f0100ce
-			public const int state_above_anchor = 2130772174;
-			
-			// aapt resource value: 0x7f01010c
-			public const int statusBarBackground = 2130772236;
-			
-			// aapt resource value: 0x7f010106
-			public const int statusBarScrim = 2130772230;
-			
-			// aapt resource value: 0x7f0100db
-			public const int submitBackground = 2130772187;
-			
-			// aapt resource value: 0x7f01002c
-			public const int subtitle = 2130772012;
-			
-			// aapt resource value: 0x7f0100e4
-			public const int subtitleTextAppearance = 2130772196;
-			
-			// aapt resource value: 0x7f0100f1
-			public const int subtitleTextColor = 2130772209;
-			
-			// aapt resource value: 0x7f01002e
-			public const int subtitleTextStyle = 2130772014;
-			
-			// aapt resource value: 0x7f0100d9
-			public const int suggestionRowLayout = 2130772185;
-			
-			// aapt resource value: 0x7f0100df
-			public const int switchMinWidth = 2130772191;
-			
-			// aapt resource value: 0x7f0100e0
-			public const int switchPadding = 2130772192;
+			// aapt resource value: 0x7f0100bc
+			public const int actionBarSize = 2130772156;
 			
 			// aapt resource value: 0x7f0100b9
-			public const int switchStyle = 2130772153;
+			public const int actionBarSplitStyle = 2130772153;
 			
-			// aapt resource value: 0x7f0100de
-			public const int switchTextAppearance = 2130772190;
+			// aapt resource value: 0x7f0100b8
+			public const int actionBarStyle = 2130772152;
 			
-			// aapt resource value: 0x7f010126
-			public const int tabBackground = 2130772262;
+			// aapt resource value: 0x7f0100b3
+			public const int actionBarTabBarStyle = 2130772147;
 			
-			// aapt resource value: 0x7f010125
-			public const int tabContentStart = 2130772261;
+			// aapt resource value: 0x7f0100b2
+			public const int actionBarTabStyle = 2130772146;
 			
-			// aapt resource value: 0x7f010128
-			public const int tabGravity = 2130772264;
+			// aapt resource value: 0x7f0100b4
+			public const int actionBarTabTextStyle = 2130772148;
 			
-			// aapt resource value: 0x7f010123
-			public const int tabIndicatorColor = 2130772259;
+			// aapt resource value: 0x7f0100ba
+			public const int actionBarTheme = 2130772154;
 			
-			// aapt resource value: 0x7f010124
-			public const int tabIndicatorHeight = 2130772260;
-			
-			// aapt resource value: 0x7f01012a
-			public const int tabMaxWidth = 2130772266;
-			
-			// aapt resource value: 0x7f010129
-			public const int tabMinWidth = 2130772265;
-			
-			// aapt resource value: 0x7f010127
-			public const int tabMode = 2130772263;
-			
-			// aapt resource value: 0x7f010132
-			public const int tabPadding = 2130772274;
-			
-			// aapt resource value: 0x7f010131
-			public const int tabPaddingBottom = 2130772273;
-			
-			// aapt resource value: 0x7f010130
-			public const int tabPaddingEnd = 2130772272;
-			
-			// aapt resource value: 0x7f01012e
-			public const int tabPaddingStart = 2130772270;
-			
-			// aapt resource value: 0x7f01012f
-			public const int tabPaddingTop = 2130772271;
-			
-			// aapt resource value: 0x7f01012d
-			public const int tabSelectedTextColor = 2130772269;
-			
-			// aapt resource value: 0x7f01012b
-			public const int tabTextAppearance = 2130772267;
-			
-			// aapt resource value: 0x7f01012c
-			public const int tabTextColor = 2130772268;
-			
-			// aapt resource value: 0x7f01004b
-			public const int textAllCaps = 2130772043;
-			
-			// aapt resource value: 0x7f010072
-			public const int textAppearanceLargePopupMenu = 2130772082;
-			
-			// aapt resource value: 0x7f010096
-			public const int textAppearanceListItem = 2130772118;
-			
-			// aapt resource value: 0x7f010097
-			public const int textAppearanceListItemSmall = 2130772119;
-			
-			// aapt resource value: 0x7f01008c
-			public const int textAppearanceSearchResultSubtitle = 2130772108;
-			
-			// aapt resource value: 0x7f01008b
-			public const int textAppearanceSearchResultTitle = 2130772107;
-			
-			// aapt resource value: 0x7f010073
-			public const int textAppearanceSmallPopupMenu = 2130772083;
-			
-			// aapt resource value: 0x7f0100a9
-			public const int textColorAlertDialogListItem = 2130772137;
-			
-			// aapt resource value: 0x7f010113
-			public const int textColorError = 2130772243;
-			
-			// aapt resource value: 0x7f01008d
-			public const int textColorSearchUrl = 2130772109;
-			
-			// aapt resource value: 0x7f0100f4
-			public const int theme = 2130772212;
-			
-			// aapt resource value: 0x7f0100c4
-			public const int thickness = 2130772164;
-			
-			// aapt resource value: 0x7f0100dd
-			public const int thumbTextPadding = 2130772189;
-			
-			// aapt resource value: 0x7f010029
-			public const int title = 2130772009;
-			
-			// aapt resource value: 0x7f01010a
-			public const int titleEnabled = 2130772234;
-			
-			// aapt resource value: 0x7f0100e9
-			public const int titleMarginBottom = 2130772201;
-			
-			// aapt resource value: 0x7f0100e7
-			public const int titleMarginEnd = 2130772199;
-			
-			// aapt resource value: 0x7f0100e6
-			public const int titleMarginStart = 2130772198;
-			
-			// aapt resource value: 0x7f0100e8
-			public const int titleMarginTop = 2130772200;
-			
-			// aapt resource value: 0x7f0100e5
-			public const int titleMargins = 2130772197;
-			
-			// aapt resource value: 0x7f0100e3
-			public const int titleTextAppearance = 2130772195;
-			
-			// aapt resource value: 0x7f0100f0
-			public const int titleTextColor = 2130772208;
-			
-			// aapt resource value: 0x7f01002d
-			public const int titleTextStyle = 2130772013;
-			
-			// aapt resource value: 0x7f010107
-			public const int toolbarId = 2130772231;
-			
-			// aapt resource value: 0x7f010085
-			public const int toolbarNavigationButtonStyle = 2130772101;
-			
-			// aapt resource value: 0x7f010084
-			public const int toolbarStyle = 2130772100;
-			
-			// aapt resource value: 0x7f0100dc
-			public const int track = 2130772188;
-			
-			// aapt resource value: 0x7f010118
-			public const int useCompatPadding = 2130772248;
+			// aapt resource value: 0x7f0100bb
+			public const int actionBarWidgetTheme = 2130772155;
 			
 			// aapt resource value: 0x7f0100d7
-			public const int voiceIcon = 2130772183;
+			public const int actionButtonStyle = 2130772183;
 			
-			// aapt resource value: 0x7f01004c
-			public const int windowActionBar = 2130772044;
+			// aapt resource value: 0x7f0100d3
+			public const int actionDropDownStyle = 2130772179;
 			
-			// aapt resource value: 0x7f01004e
-			public const int windowActionBarOverlay = 2130772046;
+			// aapt resource value: 0x7f010125
+			public const int actionLayout = 2130772261;
 			
-			// aapt resource value: 0x7f01004f
-			public const int windowActionModeOverlay = 2130772047;
+			// aapt resource value: 0x7f0100bf
+			public const int actionMenuTextAppearance = 2130772159;
+			
+			// aapt resource value: 0x7f0100c0
+			public const int actionMenuTextColor = 2130772160;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int actionModeBackground = 2130772163;
+			
+			// aapt resource value: 0x7f0100c2
+			public const int actionModeCloseButtonStyle = 2130772162;
+			
+			// aapt resource value: 0x7f0100c5
+			public const int actionModeCloseDrawable = 2130772165;
+			
+			// aapt resource value: 0x7f0100c7
+			public const int actionModeCopyDrawable = 2130772167;
+			
+			// aapt resource value: 0x7f0100c6
+			public const int actionModeCutDrawable = 2130772166;
+			
+			// aapt resource value: 0x7f0100cb
+			public const int actionModeFindDrawable = 2130772171;
+			
+			// aapt resource value: 0x7f0100c8
+			public const int actionModePasteDrawable = 2130772168;
+			
+			// aapt resource value: 0x7f0100cd
+			public const int actionModePopupWindowStyle = 2130772173;
+			
+			// aapt resource value: 0x7f0100c9
+			public const int actionModeSelectAllDrawable = 2130772169;
+			
+			// aapt resource value: 0x7f0100ca
+			public const int actionModeShareDrawable = 2130772170;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int actionModeSplitBackground = 2130772164;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int actionModeStyle = 2130772161;
+			
+			// aapt resource value: 0x7f0100cc
+			public const int actionModeWebSearchDrawable = 2130772172;
+			
+			// aapt resource value: 0x7f0100b5
+			public const int actionOverflowButtonStyle = 2130772149;
+			
+			// aapt resource value: 0x7f0100b6
+			public const int actionOverflowMenuStyle = 2130772150;
+			
+			// aapt resource value: 0x7f010127
+			public const int actionProviderClass = 2130772263;
+			
+			// aapt resource value: 0x7f010126
+			public const int actionViewClass = 2130772262;
+			
+			// aapt resource value: 0x7f0100df
+			public const int activityChooserViewStyle = 2130772191;
+			
+			// aapt resource value: 0x7f010102
+			public const int alertDialogButtonGroupStyle = 2130772226;
+			
+			// aapt resource value: 0x7f010103
+			public const int alertDialogCenterButtons = 2130772227;
+			
+			// aapt resource value: 0x7f010101
+			public const int alertDialogStyle = 2130772225;
+			
+			// aapt resource value: 0x7f010104
+			public const int alertDialogTheme = 2130772228;
+			
+			// aapt resource value: 0x7f010116
+			public const int allowStacking = 2130772246;
+			
+			// aapt resource value: 0x7f010010
+			public const int ambientEnabled = 2130771984;
+			
+			// aapt resource value: 0x7f01011d
+			public const int arrowHeadLength = 2130772253;
+			
+			// aapt resource value: 0x7f01011e
+			public const int arrowShaftLength = 2130772254;
+			
+			// aapt resource value: 0x7f010109
+			public const int autoCompleteTextViewStyle = 2130772233;
+			
+			// aapt resource value: 0x7f01008e
+			public const int background = 2130772110;
+			
+			// aapt resource value: 0x7f010090
+			public const int backgroundSplit = 2130772112;
+			
+			// aapt resource value: 0x7f01008f
+			public const int backgroundStacked = 2130772111;
+			
+			// aapt resource value: 0x7f010151
+			public const int backgroundTint = 2130772305;
+			
+			// aapt resource value: 0x7f010152
+			public const int backgroundTintMode = 2130772306;
+			
+			// aapt resource value: 0x7f01011f
+			public const int barLength = 2130772255;
+			
+			// aapt resource value: 0x7f01003d
+			public const int behavior_hideable = 2130772029;
+			
+			// aapt resource value: 0x7f010063
+			public const int behavior_overlapTop = 2130772067;
+			
+			// aapt resource value: 0x7f01003c
+			public const int behavior_peekHeight = 2130772028;
+			
+			// aapt resource value: 0x7f010059
+			public const int borderWidth = 2130772057;
+			
+			// aapt resource value: 0x7f0100dc
+			public const int borderlessButtonStyle = 2130772188;
 			
 			// aapt resource value: 0x7f010053
-			public const int windowFixedHeightMajor = 2130772051;
-			
-			// aapt resource value: 0x7f010051
-			public const int windowFixedHeightMinor = 2130772049;
-			
-			// aapt resource value: 0x7f010050
-			public const int windowFixedWidthMajor = 2130772048;
-			
-			// aapt resource value: 0x7f010052
-			public const int windowFixedWidthMinor = 2130772050;
+			public const int bottomSheetDialogTheme = 2130772051;
 			
 			// aapt resource value: 0x7f010054
-			public const int windowMinWidthMajor = 2130772052;
+			public const int bottomSheetStyle = 2130772052;
 			
-			// aapt resource value: 0x7f010055
-			public const int windowMinWidthMinor = 2130772053;
+			// aapt resource value: 0x7f0100d9
+			public const int buttonBarButtonStyle = 2130772185;
+			
+			// aapt resource value: 0x7f010107
+			public const int buttonBarNegativeButtonStyle = 2130772231;
+			
+			// aapt resource value: 0x7f010108
+			public const int buttonBarNeutralButtonStyle = 2130772232;
+			
+			// aapt resource value: 0x7f010106
+			public const int buttonBarPositiveButtonStyle = 2130772230;
+			
+			// aapt resource value: 0x7f0100d8
+			public const int buttonBarStyle = 2130772184;
+			
+			// aapt resource value: 0x7f0100a1
+			public const int buttonPanelSideLayout = 2130772129;
+			
+			// aapt resource value: 0x7f010011
+			public const int buttonSize = 2130771985;
+			
+			// aapt resource value: 0x7f01010a
+			public const int buttonStyle = 2130772234;
+			
+			// aapt resource value: 0x7f01010b
+			public const int buttonStyleSmall = 2130772235;
+			
+			// aapt resource value: 0x7f010117
+			public const int buttonTint = 2130772247;
+			
+			// aapt resource value: 0x7f010118
+			public const int buttonTintMode = 2130772248;
+			
+			// aapt resource value: 0x7f010001
+			public const int cameraBearing = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int cameraTargetLat = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cameraTargetLng = 2130771971;
+			
+			// aapt resource value: 0x7f010004
+			public const int cameraTilt = 2130771972;
+			
+			// aapt resource value: 0x7f010005
+			public const int cameraZoom = 2130771973;
+			
+			// aapt resource value: 0x7f01002e
+			public const int cardBackgroundColor = 2130772014;
+			
+			// aapt resource value: 0x7f01002f
+			public const int cardCornerRadius = 2130772015;
+			
+			// aapt resource value: 0x7f010030
+			public const int cardElevation = 2130772016;
+			
+			// aapt resource value: 0x7f010031
+			public const int cardMaxElevation = 2130772017;
+			
+			// aapt resource value: 0x7f010033
+			public const int cardPreventCornerOverlap = 2130772019;
+			
+			// aapt resource value: 0x7f010032
+			public const int cardUseCompatPadding = 2130772018;
+			
+			// aapt resource value: 0x7f01010c
+			public const int checkboxStyle = 2130772236;
+			
+			// aapt resource value: 0x7f01010d
+			public const int checkedTextViewStyle = 2130772237;
+			
+			// aapt resource value: 0x7f010016
+			public const int circleCrop = 2130771990;
+			
+			// aapt resource value: 0x7f01012f
+			public const int closeIcon = 2130772271;
+			
+			// aapt resource value: 0x7f01009e
+			public const int closeItemLayout = 2130772126;
+			
+			// aapt resource value: 0x7f010148
+			public const int collapseContentDescription = 2130772296;
+			
+			// aapt resource value: 0x7f010147
+			public const int collapseIcon = 2130772295;
+			
+			// aapt resource value: 0x7f01004a
+			public const int collapsedTitleGravity = 2130772042;
+			
+			// aapt resource value: 0x7f010046
+			public const int collapsedTitleTextAppearance = 2130772038;
+			
+			// aapt resource value: 0x7f010119
+			public const int color = 2130772249;
+			
+			// aapt resource value: 0x7f0100fa
+			public const int colorAccent = 2130772218;
+			
+			// aapt resource value: 0x7f0100fe
+			public const int colorButtonNormal = 2130772222;
+			
+			// aapt resource value: 0x7f0100fc
+			public const int colorControlActivated = 2130772220;
+			
+			// aapt resource value: 0x7f0100fd
+			public const int colorControlHighlight = 2130772221;
+			
+			// aapt resource value: 0x7f0100fb
+			public const int colorControlNormal = 2130772219;
+			
+			// aapt resource value: 0x7f0100f8
+			public const int colorPrimary = 2130772216;
+			
+			// aapt resource value: 0x7f0100f9
+			public const int colorPrimaryDark = 2130772217;
+			
+			// aapt resource value: 0x7f010012
+			public const int colorScheme = 2130771986;
+			
+			// aapt resource value: 0x7f0100ff
+			public const int colorSwitchThumbNormal = 2130772223;
+			
+			// aapt resource value: 0x7f010134
+			public const int commitIcon = 2130772276;
+			
+			// aapt resource value: 0x7f010099
+			public const int contentInsetEnd = 2130772121;
+			
+			// aapt resource value: 0x7f01009a
+			public const int contentInsetLeft = 2130772122;
+			
+			// aapt resource value: 0x7f01009b
+			public const int contentInsetRight = 2130772123;
+			
+			// aapt resource value: 0x7f010098
+			public const int contentInsetStart = 2130772120;
+			
+			// aapt resource value: 0x7f010034
+			public const int contentPadding = 2130772020;
+			
+			// aapt resource value: 0x7f010038
+			public const int contentPaddingBottom = 2130772024;
+			
+			// aapt resource value: 0x7f010035
+			public const int contentPaddingLeft = 2130772021;
+			
+			// aapt resource value: 0x7f010036
+			public const int contentPaddingRight = 2130772022;
+			
+			// aapt resource value: 0x7f010037
+			public const int contentPaddingTop = 2130772023;
+			
+			// aapt resource value: 0x7f010047
+			public const int contentScrim = 2130772039;
+			
+			// aapt resource value: 0x7f010100
+			public const int controlBackground = 2130772224;
+			
+			// aapt resource value: 0x7f010079
+			public const int counterEnabled = 2130772089;
+			
+			// aapt resource value: 0x7f01007a
+			public const int counterMaxLength = 2130772090;
+			
+			// aapt resource value: 0x7f01007c
+			public const int counterOverflowTextAppearance = 2130772092;
+			
+			// aapt resource value: 0x7f01007b
+			public const int counterTextAppearance = 2130772091;
+			
+			// aapt resource value: 0x7f010091
+			public const int customNavigationLayout = 2130772113;
+			
+			// aapt resource value: 0x7f01012e
+			public const int defaultQueryHint = 2130772270;
+			
+			// aapt resource value: 0x7f0100d1
+			public const int dialogPreferredPadding = 2130772177;
+			
+			// aapt resource value: 0x7f0100d0
+			public const int dialogTheme = 2130772176;
+			
+			// aapt resource value: 0x7f010087
+			public const int displayOptions = 2130772103;
+			
+			// aapt resource value: 0x7f01008d
+			public const int divider = 2130772109;
+			
+			// aapt resource value: 0x7f0100de
+			public const int dividerHorizontal = 2130772190;
+			
+			// aapt resource value: 0x7f010123
+			public const int dividerPadding = 2130772259;
+			
+			// aapt resource value: 0x7f0100dd
+			public const int dividerVertical = 2130772189;
+			
+			// aapt resource value: 0x7f01011b
+			public const int drawableSize = 2130772251;
+			
+			// aapt resource value: 0x7f010082
+			public const int drawerArrowStyle = 2130772098;
+			
+			// aapt resource value: 0x7f0100f0
+			public const int dropDownListViewStyle = 2130772208;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int dropdownListPreferredItemHeight = 2130772180;
+			
+			// aapt resource value: 0x7f0100e5
+			public const int editTextBackground = 2130772197;
+			
+			// aapt resource value: 0x7f0100e4
+			public const int editTextColor = 2130772196;
+			
+			// aapt resource value: 0x7f01010e
+			public const int editTextStyle = 2130772238;
+			
+			// aapt resource value: 0x7f01009c
+			public const int elevation = 2130772124;
+			
+			// aapt resource value: 0x7f010077
+			public const int errorEnabled = 2130772087;
+			
+			// aapt resource value: 0x7f010078
+			public const int errorTextAppearance = 2130772088;
+			
+			// aapt resource value: 0x7f0100a0
+			public const int expandActivityOverflowButtonDrawable = 2130772128;
+			
+			// aapt resource value: 0x7f010039
+			public const int expanded = 2130772025;
+			
+			// aapt resource value: 0x7f01004b
+			public const int expandedTitleGravity = 2130772043;
+			
+			// aapt resource value: 0x7f010040
+			public const int expandedTitleMargin = 2130772032;
+			
+			// aapt resource value: 0x7f010044
+			public const int expandedTitleMarginBottom = 2130772036;
+			
+			// aapt resource value: 0x7f010043
+			public const int expandedTitleMarginEnd = 2130772035;
+			
+			// aapt resource value: 0x7f010041
+			public const int expandedTitleMarginStart = 2130772033;
+			
+			// aapt resource value: 0x7f010042
+			public const int expandedTitleMarginTop = 2130772034;
+			
+			// aapt resource value: 0x7f010045
+			public const int expandedTitleTextAppearance = 2130772037;
+			
+			// aapt resource value: 0x7f01002d
+			public const int externalRouteEnabledDrawable = 2130772013;
+			
+			// aapt resource value: 0x7f010057
+			public const int fabSize = 2130772055;
+			
+			// aapt resource value: 0x7f01005b
+			public const int foregroundInsidePadding = 2130772059;
+			
+			// aapt resource value: 0x7f01011c
+			public const int gapBetweenBars = 2130772252;
+			
+			// aapt resource value: 0x7f010130
+			public const int goIcon = 2130772272;
+			
+			// aapt resource value: 0x7f010061
+			public const int headerLayout = 2130772065;
+			
+			// aapt resource value: 0x7f010083
+			public const int height = 2130772099;
+			
+			// aapt resource value: 0x7f010097
+			public const int hideOnContentScroll = 2130772119;
+			
+			// aapt resource value: 0x7f01007d
+			public const int hintAnimationEnabled = 2130772093;
+			
+			// aapt resource value: 0x7f010076
+			public const int hintEnabled = 2130772086;
+			
+			// aapt resource value: 0x7f010075
+			public const int hintTextAppearance = 2130772085;
+			
+			// aapt resource value: 0x7f0100d6
+			public const int homeAsUpIndicator = 2130772182;
+			
+			// aapt resource value: 0x7f010092
+			public const int homeLayout = 2130772114;
+			
+			// aapt resource value: 0x7f01008b
+			public const int icon = 2130772107;
+			
+			// aapt resource value: 0x7f01012c
+			public const int iconifiedByDefault = 2130772268;
+			
+			// aapt resource value: 0x7f010015
+			public const int imageAspectRatio = 2130771989;
+			
+			// aapt resource value: 0x7f010014
+			public const int imageAspectRatioAdjust = 2130771988;
+			
+			// aapt resource value: 0x7f0100e6
+			public const int imageButtonStyle = 2130772198;
+			
+			// aapt resource value: 0x7f010094
+			public const int indeterminateProgressStyle = 2130772116;
+			
+			// aapt resource value: 0x7f01009f
+			public const int initialActivityCount = 2130772127;
+			
+			// aapt resource value: 0x7f010062
+			public const int insetForeground = 2130772066;
+			
+			// aapt resource value: 0x7f010084
+			public const int isLightTheme = 2130772100;
+			
+			// aapt resource value: 0x7f01005f
+			public const int itemBackground = 2130772063;
+			
+			// aapt resource value: 0x7f01005d
+			public const int itemIconTint = 2130772061;
+			
+			// aapt resource value: 0x7f010096
+			public const int itemPadding = 2130772118;
+			
+			// aapt resource value: 0x7f010060
+			public const int itemTextAppearance = 2130772064;
+			
+			// aapt resource value: 0x7f01005e
+			public const int itemTextColor = 2130772062;
 			
 			// aapt resource value: 0x7f01004d
-			public const int windowNoTitle = 2130772045;
+			public const int keylines = 2130772045;
+			
+			// aapt resource value: 0x7f01012b
+			public const int layout = 2130772267;
+			
+			// aapt resource value: 0x7f01007e
+			public const int layoutManager = 2130772094;
+			
+			// aapt resource value: 0x7f010050
+			public const int layout_anchor = 2130772048;
+			
+			// aapt resource value: 0x7f010052
+			public const int layout_anchorGravity = 2130772050;
+			
+			// aapt resource value: 0x7f01004f
+			public const int layout_behavior = 2130772047;
+			
+			// aapt resource value: 0x7f01003e
+			public const int layout_collapseMode = 2130772030;
+			
+			// aapt resource value: 0x7f01003f
+			public const int layout_collapseParallaxMultiplier = 2130772031;
+			
+			// aapt resource value: 0x7f010051
+			public const int layout_keyline = 2130772049;
+			
+			// aapt resource value: 0x7f01003a
+			public const int layout_scrollFlags = 2130772026;
+			
+			// aapt resource value: 0x7f01003b
+			public const int layout_scrollInterpolator = 2130772027;
+			
+			// aapt resource value: 0x7f0100f7
+			public const int listChoiceBackgroundIndicator = 2130772215;
+			
+			// aapt resource value: 0x7f0100d2
+			public const int listDividerAlertDialog = 2130772178;
+			
+			// aapt resource value: 0x7f0100a5
+			public const int listItemLayout = 2130772133;
+			
+			// aapt resource value: 0x7f0100a2
+			public const int listLayout = 2130772130;
+			
+			// aapt resource value: 0x7f0100f1
+			public const int listPopupWindowStyle = 2130772209;
+			
+			// aapt resource value: 0x7f0100eb
+			public const int listPreferredItemHeight = 2130772203;
+			
+			// aapt resource value: 0x7f0100ed
+			public const int listPreferredItemHeightLarge = 2130772205;
+			
+			// aapt resource value: 0x7f0100ec
+			public const int listPreferredItemHeightSmall = 2130772204;
+			
+			// aapt resource value: 0x7f0100ee
+			public const int listPreferredItemPaddingLeft = 2130772206;
+			
+			// aapt resource value: 0x7f0100ef
+			public const int listPreferredItemPaddingRight = 2130772207;
+			
+			// aapt resource value: 0x7f010006
+			public const int liteMode = 2130771974;
+			
+			// aapt resource value: 0x7f01008c
+			public const int logo = 2130772108;
+			
+			// aapt resource value: 0x7f01014b
+			public const int logoDescription = 2130772299;
+			
+			// aapt resource value: 0x7f010000
+			public const int mapType = 2130771968;
+			
+			// aapt resource value: 0x7f010064
+			public const int maxActionInlineWidth = 2130772068;
+			
+			// aapt resource value: 0x7f010146
+			public const int maxButtonHeight = 2130772294;
+			
+			// aapt resource value: 0x7f010121
+			public const int measureWithLargestChild = 2130772257;
+			
+			// aapt resource value: 0x7f010018
+			public const int mediaRouteAudioTrackDrawable = 2130771992;
+			
+			// aapt resource value: 0x7f010019
+			public const int mediaRouteBluetoothIconDrawable = 2130771993;
+			
+			// aapt resource value: 0x7f01001a
+			public const int mediaRouteButtonStyle = 2130771994;
+			
+			// aapt resource value: 0x7f01001b
+			public const int mediaRouteCastDrawable = 2130771995;
+			
+			// aapt resource value: 0x7f01001c
+			public const int mediaRouteChooserPrimaryTextStyle = 2130771996;
+			
+			// aapt resource value: 0x7f01001d
+			public const int mediaRouteChooserSecondaryTextStyle = 2130771997;
+			
+			// aapt resource value: 0x7f01001e
+			public const int mediaRouteCloseDrawable = 2130771998;
+			
+			// aapt resource value: 0x7f01001f
+			public const int mediaRouteCollapseGroupDrawable = 2130771999;
+			
+			// aapt resource value: 0x7f010020
+			public const int mediaRouteConnectingDrawable = 2130772000;
+			
+			// aapt resource value: 0x7f010021
+			public const int mediaRouteControllerPrimaryTextStyle = 2130772001;
+			
+			// aapt resource value: 0x7f010022
+			public const int mediaRouteControllerSecondaryTextStyle = 2130772002;
+			
+			// aapt resource value: 0x7f010023
+			public const int mediaRouteControllerTitleTextStyle = 2130772003;
+			
+			// aapt resource value: 0x7f010024
+			public const int mediaRouteDefaultIconDrawable = 2130772004;
+			
+			// aapt resource value: 0x7f010025
+			public const int mediaRouteExpandGroupDrawable = 2130772005;
+			
+			// aapt resource value: 0x7f010026
+			public const int mediaRouteOffDrawable = 2130772006;
+			
+			// aapt resource value: 0x7f010027
+			public const int mediaRouteOnDrawable = 2130772007;
+			
+			// aapt resource value: 0x7f010028
+			public const int mediaRoutePauseDrawable = 2130772008;
+			
+			// aapt resource value: 0x7f010029
+			public const int mediaRoutePlayDrawable = 2130772009;
+			
+			// aapt resource value: 0x7f01002a
+			public const int mediaRouteSpeakerGroupIconDrawable = 2130772010;
+			
+			// aapt resource value: 0x7f01002b
+			public const int mediaRouteSpeakerIconDrawable = 2130772011;
+			
+			// aapt resource value: 0x7f01002c
+			public const int mediaRouteTvIconDrawable = 2130772012;
+			
+			// aapt resource value: 0x7f01005c
+			public const int menu = 2130772060;
+			
+			// aapt resource value: 0x7f0100a3
+			public const int multiChoiceItemLayout = 2130772131;
+			
+			// aapt resource value: 0x7f01014a
+			public const int navigationContentDescription = 2130772298;
+			
+			// aapt resource value: 0x7f010149
+			public const int navigationIcon = 2130772297;
+			
+			// aapt resource value: 0x7f010086
+			public const int navigationMode = 2130772102;
+			
+			// aapt resource value: 0x7f010129
+			public const int overlapAnchor = 2130772265;
+			
+			// aapt resource value: 0x7f01014f
+			public const int paddingEnd = 2130772303;
+			
+			// aapt resource value: 0x7f01014e
+			public const int paddingStart = 2130772302;
+			
+			// aapt resource value: 0x7f0100f4
+			public const int panelBackground = 2130772212;
+			
+			// aapt resource value: 0x7f0100f6
+			public const int panelMenuListTheme = 2130772214;
+			
+			// aapt resource value: 0x7f0100f5
+			public const int panelMenuListWidth = 2130772213;
+			
+			// aapt resource value: 0x7f0100e2
+			public const int popupMenuStyle = 2130772194;
+			
+			// aapt resource value: 0x7f01009d
+			public const int popupTheme = 2130772125;
+			
+			// aapt resource value: 0x7f0100e3
+			public const int popupWindowStyle = 2130772195;
+			
+			// aapt resource value: 0x7f010128
+			public const int preserveIconSpacing = 2130772264;
+			
+			// aapt resource value: 0x7f010058
+			public const int pressedTranslationZ = 2130772056;
+			
+			// aapt resource value: 0x7f010095
+			public const int progressBarPadding = 2130772117;
+			
+			// aapt resource value: 0x7f010093
+			public const int progressBarStyle = 2130772115;
+			
+			// aapt resource value: 0x7f010136
+			public const int queryBackground = 2130772278;
+			
+			// aapt resource value: 0x7f01012d
+			public const int queryHint = 2130772269;
+			
+			// aapt resource value: 0x7f01010f
+			public const int radioButtonStyle = 2130772239;
+			
+			// aapt resource value: 0x7f010110
+			public const int ratingBarStyle = 2130772240;
+			
+			// aapt resource value: 0x7f010111
+			public const int ratingBarStyleIndicator = 2130772241;
+			
+			// aapt resource value: 0x7f010112
+			public const int ratingBarStyleSmall = 2130772242;
+			
+			// aapt resource value: 0x7f010080
+			public const int reverseLayout = 2130772096;
+			
+			// aapt resource value: 0x7f010056
+			public const int rippleColor = 2130772054;
+			
+			// aapt resource value: 0x7f010013
+			public const int scopeUris = 2130771987;
+			
+			// aapt resource value: 0x7f010132
+			public const int searchHintIcon = 2130772274;
+			
+			// aapt resource value: 0x7f010131
+			public const int searchIcon = 2130772273;
+			
+			// aapt resource value: 0x7f0100ea
+			public const int searchViewStyle = 2130772202;
+			
+			// aapt resource value: 0x7f010113
+			public const int seekBarStyle = 2130772243;
+			
+			// aapt resource value: 0x7f0100da
+			public const int selectableItemBackground = 2130772186;
+			
+			// aapt resource value: 0x7f0100db
+			public const int selectableItemBackgroundBorderless = 2130772187;
+			
+			// aapt resource value: 0x7f010124
+			public const int showAsAction = 2130772260;
+			
+			// aapt resource value: 0x7f010122
+			public const int showDividers = 2130772258;
+			
+			// aapt resource value: 0x7f01013e
+			public const int showText = 2130772286;
+			
+			// aapt resource value: 0x7f0100a4
+			public const int singleChoiceItemLayout = 2130772132;
+			
+			// aapt resource value: 0x7f01007f
+			public const int spanCount = 2130772095;
+			
+			// aapt resource value: 0x7f01011a
+			public const int spinBars = 2130772250;
+			
+			// aapt resource value: 0x7f0100d5
+			public const int spinnerDropDownItemStyle = 2130772181;
+			
+			// aapt resource value: 0x7f010114
+			public const int spinnerStyle = 2130772244;
+			
+			// aapt resource value: 0x7f01013d
+			public const int splitTrack = 2130772285;
+			
+			// aapt resource value: 0x7f0100a6
+			public const int srcCompat = 2130772134;
+			
+			// aapt resource value: 0x7f010081
+			public const int stackFromEnd = 2130772097;
+			
+			// aapt resource value: 0x7f01012a
+			public const int state_above_anchor = 2130772266;
+			
+			// aapt resource value: 0x7f01004e
+			public const int statusBarBackground = 2130772046;
+			
+			// aapt resource value: 0x7f010048
+			public const int statusBarScrim = 2130772040;
+			
+			// aapt resource value: 0x7f010137
+			public const int submitBackground = 2130772279;
+			
+			// aapt resource value: 0x7f010088
+			public const int subtitle = 2130772104;
+			
+			// aapt resource value: 0x7f010140
+			public const int subtitleTextAppearance = 2130772288;
+			
+			// aapt resource value: 0x7f01014d
+			public const int subtitleTextColor = 2130772301;
+			
+			// aapt resource value: 0x7f01008a
+			public const int subtitleTextStyle = 2130772106;
+			
+			// aapt resource value: 0x7f010135
+			public const int suggestionRowLayout = 2130772277;
+			
+			// aapt resource value: 0x7f01013b
+			public const int switchMinWidth = 2130772283;
+			
+			// aapt resource value: 0x7f01013c
+			public const int switchPadding = 2130772284;
+			
+			// aapt resource value: 0x7f010115
+			public const int switchStyle = 2130772245;
+			
+			// aapt resource value: 0x7f01013a
+			public const int switchTextAppearance = 2130772282;
+			
+			// aapt resource value: 0x7f010068
+			public const int tabBackground = 2130772072;
+			
+			// aapt resource value: 0x7f010067
+			public const int tabContentStart = 2130772071;
+			
+			// aapt resource value: 0x7f01006a
+			public const int tabGravity = 2130772074;
+			
+			// aapt resource value: 0x7f010065
+			public const int tabIndicatorColor = 2130772069;
+			
+			// aapt resource value: 0x7f010066
+			public const int tabIndicatorHeight = 2130772070;
+			
+			// aapt resource value: 0x7f01006c
+			public const int tabMaxWidth = 2130772076;
+			
+			// aapt resource value: 0x7f01006b
+			public const int tabMinWidth = 2130772075;
+			
+			// aapt resource value: 0x7f010069
+			public const int tabMode = 2130772073;
+			
+			// aapt resource value: 0x7f010074
+			public const int tabPadding = 2130772084;
+			
+			// aapt resource value: 0x7f010073
+			public const int tabPaddingBottom = 2130772083;
+			
+			// aapt resource value: 0x7f010072
+			public const int tabPaddingEnd = 2130772082;
+			
+			// aapt resource value: 0x7f010070
+			public const int tabPaddingStart = 2130772080;
+			
+			// aapt resource value: 0x7f010071
+			public const int tabPaddingTop = 2130772081;
+			
+			// aapt resource value: 0x7f01006f
+			public const int tabSelectedTextColor = 2130772079;
+			
+			// aapt resource value: 0x7f01006d
+			public const int tabTextAppearance = 2130772077;
+			
+			// aapt resource value: 0x7f01006e
+			public const int tabTextColor = 2130772078;
+			
+			// aapt resource value: 0x7f0100a7
+			public const int textAllCaps = 2130772135;
+			
+			// aapt resource value: 0x7f0100ce
+			public const int textAppearanceLargePopupMenu = 2130772174;
+			
+			// aapt resource value: 0x7f0100f2
+			public const int textAppearanceListItem = 2130772210;
+			
+			// aapt resource value: 0x7f0100f3
+			public const int textAppearanceListItemSmall = 2130772211;
+			
+			// aapt resource value: 0x7f0100e8
+			public const int textAppearanceSearchResultSubtitle = 2130772200;
+			
+			// aapt resource value: 0x7f0100e7
+			public const int textAppearanceSearchResultTitle = 2130772199;
+			
+			// aapt resource value: 0x7f0100cf
+			public const int textAppearanceSmallPopupMenu = 2130772175;
+			
+			// aapt resource value: 0x7f010105
+			public const int textColorAlertDialogListItem = 2130772229;
+			
+			// aapt resource value: 0x7f010055
+			public const int textColorError = 2130772053;
+			
+			// aapt resource value: 0x7f0100e9
+			public const int textColorSearchUrl = 2130772201;
+			
+			// aapt resource value: 0x7f010150
+			public const int theme = 2130772304;
+			
+			// aapt resource value: 0x7f010120
+			public const int thickness = 2130772256;
+			
+			// aapt resource value: 0x7f010139
+			public const int thumbTextPadding = 2130772281;
+			
+			// aapt resource value: 0x7f010085
+			public const int title = 2130772101;
+			
+			// aapt resource value: 0x7f01004c
+			public const int titleEnabled = 2130772044;
+			
+			// aapt resource value: 0x7f010145
+			public const int titleMarginBottom = 2130772293;
+			
+			// aapt resource value: 0x7f010143
+			public const int titleMarginEnd = 2130772291;
+			
+			// aapt resource value: 0x7f010142
+			public const int titleMarginStart = 2130772290;
+			
+			// aapt resource value: 0x7f010144
+			public const int titleMarginTop = 2130772292;
+			
+			// aapt resource value: 0x7f010141
+			public const int titleMargins = 2130772289;
+			
+			// aapt resource value: 0x7f01013f
+			public const int titleTextAppearance = 2130772287;
+			
+			// aapt resource value: 0x7f01014c
+			public const int titleTextColor = 2130772300;
+			
+			// aapt resource value: 0x7f010089
+			public const int titleTextStyle = 2130772105;
+			
+			// aapt resource value: 0x7f010049
+			public const int toolbarId = 2130772041;
+			
+			// aapt resource value: 0x7f0100e1
+			public const int toolbarNavigationButtonStyle = 2130772193;
+			
+			// aapt resource value: 0x7f0100e0
+			public const int toolbarStyle = 2130772192;
+			
+			// aapt resource value: 0x7f010138
+			public const int track = 2130772280;
+			
+			// aapt resource value: 0x7f010007
+			public const int uiCompass = 2130771975;
+			
+			// aapt resource value: 0x7f01000f
+			public const int uiMapToolbar = 2130771983;
+			
+			// aapt resource value: 0x7f010008
+			public const int uiRotateGestures = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int uiScrollGestures = 2130771977;
+			
+			// aapt resource value: 0x7f01000a
+			public const int uiTiltGestures = 2130771978;
+			
+			// aapt resource value: 0x7f01000b
+			public const int uiZoomControls = 2130771979;
+			
+			// aapt resource value: 0x7f01000c
+			public const int uiZoomGestures = 2130771980;
+			
+			// aapt resource value: 0x7f01005a
+			public const int useCompatPadding = 2130772058;
+			
+			// aapt resource value: 0x7f01000d
+			public const int useViewLifecycle = 2130771981;
+			
+			// aapt resource value: 0x7f010133
+			public const int voiceIcon = 2130772275;
+			
+			// aapt resource value: 0x7f0100a8
+			public const int windowActionBar = 2130772136;
+			
+			// aapt resource value: 0x7f0100aa
+			public const int windowActionBarOverlay = 2130772138;
+			
+			// aapt resource value: 0x7f0100ab
+			public const int windowActionModeOverlay = 2130772139;
+			
+			// aapt resource value: 0x7f0100af
+			public const int windowFixedHeightMajor = 2130772143;
+			
+			// aapt resource value: 0x7f0100ad
+			public const int windowFixedHeightMinor = 2130772141;
+			
+			// aapt resource value: 0x7f0100ac
+			public const int windowFixedWidthMajor = 2130772140;
+			
+			// aapt resource value: 0x7f0100ae
+			public const int windowFixedWidthMinor = 2130772142;
+			
+			// aapt resource value: 0x7f0100b0
+			public const int windowMinWidthMajor = 2130772144;
+			
+			// aapt resource value: 0x7f0100b1
+			public const int windowMinWidthMinor = 2130772145;
+			
+			// aapt resource value: 0x7f0100a9
+			public const int windowNoTitle = 2130772137;
+			
+			// aapt resource value: 0x7f01000e
+			public const int zOrderOnTop = 2130771982;
 			
 			static Attribute()
 			{
@@ -1091,257 +3100,320 @@ namespace ParkingGrandLyon.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0048
-			public const int abc_background_cache_hint_selector_material_dark = 2131427400;
+			// aapt resource value: 0x7f060059
+			public const int abc_background_cache_hint_selector_material_dark = 2131099737;
 			
-			// aapt resource value: 0x7f0b0049
-			public const int abc_background_cache_hint_selector_material_light = 2131427401;
+			// aapt resource value: 0x7f06005a
+			public const int abc_background_cache_hint_selector_material_light = 2131099738;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int abc_color_highlight_material = 2131427402;
+			// aapt resource value: 0x7f06005b
+			public const int abc_color_highlight_material = 2131099739;
 			
-			// aapt resource value: 0x7f0b0004
-			public const int abc_input_method_navigation_guard = 2131427332;
+			// aapt resource value: 0x7f06001f
+			public const int abc_input_method_navigation_guard = 2131099679;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int abc_primary_text_disable_only_material_dark = 2131427403;
+			// aapt resource value: 0x7f06005c
+			public const int abc_primary_text_disable_only_material_dark = 2131099740;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int abc_primary_text_disable_only_material_light = 2131427404;
+			// aapt resource value: 0x7f06005d
+			public const int abc_primary_text_disable_only_material_light = 2131099741;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int abc_primary_text_material_dark = 2131427405;
+			// aapt resource value: 0x7f06005e
+			public const int abc_primary_text_material_dark = 2131099742;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int abc_primary_text_material_light = 2131427406;
+			// aapt resource value: 0x7f06005f
+			public const int abc_primary_text_material_light = 2131099743;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int abc_search_url_text = 2131427407;
+			// aapt resource value: 0x7f060060
+			public const int abc_search_url_text = 2131099744;
 			
-			// aapt resource value: 0x7f0b0005
-			public const int abc_search_url_text_normal = 2131427333;
+			// aapt resource value: 0x7f060020
+			public const int abc_search_url_text_normal = 2131099680;
 			
-			// aapt resource value: 0x7f0b0006
-			public const int abc_search_url_text_pressed = 2131427334;
+			// aapt resource value: 0x7f060021
+			public const int abc_search_url_text_pressed = 2131099681;
 			
-			// aapt resource value: 0x7f0b0007
-			public const int abc_search_url_text_selected = 2131427335;
+			// aapt resource value: 0x7f060022
+			public const int abc_search_url_text_selected = 2131099682;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_secondary_text_material_dark = 2131427408;
+			// aapt resource value: 0x7f060061
+			public const int abc_secondary_text_material_dark = 2131099745;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int abc_secondary_text_material_light = 2131427409;
+			// aapt resource value: 0x7f060062
+			public const int abc_secondary_text_material_light = 2131099746;
 			
-			// aapt resource value: 0x7f0b0008
-			public const int accent_material_dark = 2131427336;
+			// aapt resource value: 0x7f060023
+			public const int accent_material_dark = 2131099683;
 			
-			// aapt resource value: 0x7f0b0009
-			public const int accent_material_light = 2131427337;
+			// aapt resource value: 0x7f060024
+			public const int accent_material_light = 2131099684;
 			
-			// aapt resource value: 0x7f0b000a
-			public const int background_floating_material_dark = 2131427338;
+			// aapt resource value: 0x7f060025
+			public const int background_floating_material_dark = 2131099685;
 			
-			// aapt resource value: 0x7f0b000b
-			public const int background_floating_material_light = 2131427339;
+			// aapt resource value: 0x7f060026
+			public const int background_floating_material_light = 2131099686;
 			
-			// aapt resource value: 0x7f0b000c
-			public const int background_material_dark = 2131427340;
+			// aapt resource value: 0x7f060027
+			public const int background_material_dark = 2131099687;
 			
-			// aapt resource value: 0x7f0b000d
-			public const int background_material_light = 2131427341;
+			// aapt resource value: 0x7f060028
+			public const int background_material_light = 2131099688;
 			
-			// aapt resource value: 0x7f0b000e
-			public const int bright_foreground_disabled_material_dark = 2131427342;
+			// aapt resource value: 0x7f060029
+			public const int bright_foreground_disabled_material_dark = 2131099689;
 			
-			// aapt resource value: 0x7f0b000f
-			public const int bright_foreground_disabled_material_light = 2131427343;
+			// aapt resource value: 0x7f06002a
+			public const int bright_foreground_disabled_material_light = 2131099690;
 			
-			// aapt resource value: 0x7f0b0010
-			public const int bright_foreground_inverse_material_dark = 2131427344;
+			// aapt resource value: 0x7f06002b
+			public const int bright_foreground_inverse_material_dark = 2131099691;
 			
-			// aapt resource value: 0x7f0b0011
-			public const int bright_foreground_inverse_material_light = 2131427345;
+			// aapt resource value: 0x7f06002c
+			public const int bright_foreground_inverse_material_light = 2131099692;
 			
-			// aapt resource value: 0x7f0b0012
-			public const int bright_foreground_material_dark = 2131427346;
+			// aapt resource value: 0x7f06002d
+			public const int bright_foreground_material_dark = 2131099693;
 			
-			// aapt resource value: 0x7f0b0013
-			public const int bright_foreground_material_light = 2131427347;
+			// aapt resource value: 0x7f06002e
+			public const int bright_foreground_material_light = 2131099694;
 			
-			// aapt resource value: 0x7f0b0014
-			public const int button_material_dark = 2131427348;
+			// aapt resource value: 0x7f06002f
+			public const int button_material_dark = 2131099695;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int button_material_light = 2131427349;
+			// aapt resource value: 0x7f060030
+			public const int button_material_light = 2131099696;
 			
-			// aapt resource value: 0x7f0b0000
-			public const int cardview_dark_background = 2131427328;
+			// aapt resource value: 0x7f060011
+			public const int cardview_dark_background = 2131099665;
 			
-			// aapt resource value: 0x7f0b0001
-			public const int cardview_light_background = 2131427329;
+			// aapt resource value: 0x7f060012
+			public const int cardview_light_background = 2131099666;
 			
-			// aapt resource value: 0x7f0b0002
-			public const int cardview_shadow_end_color = 2131427330;
+			// aapt resource value: 0x7f060013
+			public const int cardview_shadow_end_color = 2131099667;
 			
-			// aapt resource value: 0x7f0b0003
-			public const int cardview_shadow_start_color = 2131427331;
+			// aapt resource value: 0x7f060014
+			public const int cardview_shadow_start_color = 2131099668;
 			
-			// aapt resource value: 0x7f0b003e
-			public const int design_fab_shadow_end_color = 2131427390;
+			// aapt resource value: 0x7f060008
+			public const int common_action_bar_splitter = 2131099656;
 			
-			// aapt resource value: 0x7f0b003f
-			public const int design_fab_shadow_mid_color = 2131427391;
+			// aapt resource value: 0x7f060063
+			public const int common_google_signin_btn_text_dark = 2131099747;
 			
-			// aapt resource value: 0x7f0b0040
-			public const int design_fab_shadow_start_color = 2131427392;
+			// aapt resource value: 0x7f060009
+			public const int common_google_signin_btn_text_dark_default = 2131099657;
 			
-			// aapt resource value: 0x7f0b0041
-			public const int design_fab_stroke_end_inner_color = 2131427393;
+			// aapt resource value: 0x7f06000b
+			public const int common_google_signin_btn_text_dark_disabled = 2131099659;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int design_fab_stroke_end_outer_color = 2131427394;
+			// aapt resource value: 0x7f06000c
+			public const int common_google_signin_btn_text_dark_focused = 2131099660;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int design_fab_stroke_top_inner_color = 2131427395;
+			// aapt resource value: 0x7f06000a
+			public const int common_google_signin_btn_text_dark_pressed = 2131099658;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int design_fab_stroke_top_outer_color = 2131427396;
+			// aapt resource value: 0x7f060064
+			public const int common_google_signin_btn_text_light = 2131099748;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int design_snackbar_background_color = 2131427397;
+			// aapt resource value: 0x7f06000d
+			public const int common_google_signin_btn_text_light_default = 2131099661;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int design_textinput_error_color_dark = 2131427398;
+			// aapt resource value: 0x7f06000f
+			public const int common_google_signin_btn_text_light_disabled = 2131099663;
 			
-			// aapt resource value: 0x7f0b0047
-			public const int design_textinput_error_color_light = 2131427399;
+			// aapt resource value: 0x7f060010
+			public const int common_google_signin_btn_text_light_focused = 2131099664;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int dim_foreground_disabled_material_dark = 2131427350;
+			// aapt resource value: 0x7f06000e
+			public const int common_google_signin_btn_text_light_pressed = 2131099662;
 			
-			// aapt resource value: 0x7f0b0017
-			public const int dim_foreground_disabled_material_light = 2131427351;
+			// aapt resource value: 0x7f060065
+			public const int common_plus_signin_btn_text_dark = 2131099749;
 			
-			// aapt resource value: 0x7f0b0018
-			public const int dim_foreground_material_dark = 2131427352;
+			// aapt resource value: 0x7f060000
+			public const int common_plus_signin_btn_text_dark_default = 2131099648;
 			
-			// aapt resource value: 0x7f0b0019
-			public const int dim_foreground_material_light = 2131427353;
+			// aapt resource value: 0x7f060002
+			public const int common_plus_signin_btn_text_dark_disabled = 2131099650;
 			
-			// aapt resource value: 0x7f0b001a
-			public const int foreground_material_dark = 2131427354;
+			// aapt resource value: 0x7f060003
+			public const int common_plus_signin_btn_text_dark_focused = 2131099651;
 			
-			// aapt resource value: 0x7f0b001b
-			public const int foreground_material_light = 2131427355;
+			// aapt resource value: 0x7f060001
+			public const int common_plus_signin_btn_text_dark_pressed = 2131099649;
 			
-			// aapt resource value: 0x7f0b001c
-			public const int highlighted_text_material_dark = 2131427356;
+			// aapt resource value: 0x7f060066
+			public const int common_plus_signin_btn_text_light = 2131099750;
 			
-			// aapt resource value: 0x7f0b001d
-			public const int highlighted_text_material_light = 2131427357;
+			// aapt resource value: 0x7f060004
+			public const int common_plus_signin_btn_text_light_default = 2131099652;
 			
-			// aapt resource value: 0x7f0b001e
-			public const int hint_foreground_material_dark = 2131427358;
+			// aapt resource value: 0x7f060006
+			public const int common_plus_signin_btn_text_light_disabled = 2131099654;
 			
-			// aapt resource value: 0x7f0b001f
-			public const int hint_foreground_material_light = 2131427359;
+			// aapt resource value: 0x7f060007
+			public const int common_plus_signin_btn_text_light_focused = 2131099655;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int material_blue_grey_800 = 2131427360;
+			// aapt resource value: 0x7f060005
+			public const int common_plus_signin_btn_text_light_pressed = 2131099653;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int material_blue_grey_900 = 2131427361;
+			// aapt resource value: 0x7f060015
+			public const int design_fab_shadow_end_color = 2131099669;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int material_blue_grey_950 = 2131427362;
+			// aapt resource value: 0x7f060016
+			public const int design_fab_shadow_mid_color = 2131099670;
 			
-			// aapt resource value: 0x7f0b0023
-			public const int material_deep_teal_200 = 2131427363;
+			// aapt resource value: 0x7f060017
+			public const int design_fab_shadow_start_color = 2131099671;
 			
-			// aapt resource value: 0x7f0b0024
-			public const int material_deep_teal_500 = 2131427364;
+			// aapt resource value: 0x7f060018
+			public const int design_fab_stroke_end_inner_color = 2131099672;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int material_grey_100 = 2131427365;
+			// aapt resource value: 0x7f060019
+			public const int design_fab_stroke_end_outer_color = 2131099673;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int material_grey_300 = 2131427366;
+			// aapt resource value: 0x7f06001a
+			public const int design_fab_stroke_top_inner_color = 2131099674;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int material_grey_50 = 2131427367;
+			// aapt resource value: 0x7f06001b
+			public const int design_fab_stroke_top_outer_color = 2131099675;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int material_grey_600 = 2131427368;
+			// aapt resource value: 0x7f06001c
+			public const int design_snackbar_background_color = 2131099676;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int material_grey_800 = 2131427369;
+			// aapt resource value: 0x7f06001d
+			public const int design_textinput_error_color_dark = 2131099677;
 			
-			// aapt resource value: 0x7f0b002a
-			public const int material_grey_850 = 2131427370;
+			// aapt resource value: 0x7f06001e
+			public const int design_textinput_error_color_light = 2131099678;
 			
-			// aapt resource value: 0x7f0b002b
-			public const int material_grey_900 = 2131427371;
+			// aapt resource value: 0x7f060031
+			public const int dim_foreground_disabled_material_dark = 2131099697;
 			
-			// aapt resource value: 0x7f0b002c
-			public const int primary_dark_material_dark = 2131427372;
+			// aapt resource value: 0x7f060032
+			public const int dim_foreground_disabled_material_light = 2131099698;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int primary_dark_material_light = 2131427373;
+			// aapt resource value: 0x7f060033
+			public const int dim_foreground_material_dark = 2131099699;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int primary_material_dark = 2131427374;
+			// aapt resource value: 0x7f060034
+			public const int dim_foreground_material_light = 2131099700;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int primary_material_light = 2131427375;
+			// aapt resource value: 0x7f060035
+			public const int foreground_material_dark = 2131099701;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int primary_text_default_material_dark = 2131427376;
+			// aapt resource value: 0x7f060036
+			public const int foreground_material_light = 2131099702;
 			
-			// aapt resource value: 0x7f0b0031
-			public const int primary_text_default_material_light = 2131427377;
+			// aapt resource value: 0x7f060037
+			public const int highlighted_text_material_dark = 2131099703;
 			
-			// aapt resource value: 0x7f0b0032
-			public const int primary_text_disabled_material_dark = 2131427378;
+			// aapt resource value: 0x7f060038
+			public const int highlighted_text_material_light = 2131099704;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int primary_text_disabled_material_light = 2131427379;
+			// aapt resource value: 0x7f060039
+			public const int hint_foreground_material_dark = 2131099705;
 			
-			// aapt resource value: 0x7f0b0034
-			public const int ripple_material_dark = 2131427380;
+			// aapt resource value: 0x7f06003a
+			public const int hint_foreground_material_light = 2131099706;
 			
-			// aapt resource value: 0x7f0b0035
-			public const int ripple_material_light = 2131427381;
+			// aapt resource value: 0x7f06003b
+			public const int material_blue_grey_800 = 2131099707;
 			
-			// aapt resource value: 0x7f0b0036
-			public const int secondary_text_default_material_dark = 2131427382;
+			// aapt resource value: 0x7f06003c
+			public const int material_blue_grey_900 = 2131099708;
 			
-			// aapt resource value: 0x7f0b0037
-			public const int secondary_text_default_material_light = 2131427383;
+			// aapt resource value: 0x7f06003d
+			public const int material_blue_grey_950 = 2131099709;
 			
-			// aapt resource value: 0x7f0b0038
-			public const int secondary_text_disabled_material_dark = 2131427384;
+			// aapt resource value: 0x7f06003e
+			public const int material_deep_teal_200 = 2131099710;
 			
-			// aapt resource value: 0x7f0b0039
-			public const int secondary_text_disabled_material_light = 2131427385;
+			// aapt resource value: 0x7f06003f
+			public const int material_deep_teal_500 = 2131099711;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int switch_thumb_disabled_material_dark = 2131427386;
+			// aapt resource value: 0x7f060040
+			public const int material_grey_100 = 2131099712;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int switch_thumb_disabled_material_light = 2131427387;
+			// aapt resource value: 0x7f060041
+			public const int material_grey_300 = 2131099713;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int switch_thumb_material_dark = 2131427410;
+			// aapt resource value: 0x7f060042
+			public const int material_grey_50 = 2131099714;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int switch_thumb_material_light = 2131427411;
+			// aapt resource value: 0x7f060043
+			public const int material_grey_600 = 2131099715;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int switch_thumb_normal_material_dark = 2131427388;
+			// aapt resource value: 0x7f060044
+			public const int material_grey_800 = 2131099716;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int switch_thumb_normal_material_light = 2131427389;
+			// aapt resource value: 0x7f060045
+			public const int material_grey_850 = 2131099717;
+			
+			// aapt resource value: 0x7f060046
+			public const int material_grey_900 = 2131099718;
+			
+			// aapt resource value: 0x7f060047
+			public const int primary_dark_material_dark = 2131099719;
+			
+			// aapt resource value: 0x7f060048
+			public const int primary_dark_material_light = 2131099720;
+			
+			// aapt resource value: 0x7f060049
+			public const int primary_material_dark = 2131099721;
+			
+			// aapt resource value: 0x7f06004a
+			public const int primary_material_light = 2131099722;
+			
+			// aapt resource value: 0x7f06004b
+			public const int primary_text_default_material_dark = 2131099723;
+			
+			// aapt resource value: 0x7f06004c
+			public const int primary_text_default_material_light = 2131099724;
+			
+			// aapt resource value: 0x7f06004d
+			public const int primary_text_disabled_material_dark = 2131099725;
+			
+			// aapt resource value: 0x7f06004e
+			public const int primary_text_disabled_material_light = 2131099726;
+			
+			// aapt resource value: 0x7f06004f
+			public const int ripple_material_dark = 2131099727;
+			
+			// aapt resource value: 0x7f060050
+			public const int ripple_material_light = 2131099728;
+			
+			// aapt resource value: 0x7f060051
+			public const int secondary_text_default_material_dark = 2131099729;
+			
+			// aapt resource value: 0x7f060052
+			public const int secondary_text_default_material_light = 2131099730;
+			
+			// aapt resource value: 0x7f060053
+			public const int secondary_text_disabled_material_dark = 2131099731;
+			
+			// aapt resource value: 0x7f060054
+			public const int secondary_text_disabled_material_light = 2131099732;
+			
+			// aapt resource value: 0x7f060055
+			public const int switch_thumb_disabled_material_dark = 2131099733;
+			
+			// aapt resource value: 0x7f060056
+			public const int switch_thumb_disabled_material_light = 2131099734;
+			
+			// aapt resource value: 0x7f060067
+			public const int switch_thumb_material_dark = 2131099751;
+			
+			// aapt resource value: 0x7f060068
+			public const int switch_thumb_material_light = 2131099752;
+			
+			// aapt resource value: 0x7f060057
+			public const int switch_thumb_normal_material_dark = 2131099735;
+			
+			// aapt resource value: 0x7f060058
+			public const int switch_thumb_normal_material_light = 2131099736;
 			
 			static Color()
 			{
@@ -1356,353 +3428,353 @@ namespace ParkingGrandLyon.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f060019
-			public const int abc_action_bar_content_inset_material = 2131099673;
+			// aapt resource value: 0x7f090036
+			public const int abc_action_bar_content_inset_material = 2131296310;
 			
-			// aapt resource value: 0x7f06000d
-			public const int abc_action_bar_default_height_material = 2131099661;
+			// aapt resource value: 0x7f09002a
+			public const int abc_action_bar_default_height_material = 2131296298;
 			
-			// aapt resource value: 0x7f06001a
-			public const int abc_action_bar_default_padding_end_material = 2131099674;
+			// aapt resource value: 0x7f090037
+			public const int abc_action_bar_default_padding_end_material = 2131296311;
 			
-			// aapt resource value: 0x7f06001b
-			public const int abc_action_bar_default_padding_start_material = 2131099675;
+			// aapt resource value: 0x7f090038
+			public const int abc_action_bar_default_padding_start_material = 2131296312;
 			
-			// aapt resource value: 0x7f06001d
-			public const int abc_action_bar_icon_vertical_padding_material = 2131099677;
+			// aapt resource value: 0x7f09003a
+			public const int abc_action_bar_icon_vertical_padding_material = 2131296314;
 			
-			// aapt resource value: 0x7f06001e
-			public const int abc_action_bar_overflow_padding_end_material = 2131099678;
+			// aapt resource value: 0x7f09003b
+			public const int abc_action_bar_overflow_padding_end_material = 2131296315;
 			
-			// aapt resource value: 0x7f06001f
-			public const int abc_action_bar_overflow_padding_start_material = 2131099679;
+			// aapt resource value: 0x7f09003c
+			public const int abc_action_bar_overflow_padding_start_material = 2131296316;
 			
-			// aapt resource value: 0x7f06000e
-			public const int abc_action_bar_progress_bar_size = 2131099662;
+			// aapt resource value: 0x7f09002b
+			public const int abc_action_bar_progress_bar_size = 2131296299;
 			
-			// aapt resource value: 0x7f060020
-			public const int abc_action_bar_stacked_max_height = 2131099680;
+			// aapt resource value: 0x7f09003d
+			public const int abc_action_bar_stacked_max_height = 2131296317;
 			
-			// aapt resource value: 0x7f060021
-			public const int abc_action_bar_stacked_tab_max_width = 2131099681;
+			// aapt resource value: 0x7f09003e
+			public const int abc_action_bar_stacked_tab_max_width = 2131296318;
 			
-			// aapt resource value: 0x7f060022
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131099682;
+			// aapt resource value: 0x7f09003f
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131296319;
 			
-			// aapt resource value: 0x7f060023
-			public const int abc_action_bar_subtitle_top_margin_material = 2131099683;
+			// aapt resource value: 0x7f090040
+			public const int abc_action_bar_subtitle_top_margin_material = 2131296320;
 			
-			// aapt resource value: 0x7f060024
-			public const int abc_action_button_min_height_material = 2131099684;
+			// aapt resource value: 0x7f090041
+			public const int abc_action_button_min_height_material = 2131296321;
 			
-			// aapt resource value: 0x7f060025
-			public const int abc_action_button_min_width_material = 2131099685;
+			// aapt resource value: 0x7f090042
+			public const int abc_action_button_min_width_material = 2131296322;
 			
-			// aapt resource value: 0x7f060026
-			public const int abc_action_button_min_width_overflow_material = 2131099686;
+			// aapt resource value: 0x7f090043
+			public const int abc_action_button_min_width_overflow_material = 2131296323;
 			
-			// aapt resource value: 0x7f06000c
-			public const int abc_alert_dialog_button_bar_height = 2131099660;
+			// aapt resource value: 0x7f090029
+			public const int abc_alert_dialog_button_bar_height = 2131296297;
 			
-			// aapt resource value: 0x7f060027
-			public const int abc_button_inset_horizontal_material = 2131099687;
+			// aapt resource value: 0x7f090044
+			public const int abc_button_inset_horizontal_material = 2131296324;
 			
-			// aapt resource value: 0x7f060028
-			public const int abc_button_inset_vertical_material = 2131099688;
+			// aapt resource value: 0x7f090045
+			public const int abc_button_inset_vertical_material = 2131296325;
 			
-			// aapt resource value: 0x7f060029
-			public const int abc_button_padding_horizontal_material = 2131099689;
+			// aapt resource value: 0x7f090046
+			public const int abc_button_padding_horizontal_material = 2131296326;
 			
-			// aapt resource value: 0x7f06002a
-			public const int abc_button_padding_vertical_material = 2131099690;
+			// aapt resource value: 0x7f090047
+			public const int abc_button_padding_vertical_material = 2131296327;
 			
-			// aapt resource value: 0x7f060011
-			public const int abc_config_prefDialogWidth = 2131099665;
+			// aapt resource value: 0x7f09002e
+			public const int abc_config_prefDialogWidth = 2131296302;
 			
-			// aapt resource value: 0x7f06002b
-			public const int abc_control_corner_material = 2131099691;
+			// aapt resource value: 0x7f090048
+			public const int abc_control_corner_material = 2131296328;
 			
-			// aapt resource value: 0x7f06002c
-			public const int abc_control_inset_material = 2131099692;
+			// aapt resource value: 0x7f090049
+			public const int abc_control_inset_material = 2131296329;
 			
-			// aapt resource value: 0x7f06002d
-			public const int abc_control_padding_material = 2131099693;
+			// aapt resource value: 0x7f09004a
+			public const int abc_control_padding_material = 2131296330;
 			
-			// aapt resource value: 0x7f060012
-			public const int abc_dialog_fixed_height_major = 2131099666;
+			// aapt resource value: 0x7f09002f
+			public const int abc_dialog_fixed_height_major = 2131296303;
 			
-			// aapt resource value: 0x7f060013
-			public const int abc_dialog_fixed_height_minor = 2131099667;
+			// aapt resource value: 0x7f090030
+			public const int abc_dialog_fixed_height_minor = 2131296304;
 			
-			// aapt resource value: 0x7f060014
-			public const int abc_dialog_fixed_width_major = 2131099668;
+			// aapt resource value: 0x7f090031
+			public const int abc_dialog_fixed_width_major = 2131296305;
 			
-			// aapt resource value: 0x7f060015
-			public const int abc_dialog_fixed_width_minor = 2131099669;
+			// aapt resource value: 0x7f090032
+			public const int abc_dialog_fixed_width_minor = 2131296306;
 			
-			// aapt resource value: 0x7f06002e
-			public const int abc_dialog_list_padding_vertical_material = 2131099694;
+			// aapt resource value: 0x7f09004b
+			public const int abc_dialog_list_padding_vertical_material = 2131296331;
 			
-			// aapt resource value: 0x7f060016
-			public const int abc_dialog_min_width_major = 2131099670;
+			// aapt resource value: 0x7f090033
+			public const int abc_dialog_min_width_major = 2131296307;
 			
-			// aapt resource value: 0x7f060017
-			public const int abc_dialog_min_width_minor = 2131099671;
+			// aapt resource value: 0x7f090034
+			public const int abc_dialog_min_width_minor = 2131296308;
 			
-			// aapt resource value: 0x7f06002f
-			public const int abc_dialog_padding_material = 2131099695;
+			// aapt resource value: 0x7f09004c
+			public const int abc_dialog_padding_material = 2131296332;
 			
-			// aapt resource value: 0x7f060030
-			public const int abc_dialog_padding_top_material = 2131099696;
+			// aapt resource value: 0x7f09004d
+			public const int abc_dialog_padding_top_material = 2131296333;
 			
-			// aapt resource value: 0x7f060031
-			public const int abc_disabled_alpha_material_dark = 2131099697;
+			// aapt resource value: 0x7f09004e
+			public const int abc_disabled_alpha_material_dark = 2131296334;
 			
-			// aapt resource value: 0x7f060032
-			public const int abc_disabled_alpha_material_light = 2131099698;
+			// aapt resource value: 0x7f09004f
+			public const int abc_disabled_alpha_material_light = 2131296335;
 			
-			// aapt resource value: 0x7f060033
-			public const int abc_dropdownitem_icon_width = 2131099699;
+			// aapt resource value: 0x7f090050
+			public const int abc_dropdownitem_icon_width = 2131296336;
 			
-			// aapt resource value: 0x7f060034
-			public const int abc_dropdownitem_text_padding_left = 2131099700;
+			// aapt resource value: 0x7f090051
+			public const int abc_dropdownitem_text_padding_left = 2131296337;
 			
-			// aapt resource value: 0x7f060035
-			public const int abc_dropdownitem_text_padding_right = 2131099701;
+			// aapt resource value: 0x7f090052
+			public const int abc_dropdownitem_text_padding_right = 2131296338;
 			
-			// aapt resource value: 0x7f060036
-			public const int abc_edit_text_inset_bottom_material = 2131099702;
+			// aapt resource value: 0x7f090053
+			public const int abc_edit_text_inset_bottom_material = 2131296339;
 			
-			// aapt resource value: 0x7f060037
-			public const int abc_edit_text_inset_horizontal_material = 2131099703;
+			// aapt resource value: 0x7f090054
+			public const int abc_edit_text_inset_horizontal_material = 2131296340;
 			
-			// aapt resource value: 0x7f060038
-			public const int abc_edit_text_inset_top_material = 2131099704;
+			// aapt resource value: 0x7f090055
+			public const int abc_edit_text_inset_top_material = 2131296341;
 			
-			// aapt resource value: 0x7f060039
-			public const int abc_floating_window_z = 2131099705;
+			// aapt resource value: 0x7f090056
+			public const int abc_floating_window_z = 2131296342;
 			
-			// aapt resource value: 0x7f06003a
-			public const int abc_list_item_padding_horizontal_material = 2131099706;
+			// aapt resource value: 0x7f090057
+			public const int abc_list_item_padding_horizontal_material = 2131296343;
 			
-			// aapt resource value: 0x7f06003b
-			public const int abc_panel_menu_list_width = 2131099707;
+			// aapt resource value: 0x7f090058
+			public const int abc_panel_menu_list_width = 2131296344;
 			
-			// aapt resource value: 0x7f06003c
-			public const int abc_search_view_preferred_width = 2131099708;
+			// aapt resource value: 0x7f090059
+			public const int abc_search_view_preferred_width = 2131296345;
 			
-			// aapt resource value: 0x7f060018
-			public const int abc_search_view_text_min_width = 2131099672;
+			// aapt resource value: 0x7f090035
+			public const int abc_search_view_text_min_width = 2131296309;
 			
-			// aapt resource value: 0x7f06003d
-			public const int abc_seekbar_track_background_height_material = 2131099709;
+			// aapt resource value: 0x7f09005a
+			public const int abc_seekbar_track_background_height_material = 2131296346;
 			
-			// aapt resource value: 0x7f06003e
-			public const int abc_seekbar_track_progress_height_material = 2131099710;
+			// aapt resource value: 0x7f09005b
+			public const int abc_seekbar_track_progress_height_material = 2131296347;
 			
-			// aapt resource value: 0x7f06003f
-			public const int abc_select_dialog_padding_start_material = 2131099711;
+			// aapt resource value: 0x7f09005c
+			public const int abc_select_dialog_padding_start_material = 2131296348;
 			
-			// aapt resource value: 0x7f06001c
-			public const int abc_switch_padding = 2131099676;
+			// aapt resource value: 0x7f090039
+			public const int abc_switch_padding = 2131296313;
 			
-			// aapt resource value: 0x7f060040
-			public const int abc_text_size_body_1_material = 2131099712;
+			// aapt resource value: 0x7f09005d
+			public const int abc_text_size_body_1_material = 2131296349;
 			
-			// aapt resource value: 0x7f060041
-			public const int abc_text_size_body_2_material = 2131099713;
+			// aapt resource value: 0x7f09005e
+			public const int abc_text_size_body_2_material = 2131296350;
 			
-			// aapt resource value: 0x7f060042
-			public const int abc_text_size_button_material = 2131099714;
+			// aapt resource value: 0x7f09005f
+			public const int abc_text_size_button_material = 2131296351;
 			
-			// aapt resource value: 0x7f060043
-			public const int abc_text_size_caption_material = 2131099715;
+			// aapt resource value: 0x7f090060
+			public const int abc_text_size_caption_material = 2131296352;
 			
-			// aapt resource value: 0x7f060044
-			public const int abc_text_size_display_1_material = 2131099716;
+			// aapt resource value: 0x7f090061
+			public const int abc_text_size_display_1_material = 2131296353;
 			
-			// aapt resource value: 0x7f060045
-			public const int abc_text_size_display_2_material = 2131099717;
+			// aapt resource value: 0x7f090062
+			public const int abc_text_size_display_2_material = 2131296354;
 			
-			// aapt resource value: 0x7f060046
-			public const int abc_text_size_display_3_material = 2131099718;
+			// aapt resource value: 0x7f090063
+			public const int abc_text_size_display_3_material = 2131296355;
 			
-			// aapt resource value: 0x7f060047
-			public const int abc_text_size_display_4_material = 2131099719;
+			// aapt resource value: 0x7f090064
+			public const int abc_text_size_display_4_material = 2131296356;
 			
-			// aapt resource value: 0x7f060048
-			public const int abc_text_size_headline_material = 2131099720;
+			// aapt resource value: 0x7f090065
+			public const int abc_text_size_headline_material = 2131296357;
 			
-			// aapt resource value: 0x7f060049
-			public const int abc_text_size_large_material = 2131099721;
+			// aapt resource value: 0x7f090066
+			public const int abc_text_size_large_material = 2131296358;
 			
-			// aapt resource value: 0x7f06004a
-			public const int abc_text_size_medium_material = 2131099722;
+			// aapt resource value: 0x7f090067
+			public const int abc_text_size_medium_material = 2131296359;
 			
-			// aapt resource value: 0x7f06004b
-			public const int abc_text_size_menu_material = 2131099723;
+			// aapt resource value: 0x7f090068
+			public const int abc_text_size_menu_material = 2131296360;
 			
-			// aapt resource value: 0x7f06004c
-			public const int abc_text_size_small_material = 2131099724;
+			// aapt resource value: 0x7f090069
+			public const int abc_text_size_small_material = 2131296361;
 			
-			// aapt resource value: 0x7f06004d
-			public const int abc_text_size_subhead_material = 2131099725;
+			// aapt resource value: 0x7f09006a
+			public const int abc_text_size_subhead_material = 2131296362;
 			
-			// aapt resource value: 0x7f06000f
-			public const int abc_text_size_subtitle_material_toolbar = 2131099663;
+			// aapt resource value: 0x7f09002c
+			public const int abc_text_size_subtitle_material_toolbar = 2131296300;
 			
-			// aapt resource value: 0x7f06004e
-			public const int abc_text_size_title_material = 2131099726;
+			// aapt resource value: 0x7f09006b
+			public const int abc_text_size_title_material = 2131296363;
 			
-			// aapt resource value: 0x7f060010
-			public const int abc_text_size_title_material_toolbar = 2131099664;
+			// aapt resource value: 0x7f09002d
+			public const int abc_text_size_title_material_toolbar = 2131296301;
 			
-			// aapt resource value: 0x7f060009
-			public const int cardview_compat_inset_shadow = 2131099657;
+			// aapt resource value: 0x7f090006
+			public const int cardview_compat_inset_shadow = 2131296262;
 			
-			// aapt resource value: 0x7f06000a
-			public const int cardview_default_elevation = 2131099658;
+			// aapt resource value: 0x7f090007
+			public const int cardview_default_elevation = 2131296263;
 			
-			// aapt resource value: 0x7f06000b
-			public const int cardview_default_radius = 2131099659;
+			// aapt resource value: 0x7f090008
+			public const int cardview_default_radius = 2131296264;
 			
-			// aapt resource value: 0x7f06005f
-			public const int design_appbar_elevation = 2131099743;
+			// aapt resource value: 0x7f090011
+			public const int design_appbar_elevation = 2131296273;
 			
-			// aapt resource value: 0x7f060060
-			public const int design_bottom_sheet_modal_elevation = 2131099744;
+			// aapt resource value: 0x7f090012
+			public const int design_bottom_sheet_modal_elevation = 2131296274;
 			
-			// aapt resource value: 0x7f060061
-			public const int design_bottom_sheet_modal_peek_height = 2131099745;
+			// aapt resource value: 0x7f090013
+			public const int design_bottom_sheet_modal_peek_height = 2131296275;
 			
-			// aapt resource value: 0x7f060062
-			public const int design_fab_border_width = 2131099746;
+			// aapt resource value: 0x7f090014
+			public const int design_fab_border_width = 2131296276;
 			
-			// aapt resource value: 0x7f060063
-			public const int design_fab_elevation = 2131099747;
+			// aapt resource value: 0x7f090015
+			public const int design_fab_elevation = 2131296277;
 			
-			// aapt resource value: 0x7f060064
-			public const int design_fab_image_size = 2131099748;
+			// aapt resource value: 0x7f090016
+			public const int design_fab_image_size = 2131296278;
 			
-			// aapt resource value: 0x7f060065
-			public const int design_fab_size_mini = 2131099749;
+			// aapt resource value: 0x7f090017
+			public const int design_fab_size_mini = 2131296279;
 			
-			// aapt resource value: 0x7f060066
-			public const int design_fab_size_normal = 2131099750;
+			// aapt resource value: 0x7f090018
+			public const int design_fab_size_normal = 2131296280;
 			
-			// aapt resource value: 0x7f060067
-			public const int design_fab_translation_z_pressed = 2131099751;
+			// aapt resource value: 0x7f090019
+			public const int design_fab_translation_z_pressed = 2131296281;
 			
-			// aapt resource value: 0x7f060068
-			public const int design_navigation_elevation = 2131099752;
+			// aapt resource value: 0x7f09001a
+			public const int design_navigation_elevation = 2131296282;
 			
-			// aapt resource value: 0x7f060069
-			public const int design_navigation_icon_padding = 2131099753;
+			// aapt resource value: 0x7f09001b
+			public const int design_navigation_icon_padding = 2131296283;
 			
-			// aapt resource value: 0x7f06006a
-			public const int design_navigation_icon_size = 2131099754;
+			// aapt resource value: 0x7f09001c
+			public const int design_navigation_icon_size = 2131296284;
 			
-			// aapt resource value: 0x7f060057
-			public const int design_navigation_max_width = 2131099735;
+			// aapt resource value: 0x7f090009
+			public const int design_navigation_max_width = 2131296265;
 			
-			// aapt resource value: 0x7f06006b
-			public const int design_navigation_padding_bottom = 2131099755;
+			// aapt resource value: 0x7f09001d
+			public const int design_navigation_padding_bottom = 2131296285;
 			
-			// aapt resource value: 0x7f06006c
-			public const int design_navigation_separator_vertical_padding = 2131099756;
+			// aapt resource value: 0x7f09001e
+			public const int design_navigation_separator_vertical_padding = 2131296286;
 			
-			// aapt resource value: 0x7f060058
-			public const int design_snackbar_action_inline_max_width = 2131099736;
+			// aapt resource value: 0x7f09000a
+			public const int design_snackbar_action_inline_max_width = 2131296266;
 			
-			// aapt resource value: 0x7f060059
-			public const int design_snackbar_background_corner_radius = 2131099737;
+			// aapt resource value: 0x7f09000b
+			public const int design_snackbar_background_corner_radius = 2131296267;
 			
-			// aapt resource value: 0x7f06006d
-			public const int design_snackbar_elevation = 2131099757;
+			// aapt resource value: 0x7f09001f
+			public const int design_snackbar_elevation = 2131296287;
 			
-			// aapt resource value: 0x7f06005a
-			public const int design_snackbar_extra_spacing_horizontal = 2131099738;
+			// aapt resource value: 0x7f09000c
+			public const int design_snackbar_extra_spacing_horizontal = 2131296268;
 			
-			// aapt resource value: 0x7f06005b
-			public const int design_snackbar_max_width = 2131099739;
+			// aapt resource value: 0x7f09000d
+			public const int design_snackbar_max_width = 2131296269;
 			
-			// aapt resource value: 0x7f06005c
-			public const int design_snackbar_min_width = 2131099740;
+			// aapt resource value: 0x7f09000e
+			public const int design_snackbar_min_width = 2131296270;
 			
-			// aapt resource value: 0x7f06006e
-			public const int design_snackbar_padding_horizontal = 2131099758;
+			// aapt resource value: 0x7f090020
+			public const int design_snackbar_padding_horizontal = 2131296288;
 			
-			// aapt resource value: 0x7f06006f
-			public const int design_snackbar_padding_vertical = 2131099759;
+			// aapt resource value: 0x7f090021
+			public const int design_snackbar_padding_vertical = 2131296289;
 			
-			// aapt resource value: 0x7f06005d
-			public const int design_snackbar_padding_vertical_2lines = 2131099741;
+			// aapt resource value: 0x7f09000f
+			public const int design_snackbar_padding_vertical_2lines = 2131296271;
 			
-			// aapt resource value: 0x7f060070
-			public const int design_snackbar_text_size = 2131099760;
+			// aapt resource value: 0x7f090022
+			public const int design_snackbar_text_size = 2131296290;
 			
-			// aapt resource value: 0x7f060071
-			public const int design_tab_max_width = 2131099761;
+			// aapt resource value: 0x7f090023
+			public const int design_tab_max_width = 2131296291;
 			
-			// aapt resource value: 0x7f06005e
-			public const int design_tab_scrollable_min_width = 2131099742;
+			// aapt resource value: 0x7f090010
+			public const int design_tab_scrollable_min_width = 2131296272;
 			
-			// aapt resource value: 0x7f060072
-			public const int design_tab_text_size = 2131099762;
+			// aapt resource value: 0x7f090024
+			public const int design_tab_text_size = 2131296292;
 			
-			// aapt resource value: 0x7f060073
-			public const int design_tab_text_size_2line = 2131099763;
+			// aapt resource value: 0x7f090025
+			public const int design_tab_text_size_2line = 2131296293;
 			
-			// aapt resource value: 0x7f06004f
-			public const int disabled_alpha_material_dark = 2131099727;
+			// aapt resource value: 0x7f09006c
+			public const int disabled_alpha_material_dark = 2131296364;
 			
-			// aapt resource value: 0x7f060050
-			public const int disabled_alpha_material_light = 2131099728;
+			// aapt resource value: 0x7f09006d
+			public const int disabled_alpha_material_light = 2131296365;
 			
-			// aapt resource value: 0x7f060051
-			public const int highlight_alpha_material_colored = 2131099729;
+			// aapt resource value: 0x7f09006e
+			public const int highlight_alpha_material_colored = 2131296366;
 			
-			// aapt resource value: 0x7f060052
-			public const int highlight_alpha_material_dark = 2131099730;
+			// aapt resource value: 0x7f09006f
+			public const int highlight_alpha_material_dark = 2131296367;
 			
-			// aapt resource value: 0x7f060053
-			public const int highlight_alpha_material_light = 2131099731;
+			// aapt resource value: 0x7f090070
+			public const int highlight_alpha_material_light = 2131296368;
 			
-			// aapt resource value: 0x7f060000
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099648;
+			// aapt resource value: 0x7f090026
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131296294;
 			
-			// aapt resource value: 0x7f060001
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131099649;
+			// aapt resource value: 0x7f090027
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131296295;
 			
-			// aapt resource value: 0x7f060002
-			public const int item_touch_helper_swipe_escape_velocity = 2131099650;
+			// aapt resource value: 0x7f090028
+			public const int item_touch_helper_swipe_escape_velocity = 2131296296;
 			
-			// aapt resource value: 0x7f060003
-			public const int mr_controller_volume_group_list_item_height = 2131099651;
+			// aapt resource value: 0x7f090000
+			public const int mr_controller_volume_group_list_item_height = 2131296256;
 			
-			// aapt resource value: 0x7f060004
-			public const int mr_controller_volume_group_list_item_icon_size = 2131099652;
+			// aapt resource value: 0x7f090001
+			public const int mr_controller_volume_group_list_item_icon_size = 2131296257;
 			
-			// aapt resource value: 0x7f060005
-			public const int mr_controller_volume_group_list_max_height = 2131099653;
+			// aapt resource value: 0x7f090002
+			public const int mr_controller_volume_group_list_max_height = 2131296258;
 			
-			// aapt resource value: 0x7f060008
-			public const int mr_controller_volume_group_list_padding_top = 2131099656;
+			// aapt resource value: 0x7f090005
+			public const int mr_controller_volume_group_list_padding_top = 2131296261;
 			
-			// aapt resource value: 0x7f060006
-			public const int mr_dialog_fixed_width_major = 2131099654;
+			// aapt resource value: 0x7f090003
+			public const int mr_dialog_fixed_width_major = 2131296259;
 			
-			// aapt resource value: 0x7f060007
-			public const int mr_dialog_fixed_width_minor = 2131099655;
+			// aapt resource value: 0x7f090004
+			public const int mr_dialog_fixed_width_minor = 2131296260;
 			
-			// aapt resource value: 0x7f060054
-			public const int notification_large_icon_height = 2131099732;
+			// aapt resource value: 0x7f090071
+			public const int notification_large_icon_height = 2131296369;
 			
-			// aapt resource value: 0x7f060055
-			public const int notification_large_icon_width = 2131099733;
+			// aapt resource value: 0x7f090072
+			public const int notification_large_icon_width = 2131296370;
 			
-			// aapt resource value: 0x7f060056
-			public const int notification_subtext_size = 2131099734;
+			// aapt resource value: 0x7f090073
+			public const int notification_subtext_size = 2131296371;
 			
 			static Dimension()
 			{
@@ -1943,265 +4015,391 @@ namespace ParkingGrandLyon.Droid
 			public const int abc_textfield_search_material = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int design_fab_background = 2130837579;
+			public const int common_full_open_on_phone = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int design_snackbar_background = 2130837580;
+			public const int common_google_signin_btn_icon_dark = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int ic_audiotrack = 2130837581;
+			public const int common_google_signin_btn_icon_dark_disabled = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int ic_audiotrack_light = 2130837582;
+			public const int common_google_signin_btn_icon_dark_focused = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int ic_bluetooth_grey = 2130837583;
+			public const int common_google_signin_btn_icon_dark_normal = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_bluetooth_white = 2130837584;
+			public const int common_google_signin_btn_icon_dark_pressed = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_cast_dark = 2130837585;
+			public const int common_google_signin_btn_icon_light = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_cast_disabled_light = 2130837586;
+			public const int common_google_signin_btn_icon_light_disabled = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_cast_grey = 2130837587;
+			public const int common_google_signin_btn_icon_light_focused = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_cast_light = 2130837588;
+			public const int common_google_signin_btn_icon_light_normal = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_cast_off_light = 2130837589;
+			public const int common_google_signin_btn_icon_light_pressed = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int ic_cast_on_0_light = 2130837590;
+			public const int common_google_signin_btn_text_dark = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int ic_cast_on_1_light = 2130837591;
+			public const int common_google_signin_btn_text_dark_disabled = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int ic_cast_on_2_light = 2130837592;
+			public const int common_google_signin_btn_text_dark_focused = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int ic_cast_on_light = 2130837593;
+			public const int common_google_signin_btn_text_dark_normal = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_cast_white = 2130837594;
+			public const int common_google_signin_btn_text_dark_pressed = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_close_dark = 2130837595;
+			public const int common_google_signin_btn_text_light = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_close_light = 2130837596;
+			public const int common_google_signin_btn_text_light_disabled = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_collapse = 2130837597;
+			public const int common_google_signin_btn_text_light_focused = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_collapse_00000 = 2130837598;
+			public const int common_google_signin_btn_text_light_normal = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_collapse_00001 = 2130837599;
+			public const int common_google_signin_btn_text_light_pressed = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_collapse_00002 = 2130837600;
+			public const int common_ic_googleplayservices = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_collapse_00003 = 2130837601;
+			public const int common_plus_signin_btn_icon_dark = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_collapse_00004 = 2130837602;
+			public const int common_plus_signin_btn_icon_dark_disabled = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_collapse_00005 = 2130837603;
+			public const int common_plus_signin_btn_icon_dark_focused = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_collapse_00006 = 2130837604;
+			public const int common_plus_signin_btn_icon_dark_normal = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_collapse_00007 = 2130837605;
+			public const int common_plus_signin_btn_icon_dark_pressed = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_collapse_00008 = 2130837606;
+			public const int common_plus_signin_btn_icon_light = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_collapse_00009 = 2130837607;
+			public const int common_plus_signin_btn_icon_light_disabled = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_collapse_00010 = 2130837608;
+			public const int common_plus_signin_btn_icon_light_focused = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_collapse_00011 = 2130837609;
+			public const int common_plus_signin_btn_icon_light_normal = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_collapse_00012 = 2130837610;
+			public const int common_plus_signin_btn_icon_light_pressed = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_collapse_00013 = 2130837611;
+			public const int common_plus_signin_btn_text_dark = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_collapse_00014 = 2130837612;
+			public const int common_plus_signin_btn_text_dark_disabled = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_collapse_00015 = 2130837613;
+			public const int common_plus_signin_btn_text_dark_focused = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_expand = 2130837614;
+			public const int common_plus_signin_btn_text_dark_normal = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_expand_00000 = 2130837615;
+			public const int common_plus_signin_btn_text_dark_pressed = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_expand_00001 = 2130837616;
+			public const int common_plus_signin_btn_text_light = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_expand_00002 = 2130837617;
+			public const int common_plus_signin_btn_text_light_disabled = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_expand_00003 = 2130837618;
+			public const int common_plus_signin_btn_text_light_focused = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_expand_00004 = 2130837619;
+			public const int common_plus_signin_btn_text_light_normal = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_expand_00005 = 2130837620;
+			public const int common_plus_signin_btn_text_light_pressed = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_expand_00006 = 2130837621;
+			public const int design_fab_background = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_expand_00007 = 2130837622;
+			public const int design_snackbar_background = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_expand_00008 = 2130837623;
+			public const int ic_audiotrack = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_expand_00009 = 2130837624;
+			public const int ic_audiotrack_light = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_expand_00010 = 2130837625;
+			public const int ic_bluetooth_grey = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_expand_00011 = 2130837626;
+			public const int ic_bluetooth_white = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_expand_00012 = 2130837627;
+			public const int ic_cast_dark = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_expand_00013 = 2130837628;
+			public const int ic_cast_disabled_light = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_expand_00014 = 2130837629;
+			public const int ic_cast_grey = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_expand_00015 = 2130837630;
+			public const int ic_cast_light = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_media_pause = 2130837631;
+			public const int ic_cast_off_light = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_media_play = 2130837632;
+			public const int ic_cast_on_0_light = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_media_route_disabled_mono_dark = 2130837633;
+			public const int ic_cast_on_1_light = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_media_route_off_mono_dark = 2130837634;
+			public const int ic_cast_on_2_light = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_media_route_on_0_mono_dark = 2130837635;
+			public const int ic_cast_on_light = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_media_route_on_1_mono_dark = 2130837636;
+			public const int ic_cast_white = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_media_route_on_2_mono_dark = 2130837637;
+			public const int ic_close_dark = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_media_route_on_mono_dark = 2130837638;
+			public const int ic_close_light = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_pause_dark = 2130837639;
+			public const int ic_collapse = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_pause_light = 2130837640;
+			public const int ic_collapse_00000 = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_play_dark = 2130837641;
+			public const int ic_collapse_00001 = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_play_light = 2130837642;
+			public const int ic_collapse_00002 = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_speaker_dark = 2130837643;
+			public const int ic_collapse_00003 = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_speaker_group_dark = 2130837644;
+			public const int ic_collapse_00004 = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_speaker_group_light = 2130837645;
+			public const int ic_collapse_00005 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_speaker_light = 2130837646;
+			public const int ic_collapse_00006 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_tv_dark = 2130837647;
+			public const int ic_collapse_00007 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_tv_light = 2130837648;
+			public const int ic_collapse_00008 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int icon = 2130837649;
+			public const int ic_collapse_00009 = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int mr_dialog_material_background_dark = 2130837650;
+			public const int ic_collapse_00010 = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int mr_dialog_material_background_light = 2130837651;
+			public const int ic_collapse_00011 = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int mr_ic_audiotrack_light = 2130837652;
+			public const int ic_collapse_00012 = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int mr_ic_cast_dark = 2130837653;
+			public const int ic_collapse_00013 = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int mr_ic_cast_light = 2130837654;
+			public const int ic_collapse_00014 = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int mr_ic_close_dark = 2130837655;
+			public const int ic_collapse_00015 = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int mr_ic_close_light = 2130837656;
+			public const int ic_expand = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837657;
+			public const int ic_expand_00000 = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int mr_ic_media_route_connecting_mono_light = 2130837658;
+			public const int ic_expand_00001 = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int mr_ic_media_route_mono_dark = 2130837659;
+			public const int ic_expand_00002 = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int mr_ic_media_route_mono_light = 2130837660;
+			public const int ic_expand_00003 = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int mr_ic_pause_dark = 2130837661;
+			public const int ic_expand_00004 = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int mr_ic_pause_light = 2130837662;
+			public const int ic_expand_00005 = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int mr_ic_play_dark = 2130837663;
+			public const int ic_expand_00006 = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int mr_ic_play_light = 2130837664;
+			public const int ic_expand_00007 = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int notification_template_icon_bg = 2130837665;
+			public const int ic_expand_00008 = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int ic_expand_00009 = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int ic_expand_00010 = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int ic_expand_00011 = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int ic_expand_00012 = 2130837669;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int ic_expand_00013 = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int ic_expand_00014 = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int ic_expand_00015 = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int ic_media_pause = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int ic_media_play = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int ic_media_route_disabled_mono_dark = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int ic_media_route_off_mono_dark = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int ic_media_route_on_0_mono_dark = 2130837677;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int ic_media_route_on_1_mono_dark = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int ic_media_route_on_2_mono_dark = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int ic_media_route_on_mono_dark = 2130837680;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int ic_pause_dark = 2130837681;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int ic_pause_light = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int ic_play_dark = 2130837683;
+			
+			// aapt resource value: 0x7f0200b4
+			public const int ic_play_light = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int ic_speaker_dark = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int ic_speaker_group_dark = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int ic_speaker_group_light = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int ic_speaker_light = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int ic_tv_dark = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int ic_tv_light = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int icon = 2130837691;
+			
+			// aapt resource value: 0x7f0200bc
+			public const int mr_dialog_material_background_dark = 2130837692;
+			
+			// aapt resource value: 0x7f0200bd
+			public const int mr_dialog_material_background_light = 2130837693;
+			
+			// aapt resource value: 0x7f0200be
+			public const int mr_ic_audiotrack_light = 2130837694;
+			
+			// aapt resource value: 0x7f0200bf
+			public const int mr_ic_cast_dark = 2130837695;
+			
+			// aapt resource value: 0x7f0200c0
+			public const int mr_ic_cast_light = 2130837696;
+			
+			// aapt resource value: 0x7f0200c1
+			public const int mr_ic_close_dark = 2130837697;
+			
+			// aapt resource value: 0x7f0200c2
+			public const int mr_ic_close_light = 2130837698;
+			
+			// aapt resource value: 0x7f0200c3
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837699;
+			
+			// aapt resource value: 0x7f0200c4
+			public const int mr_ic_media_route_connecting_mono_light = 2130837700;
+			
+			// aapt resource value: 0x7f0200c5
+			public const int mr_ic_media_route_mono_dark = 2130837701;
+			
+			// aapt resource value: 0x7f0200c6
+			public const int mr_ic_media_route_mono_light = 2130837702;
+			
+			// aapt resource value: 0x7f0200c7
+			public const int mr_ic_pause_dark = 2130837703;
+			
+			// aapt resource value: 0x7f0200c8
+			public const int mr_ic_pause_light = 2130837704;
+			
+			// aapt resource value: 0x7f0200c9
+			public const int mr_ic_play_dark = 2130837705;
+			
+			// aapt resource value: 0x7f0200ca
+			public const int mr_ic_play_light = 2130837706;
+			
+			// aapt resource value: 0x7f0200cb
+			public const int notification_template_icon_bg = 2130837707;
 			
 			static Drawable()
 			{
@@ -2216,467 +4414,500 @@ namespace ParkingGrandLyon.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f07008b
-			public const int action0 = 2131165323;
+			// aapt resource value: 0x7f0b0096
+			public const int action0 = 2131427478;
 			
-			// aapt resource value: 0x7f07005a
-			public const int action_bar = 2131165274;
+			// aapt resource value: 0x7f0b0065
+			public const int action_bar = 2131427429;
 			
-			// aapt resource value: 0x7f070001
-			public const int action_bar_activity_content = 2131165185;
+			// aapt resource value: 0x7f0b0002
+			public const int action_bar_activity_content = 2131427330;
 			
-			// aapt resource value: 0x7f070059
-			public const int action_bar_container = 2131165273;
+			// aapt resource value: 0x7f0b0064
+			public const int action_bar_container = 2131427428;
 			
-			// aapt resource value: 0x7f070055
-			public const int action_bar_root = 2131165269;
+			// aapt resource value: 0x7f0b0060
+			public const int action_bar_root = 2131427424;
 			
-			// aapt resource value: 0x7f070002
-			public const int action_bar_spinner = 2131165186;
+			// aapt resource value: 0x7f0b0003
+			public const int action_bar_spinner = 2131427331;
 			
-			// aapt resource value: 0x7f07003b
-			public const int action_bar_subtitle = 2131165243;
+			// aapt resource value: 0x7f0b0046
+			public const int action_bar_subtitle = 2131427398;
 			
-			// aapt resource value: 0x7f07003a
-			public const int action_bar_title = 2131165242;
+			// aapt resource value: 0x7f0b0045
+			public const int action_bar_title = 2131427397;
 			
-			// aapt resource value: 0x7f07005b
-			public const int action_context_bar = 2131165275;
+			// aapt resource value: 0x7f0b0066
+			public const int action_context_bar = 2131427430;
 			
-			// aapt resource value: 0x7f07008f
-			public const int action_divider = 2131165327;
+			// aapt resource value: 0x7f0b009a
+			public const int action_divider = 2131427482;
 			
-			// aapt resource value: 0x7f070003
-			public const int action_menu_divider = 2131165187;
+			// aapt resource value: 0x7f0b0004
+			public const int action_menu_divider = 2131427332;
 			
-			// aapt resource value: 0x7f070004
-			public const int action_menu_presenter = 2131165188;
+			// aapt resource value: 0x7f0b0005
+			public const int action_menu_presenter = 2131427333;
 			
-			// aapt resource value: 0x7f070057
-			public const int action_mode_bar = 2131165271;
+			// aapt resource value: 0x7f0b0062
+			public const int action_mode_bar = 2131427426;
 			
-			// aapt resource value: 0x7f070056
-			public const int action_mode_bar_stub = 2131165270;
+			// aapt resource value: 0x7f0b0061
+			public const int action_mode_bar_stub = 2131427425;
 			
-			// aapt resource value: 0x7f07003c
-			public const int action_mode_close_button = 2131165244;
+			// aapt resource value: 0x7f0b0047
+			public const int action_mode_close_button = 2131427399;
 			
-			// aapt resource value: 0x7f07003d
-			public const int activity_chooser_view_content = 2131165245;
+			// aapt resource value: 0x7f0b0048
+			public const int activity_chooser_view_content = 2131427400;
 			
-			// aapt resource value: 0x7f070049
-			public const int alertTitle = 2131165257;
+			// aapt resource value: 0x7f0b0016
+			public const int adjust_height = 2131427350;
 			
-			// aapt resource value: 0x7f07001e
-			public const int always = 2131165214;
+			// aapt resource value: 0x7f0b0017
+			public const int adjust_width = 2131427351;
 			
-			// aapt resource value: 0x7f07001b
-			public const int beginning = 2131165211;
+			// aapt resource value: 0x7f0b0054
+			public const int alertTitle = 2131427412;
 			
-			// aapt resource value: 0x7f07002a
-			public const int bottom = 2131165226;
+			// aapt resource value: 0x7f0b0040
+			public const int always = 2131427392;
 			
-			// aapt resource value: 0x7f070044
-			public const int buttonPanel = 2131165252;
+			// aapt resource value: 0x7f0b0013
+			public const int auto = 2131427347;
 			
-			// aapt resource value: 0x7f07008c
-			public const int cancel_action = 2131165324;
+			// aapt resource value: 0x7f0b003e
+			public const int beginning = 2131427390;
 			
-			// aapt resource value: 0x7f07002b
-			public const int center = 2131165227;
+			// aapt resource value: 0x7f0b001f
+			public const int bottom = 2131427359;
 			
-			// aapt resource value: 0x7f07002c
-			public const int center_horizontal = 2131165228;
+			// aapt resource value: 0x7f0b004f
+			public const int buttonPanel = 2131427407;
 			
-			// aapt resource value: 0x7f07002d
-			public const int center_vertical = 2131165229;
+			// aapt resource value: 0x7f0b0097
+			public const int cancel_action = 2131427479;
 			
-			// aapt resource value: 0x7f070052
-			public const int checkbox = 2131165266;
+			// aapt resource value: 0x7f0b0020
+			public const int center = 2131427360;
 			
-			// aapt resource value: 0x7f070092
-			public const int chronometer = 2131165330;
+			// aapt resource value: 0x7f0b0021
+			public const int center_horizontal = 2131427361;
 			
-			// aapt resource value: 0x7f070033
-			public const int clip_horizontal = 2131165235;
+			// aapt resource value: 0x7f0b0022
+			public const int center_vertical = 2131427362;
 			
-			// aapt resource value: 0x7f070034
-			public const int clip_vertical = 2131165236;
+			// aapt resource value: 0x7f0b005d
+			public const int checkbox = 2131427421;
 			
-			// aapt resource value: 0x7f07001f
-			public const int collapseActionView = 2131165215;
+			// aapt resource value: 0x7f0b009d
+			public const int chronometer = 2131427485;
 			
-			// aapt resource value: 0x7f07004a
-			public const int contentPanel = 2131165258;
+			// aapt resource value: 0x7f0b0029
+			public const int clip_horizontal = 2131427369;
 			
-			// aapt resource value: 0x7f070050
-			public const int custom = 2131165264;
+			// aapt resource value: 0x7f0b002a
+			public const int clip_vertical = 2131427370;
 			
-			// aapt resource value: 0x7f07004f
-			public const int customPanel = 2131165263;
+			// aapt resource value: 0x7f0b0041
+			public const int collapseActionView = 2131427393;
 			
-			// aapt resource value: 0x7f070058
-			public const int decor_content_parent = 2131165272;
+			// aapt resource value: 0x7f0b0055
+			public const int contentPanel = 2131427413;
 			
-			// aapt resource value: 0x7f070040
-			public const int default_activity_button = 2131165248;
+			// aapt resource value: 0x7f0b005b
+			public const int custom = 2131427419;
 			
-			// aapt resource value: 0x7f07006a
-			public const int design_bottom_sheet = 2131165290;
+			// aapt resource value: 0x7f0b005a
+			public const int customPanel = 2131427418;
 			
-			// aapt resource value: 0x7f070071
-			public const int design_menu_item_action_area = 2131165297;
+			// aapt resource value: 0x7f0b0014
+			public const int dark = 2131427348;
 			
-			// aapt resource value: 0x7f070070
-			public const int design_menu_item_action_area_stub = 2131165296;
+			// aapt resource value: 0x7f0b0063
+			public const int decor_content_parent = 2131427427;
 			
-			// aapt resource value: 0x7f07006f
-			public const int design_menu_item_text = 2131165295;
+			// aapt resource value: 0x7f0b004b
+			public const int default_activity_button = 2131427403;
 			
-			// aapt resource value: 0x7f07006e
-			public const int design_navigation_view = 2131165294;
+			// aapt resource value: 0x7f0b0075
+			public const int design_bottom_sheet = 2131427445;
 			
-			// aapt resource value: 0x7f07000e
-			public const int disableHome = 2131165198;
+			// aapt resource value: 0x7f0b007c
+			public const int design_menu_item_action_area = 2131427452;
 			
-			// aapt resource value: 0x7f07005c
-			public const int edit_query = 2131165276;
+			// aapt resource value: 0x7f0b007b
+			public const int design_menu_item_action_area_stub = 2131427451;
 			
-			// aapt resource value: 0x7f07001c
-			public const int end = 2131165212;
+			// aapt resource value: 0x7f0b007a
+			public const int design_menu_item_text = 2131427450;
 			
-			// aapt resource value: 0x7f070097
-			public const int end_padder = 2131165335;
+			// aapt resource value: 0x7f0b0079
+			public const int design_navigation_view = 2131427449;
 			
-			// aapt resource value: 0x7f070023
-			public const int enterAlways = 2131165219;
+			// aapt resource value: 0x7f0b0032
+			public const int disableHome = 2131427378;
 			
-			// aapt resource value: 0x7f070024
-			public const int enterAlwaysCollapsed = 2131165220;
+			// aapt resource value: 0x7f0b0067
+			public const int edit_query = 2131427431;
 			
-			// aapt resource value: 0x7f070025
-			public const int exitUntilCollapsed = 2131165221;
+			// aapt resource value: 0x7f0b0023
+			public const int end = 2131427363;
 			
-			// aapt resource value: 0x7f07003e
-			public const int expand_activities_button = 2131165246;
+			// aapt resource value: 0x7f0b00a2
+			public const int end_padder = 2131427490;
 			
-			// aapt resource value: 0x7f070051
-			public const int expanded_menu = 2131165265;
+			// aapt resource value: 0x7f0b0018
+			public const int enterAlways = 2131427352;
 			
-			// aapt resource value: 0x7f070035
-			public const int fill = 2131165237;
+			// aapt resource value: 0x7f0b0019
+			public const int enterAlwaysCollapsed = 2131427353;
 			
-			// aapt resource value: 0x7f070036
-			public const int fill_horizontal = 2131165238;
+			// aapt resource value: 0x7f0b001a
+			public const int exitUntilCollapsed = 2131427354;
 			
-			// aapt resource value: 0x7f07002e
-			public const int fill_vertical = 2131165230;
+			// aapt resource value: 0x7f0b0049
+			public const int expand_activities_button = 2131427401;
 			
-			// aapt resource value: 0x7f070038
-			public const int @fixed = 2131165240;
+			// aapt resource value: 0x7f0b005c
+			public const int expanded_menu = 2131427420;
 			
-			// aapt resource value: 0x7f070005
-			public const int home = 2131165189;
+			// aapt resource value: 0x7f0b002b
+			public const int fill = 2131427371;
 			
-			// aapt resource value: 0x7f07000f
-			public const int homeAsUp = 2131165199;
+			// aapt resource value: 0x7f0b002c
+			public const int fill_horizontal = 2131427372;
 			
-			// aapt resource value: 0x7f070042
-			public const int icon = 2131165250;
+			// aapt resource value: 0x7f0b0024
+			public const int fill_vertical = 2131427364;
 			
-			// aapt resource value: 0x7f070020
-			public const int ifRoom = 2131165216;
+			// aapt resource value: 0x7f0b002e
+			public const int @fixed = 2131427374;
 			
-			// aapt resource value: 0x7f07003f
-			public const int image = 2131165247;
+			// aapt resource value: 0x7f0b0006
+			public const int home = 2131427334;
 			
-			// aapt resource value: 0x7f070096
-			public const int info = 2131165334;
+			// aapt resource value: 0x7f0b0033
+			public const int homeAsUp = 2131427379;
 			
-			// aapt resource value: 0x7f070000
-			public const int item_touch_helper_previous_elevation = 2131165184;
+			// aapt resource value: 0x7f0b000b
+			public const int hybrid = 2131427339;
 			
-			// aapt resource value: 0x7f07002f
-			public const int left = 2131165231;
+			// aapt resource value: 0x7f0b004d
+			public const int icon = 2131427405;
 			
-			// aapt resource value: 0x7f070090
-			public const int line1 = 2131165328;
+			// aapt resource value: 0x7f0b0010
+			public const int icon_only = 2131427344;
 			
-			// aapt resource value: 0x7f070094
-			public const int line3 = 2131165332;
+			// aapt resource value: 0x7f0b0042
+			public const int ifRoom = 2131427394;
 			
-			// aapt resource value: 0x7f07000b
-			public const int listMode = 2131165195;
+			// aapt resource value: 0x7f0b004a
+			public const int image = 2131427402;
 			
-			// aapt resource value: 0x7f070041
-			public const int list_item = 2131165249;
+			// aapt resource value: 0x7f0b00a1
+			public const int info = 2131427489;
 			
-			// aapt resource value: 0x7f07008e
-			public const int media_actions = 2131165326;
+			// aapt resource value: 0x7f0b0001
+			public const int item_touch_helper_previous_elevation = 2131427329;
 			
-			// aapt resource value: 0x7f07001d
-			public const int middle = 2131165213;
+			// aapt resource value: 0x7f0b0025
+			public const int left = 2131427365;
 			
-			// aapt resource value: 0x7f070037
-			public const int mini = 2131165239;
+			// aapt resource value: 0x7f0b0015
+			public const int light = 2131427349;
 			
-			// aapt resource value: 0x7f07007d
-			public const int mr_art = 2131165309;
+			// aapt resource value: 0x7f0b009b
+			public const int line1 = 2131427483;
 			
-			// aapt resource value: 0x7f070072
-			public const int mr_chooser_list = 2131165298;
+			// aapt resource value: 0x7f0b009f
+			public const int line3 = 2131427487;
 			
-			// aapt resource value: 0x7f070075
-			public const int mr_chooser_route_desc = 2131165301;
+			// aapt resource value: 0x7f0b0030
+			public const int listMode = 2131427376;
 			
-			// aapt resource value: 0x7f070073
-			public const int mr_chooser_route_icon = 2131165299;
+			// aapt resource value: 0x7f0b004c
+			public const int list_item = 2131427404;
 			
-			// aapt resource value: 0x7f070074
-			public const int mr_chooser_route_name = 2131165300;
+			// aapt resource value: 0x7f0b0099
+			public const int media_actions = 2131427481;
 			
-			// aapt resource value: 0x7f07007a
-			public const int mr_close = 2131165306;
+			// aapt resource value: 0x7f0b003f
+			public const int middle = 2131427391;
 			
-			// aapt resource value: 0x7f070080
-			public const int mr_control_divider = 2131165312;
+			// aapt resource value: 0x7f0b002d
+			public const int mini = 2131427373;
 			
-			// aapt resource value: 0x7f070086
-			public const int mr_control_play_pause = 2131165318;
+			// aapt resource value: 0x7f0b0088
+			public const int mr_art = 2131427464;
 			
-			// aapt resource value: 0x7f070089
-			public const int mr_control_subtitle = 2131165321;
+			// aapt resource value: 0x7f0b007d
+			public const int mr_chooser_list = 2131427453;
 			
-			// aapt resource value: 0x7f070088
-			public const int mr_control_title = 2131165320;
+			// aapt resource value: 0x7f0b0080
+			public const int mr_chooser_route_desc = 2131427456;
 			
-			// aapt resource value: 0x7f070087
-			public const int mr_control_title_container = 2131165319;
+			// aapt resource value: 0x7f0b007e
+			public const int mr_chooser_route_icon = 2131427454;
 			
-			// aapt resource value: 0x7f07007b
-			public const int mr_custom_control = 2131165307;
+			// aapt resource value: 0x7f0b007f
+			public const int mr_chooser_route_name = 2131427455;
 			
-			// aapt resource value: 0x7f07007c
-			public const int mr_default_control = 2131165308;
+			// aapt resource value: 0x7f0b0085
+			public const int mr_close = 2131427461;
 			
-			// aapt resource value: 0x7f070077
-			public const int mr_dialog_area = 2131165303;
+			// aapt resource value: 0x7f0b008b
+			public const int mr_control_divider = 2131427467;
 			
-			// aapt resource value: 0x7f070076
-			public const int mr_expandable_area = 2131165302;
+			// aapt resource value: 0x7f0b0091
+			public const int mr_control_play_pause = 2131427473;
 			
-			// aapt resource value: 0x7f07008a
-			public const int mr_group_expand_collapse = 2131165322;
+			// aapt resource value: 0x7f0b0094
+			public const int mr_control_subtitle = 2131427476;
 			
-			// aapt resource value: 0x7f07007e
-			public const int mr_media_main_control = 2131165310;
+			// aapt resource value: 0x7f0b0093
+			public const int mr_control_title = 2131427475;
 			
-			// aapt resource value: 0x7f070079
-			public const int mr_name = 2131165305;
+			// aapt resource value: 0x7f0b0092
+			public const int mr_control_title_container = 2131427474;
 			
-			// aapt resource value: 0x7f07007f
-			public const int mr_playback_control = 2131165311;
+			// aapt resource value: 0x7f0b0086
+			public const int mr_custom_control = 2131427462;
 			
-			// aapt resource value: 0x7f070078
-			public const int mr_title_bar = 2131165304;
+			// aapt resource value: 0x7f0b0087
+			public const int mr_default_control = 2131427463;
 			
-			// aapt resource value: 0x7f070081
-			public const int mr_volume_control = 2131165313;
+			// aapt resource value: 0x7f0b0082
+			public const int mr_dialog_area = 2131427458;
 			
-			// aapt resource value: 0x7f070082
-			public const int mr_volume_group_list = 2131165314;
+			// aapt resource value: 0x7f0b0081
+			public const int mr_expandable_area = 2131427457;
 			
-			// aapt resource value: 0x7f070084
-			public const int mr_volume_item_icon = 2131165316;
+			// aapt resource value: 0x7f0b0095
+			public const int mr_group_expand_collapse = 2131427477;
 			
-			// aapt resource value: 0x7f070085
-			public const int mr_volume_slider = 2131165317;
+			// aapt resource value: 0x7f0b0089
+			public const int mr_media_main_control = 2131427465;
 			
-			// aapt resource value: 0x7f070016
-			public const int multiply = 2131165206;
+			// aapt resource value: 0x7f0b0084
+			public const int mr_name = 2131427460;
 			
-			// aapt resource value: 0x7f07006d
-			public const int navigation_header_container = 2131165293;
+			// aapt resource value: 0x7f0b008a
+			public const int mr_playback_control = 2131427466;
 			
-			// aapt resource value: 0x7f070021
-			public const int never = 2131165217;
+			// aapt resource value: 0x7f0b0083
+			public const int mr_title_bar = 2131427459;
 			
-			// aapt resource value: 0x7f070010
-			public const int none = 2131165200;
+			// aapt resource value: 0x7f0b008c
+			public const int mr_volume_control = 2131427468;
 			
-			// aapt resource value: 0x7f07000c
-			public const int normal = 2131165196;
+			// aapt resource value: 0x7f0b008d
+			public const int mr_volume_group_list = 2131427469;
 			
-			// aapt resource value: 0x7f070028
-			public const int parallax = 2131165224;
+			// aapt resource value: 0x7f0b008f
+			public const int mr_volume_item_icon = 2131427471;
 			
-			// aapt resource value: 0x7f070046
-			public const int parentPanel = 2131165254;
+			// aapt resource value: 0x7f0b0090
+			public const int mr_volume_slider = 2131427472;
 			
-			// aapt resource value: 0x7f070029
-			public const int pin = 2131165225;
+			// aapt resource value: 0x7f0b0039
+			public const int multiply = 2131427385;
 			
-			// aapt resource value: 0x7f070006
-			public const int progress_circular = 2131165190;
+			// aapt resource value: 0x7f0b0078
+			public const int navigation_header_container = 2131427448;
 			
-			// aapt resource value: 0x7f070007
-			public const int progress_horizontal = 2131165191;
+			// aapt resource value: 0x7f0b0043
+			public const int never = 2131427395;
 			
-			// aapt resource value: 0x7f070054
-			public const int radio = 2131165268;
+			// aapt resource value: 0x7f0b000c
+			public const int none = 2131427340;
 			
-			// aapt resource value: 0x7f070030
-			public const int right = 2131165232;
+			// aapt resource value: 0x7f0b000d
+			public const int normal = 2131427341;
 			
-			// aapt resource value: 0x7f070017
-			public const int screen = 2131165207;
+			// aapt resource value: 0x7f0b001d
+			public const int parallax = 2131427357;
 			
-			// aapt resource value: 0x7f070026
-			public const int scroll = 2131165222;
+			// aapt resource value: 0x7f0b0051
+			public const int parentPanel = 2131427409;
 			
-			// aapt resource value: 0x7f07004e
-			public const int scrollIndicatorDown = 2131165262;
+			// aapt resource value: 0x7f0b001e
+			public const int pin = 2131427358;
 			
-			// aapt resource value: 0x7f07004b
-			public const int scrollIndicatorUp = 2131165259;
+			// aapt resource value: 0x7f0b0007
+			public const int progress_circular = 2131427335;
 			
-			// aapt resource value: 0x7f07004c
-			public const int scrollView = 2131165260;
+			// aapt resource value: 0x7f0b0008
+			public const int progress_horizontal = 2131427336;
 			
-			// aapt resource value: 0x7f070039
-			public const int scrollable = 2131165241;
+			// aapt resource value: 0x7f0b005f
+			public const int radio = 2131427423;
 			
-			// aapt resource value: 0x7f07005e
-			public const int search_badge = 2131165278;
+			// aapt resource value: 0x7f0b0026
+			public const int right = 2131427366;
 			
-			// aapt resource value: 0x7f07005d
-			public const int search_bar = 2131165277;
+			// aapt resource value: 0x7f0b000e
+			public const int satellite = 2131427342;
 			
-			// aapt resource value: 0x7f07005f
-			public const int search_button = 2131165279;
+			// aapt resource value: 0x7f0b003a
+			public const int screen = 2131427386;
 			
-			// aapt resource value: 0x7f070064
-			public const int search_close_btn = 2131165284;
+			// aapt resource value: 0x7f0b001b
+			public const int scroll = 2131427355;
 			
-			// aapt resource value: 0x7f070060
-			public const int search_edit_frame = 2131165280;
+			// aapt resource value: 0x7f0b0059
+			public const int scrollIndicatorDown = 2131427417;
 			
-			// aapt resource value: 0x7f070066
-			public const int search_go_btn = 2131165286;
+			// aapt resource value: 0x7f0b0056
+			public const int scrollIndicatorUp = 2131427414;
 			
-			// aapt resource value: 0x7f070061
-			public const int search_mag_icon = 2131165281;
+			// aapt resource value: 0x7f0b0057
+			public const int scrollView = 2131427415;
 			
-			// aapt resource value: 0x7f070062
-			public const int search_plate = 2131165282;
+			// aapt resource value: 0x7f0b002f
+			public const int scrollable = 2131427375;
 			
-			// aapt resource value: 0x7f070063
-			public const int search_src_text = 2131165283;
+			// aapt resource value: 0x7f0b0069
+			public const int search_badge = 2131427433;
 			
-			// aapt resource value: 0x7f070067
-			public const int search_voice_btn = 2131165287;
+			// aapt resource value: 0x7f0b0068
+			public const int search_bar = 2131427432;
 			
-			// aapt resource value: 0x7f070068
-			public const int select_dialog_listview = 2131165288;
+			// aapt resource value: 0x7f0b006a
+			public const int search_button = 2131427434;
 			
-			// aapt resource value: 0x7f070053
-			public const int shortcut = 2131165267;
+			// aapt resource value: 0x7f0b006f
+			public const int search_close_btn = 2131427439;
 			
-			// aapt resource value: 0x7f070011
-			public const int showCustom = 2131165201;
+			// aapt resource value: 0x7f0b006b
+			public const int search_edit_frame = 2131427435;
 			
-			// aapt resource value: 0x7f070012
-			public const int showHome = 2131165202;
+			// aapt resource value: 0x7f0b0071
+			public const int search_go_btn = 2131427441;
 			
-			// aapt resource value: 0x7f070013
-			public const int showTitle = 2131165203;
+			// aapt resource value: 0x7f0b006c
+			public const int search_mag_icon = 2131427436;
 			
-			// aapt resource value: 0x7f070098
-			public const int sliding_tabs = 2131165336;
+			// aapt resource value: 0x7f0b006d
+			public const int search_plate = 2131427437;
 			
-			// aapt resource value: 0x7f07006c
-			public const int snackbar_action = 2131165292;
+			// aapt resource value: 0x7f0b006e
+			public const int search_src_text = 2131427438;
 			
-			// aapt resource value: 0x7f07006b
-			public const int snackbar_text = 2131165291;
+			// aapt resource value: 0x7f0b0072
+			public const int search_voice_btn = 2131427442;
 			
-			// aapt resource value: 0x7f070027
-			public const int snap = 2131165223;
+			// aapt resource value: 0x7f0b0073
+			public const int select_dialog_listview = 2131427443;
 			
-			// aapt resource value: 0x7f070045
-			public const int spacer = 2131165253;
+			// aapt resource value: 0x7f0b005e
+			public const int shortcut = 2131427422;
 			
-			// aapt resource value: 0x7f070008
-			public const int split_action_bar = 2131165192;
+			// aapt resource value: 0x7f0b0034
+			public const int showCustom = 2131427380;
 			
-			// aapt resource value: 0x7f070018
-			public const int src_atop = 2131165208;
+			// aapt resource value: 0x7f0b0035
+			public const int showHome = 2131427381;
 			
-			// aapt resource value: 0x7f070019
-			public const int src_in = 2131165209;
+			// aapt resource value: 0x7f0b0036
+			public const int showTitle = 2131427382;
 			
-			// aapt resource value: 0x7f07001a
-			public const int src_over = 2131165210;
+			// aapt resource value: 0x7f0b00a3
+			public const int sliding_tabs = 2131427491;
 			
-			// aapt resource value: 0x7f070031
-			public const int start = 2131165233;
+			// aapt resource value: 0x7f0b0077
+			public const int snackbar_action = 2131427447;
 			
-			// aapt resource value: 0x7f07008d
-			public const int status_bar_latest_event_content = 2131165325;
+			// aapt resource value: 0x7f0b0076
+			public const int snackbar_text = 2131427446;
 			
-			// aapt resource value: 0x7f070065
-			public const int submit_area = 2131165285;
+			// aapt resource value: 0x7f0b001c
+			public const int snap = 2131427356;
 			
-			// aapt resource value: 0x7f07000d
-			public const int tabMode = 2131165197;
+			// aapt resource value: 0x7f0b0050
+			public const int spacer = 2131427408;
 			
-			// aapt resource value: 0x7f070095
-			public const int text = 2131165333;
+			// aapt resource value: 0x7f0b0009
+			public const int split_action_bar = 2131427337;
 			
-			// aapt resource value: 0x7f070093
-			public const int text2 = 2131165331;
+			// aapt resource value: 0x7f0b003b
+			public const int src_atop = 2131427387;
 			
-			// aapt resource value: 0x7f07004d
-			public const int textSpacerNoButtons = 2131165261;
+			// aapt resource value: 0x7f0b003c
+			public const int src_in = 2131427388;
 			
-			// aapt resource value: 0x7f070091
-			public const int time = 2131165329;
+			// aapt resource value: 0x7f0b003d
+			public const int src_over = 2131427389;
 			
-			// aapt resource value: 0x7f070043
-			public const int title = 2131165251;
+			// aapt resource value: 0x7f0b0011
+			public const int standard = 2131427345;
 			
-			// aapt resource value: 0x7f070048
-			public const int title_template = 2131165256;
+			// aapt resource value: 0x7f0b0027
+			public const int start = 2131427367;
 			
-			// aapt resource value: 0x7f070099
-			public const int toolbar = 2131165337;
+			// aapt resource value: 0x7f0b0098
+			public const int status_bar_latest_event_content = 2131427480;
 			
-			// aapt resource value: 0x7f070032
-			public const int top = 2131165234;
+			// aapt resource value: 0x7f0b0070
+			public const int submit_area = 2131427440;
 			
-			// aapt resource value: 0x7f070047
-			public const int topPanel = 2131165255;
+			// aapt resource value: 0x7f0b0031
+			public const int tabMode = 2131427377;
 			
-			// aapt resource value: 0x7f070069
-			public const int touch_outside = 2131165289;
+			// aapt resource value: 0x7f0b000f
+			public const int terrain = 2131427343;
 			
-			// aapt resource value: 0x7f070009
-			public const int up = 2131165193;
+			// aapt resource value: 0x7f0b00a0
+			public const int text = 2131427488;
 			
-			// aapt resource value: 0x7f070014
-			public const int useLogo = 2131165204;
+			// aapt resource value: 0x7f0b009e
+			public const int text2 = 2131427486;
 			
-			// aapt resource value: 0x7f07000a
-			public const int view_offset_helper = 2131165194;
+			// aapt resource value: 0x7f0b0058
+			public const int textSpacerNoButtons = 2131427416;
 			
-			// aapt resource value: 0x7f070083
-			public const int volume_item_container = 2131165315;
+			// aapt resource value: 0x7f0b009c
+			public const int time = 2131427484;
 			
-			// aapt resource value: 0x7f070022
-			public const int withText = 2131165218;
+			// aapt resource value: 0x7f0b004e
+			public const int title = 2131427406;
 			
-			// aapt resource value: 0x7f070015
-			public const int wrap_content = 2131165205;
+			// aapt resource value: 0x7f0b0053
+			public const int title_template = 2131427411;
+			
+			// aapt resource value: 0x7f0b00a4
+			public const int toolbar = 2131427492;
+			
+			// aapt resource value: 0x7f0b0028
+			public const int top = 2131427368;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int topPanel = 2131427410;
+			
+			// aapt resource value: 0x7f0b0074
+			public const int touch_outside = 2131427444;
+			
+			// aapt resource value: 0x7f0b000a
+			public const int up = 2131427338;
+			
+			// aapt resource value: 0x7f0b0037
+			public const int useLogo = 2131427383;
+			
+			// aapt resource value: 0x7f0b0000
+			public const int view_offset_helper = 2131427328;
+			
+			// aapt resource value: 0x7f0b008e
+			public const int volume_item_container = 2131427470;
+			
+			// aapt resource value: 0x7f0b0012
+			public const int wide = 2131427346;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int withText = 2131427396;
+			
+			// aapt resource value: 0x7f0b0038
+			public const int wrap_content = 2131427384;
 			
 			static Id()
 			{
@@ -2691,35 +4922,38 @@ namespace ParkingGrandLyon.Droid
 		public partial class Integer
 		{
 			
-			// aapt resource value: 0x7f090004
-			public const int abc_config_activityDefaultDur = 2131296260;
+			// aapt resource value: 0x7f080007
+			public const int abc_config_activityDefaultDur = 2131230727;
 			
-			// aapt resource value: 0x7f090005
-			public const int abc_config_activityShortDur = 2131296261;
+			// aapt resource value: 0x7f080008
+			public const int abc_config_activityShortDur = 2131230728;
 			
-			// aapt resource value: 0x7f090003
-			public const int abc_max_action_buttons = 2131296259;
+			// aapt resource value: 0x7f080006
+			public const int abc_max_action_buttons = 2131230726;
 			
-			// aapt resource value: 0x7f090009
-			public const int bottom_sheet_slide_duration = 2131296265;
+			// aapt resource value: 0x7f080005
+			public const int bottom_sheet_slide_duration = 2131230725;
 			
-			// aapt resource value: 0x7f090006
-			public const int cancel_button_image_alpha = 2131296262;
+			// aapt resource value: 0x7f080009
+			public const int cancel_button_image_alpha = 2131230729;
 			
-			// aapt resource value: 0x7f090008
-			public const int design_snackbar_text_max_lines = 2131296264;
+			// aapt resource value: 0x7f080004
+			public const int design_snackbar_text_max_lines = 2131230724;
 			
-			// aapt resource value: 0x7f090000
-			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296256;
+			// aapt resource value: 0x7f080000
+			public const int google_play_services_version = 2131230720;
 			
-			// aapt resource value: 0x7f090001
-			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296257;
+			// aapt resource value: 0x7f080001
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131230721;
 			
-			// aapt resource value: 0x7f090002
-			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296258;
+			// aapt resource value: 0x7f080002
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131230722;
 			
-			// aapt resource value: 0x7f090007
-			public const int status_bar_notification_info_maxnum = 2131296263;
+			// aapt resource value: 0x7f080003
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131230723;
+			
+			// aapt resource value: 0x7f08000a
+			public const int status_bar_notification_info_maxnum = 2131230730;
 			
 			static Integer()
 			{
@@ -2937,119 +5171,215 @@ namespace ParkingGrandLyon.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f08000f
-			public const int abc_action_bar_home_description = 2131230735;
+			// aapt resource value: 0x7f070031
+			public const int abc_action_bar_home_description = 2131165233;
 			
-			// aapt resource value: 0x7f080010
-			public const int abc_action_bar_home_description_format = 2131230736;
+			// aapt resource value: 0x7f070032
+			public const int abc_action_bar_home_description_format = 2131165234;
 			
-			// aapt resource value: 0x7f080011
-			public const int abc_action_bar_home_subtitle_description_format = 2131230737;
+			// aapt resource value: 0x7f070033
+			public const int abc_action_bar_home_subtitle_description_format = 2131165235;
 			
-			// aapt resource value: 0x7f080012
-			public const int abc_action_bar_up_description = 2131230738;
+			// aapt resource value: 0x7f070034
+			public const int abc_action_bar_up_description = 2131165236;
 			
-			// aapt resource value: 0x7f080013
-			public const int abc_action_menu_overflow_description = 2131230739;
+			// aapt resource value: 0x7f070035
+			public const int abc_action_menu_overflow_description = 2131165237;
 			
-			// aapt resource value: 0x7f080014
-			public const int abc_action_mode_done = 2131230740;
+			// aapt resource value: 0x7f070036
+			public const int abc_action_mode_done = 2131165238;
 			
-			// aapt resource value: 0x7f080015
-			public const int abc_activity_chooser_view_see_all = 2131230741;
+			// aapt resource value: 0x7f070037
+			public const int abc_activity_chooser_view_see_all = 2131165239;
 			
-			// aapt resource value: 0x7f080016
-			public const int abc_activitychooserview_choose_application = 2131230742;
+			// aapt resource value: 0x7f070038
+			public const int abc_activitychooserview_choose_application = 2131165240;
 			
-			// aapt resource value: 0x7f080017
-			public const int abc_capital_off = 2131230743;
+			// aapt resource value: 0x7f070039
+			public const int abc_capital_off = 2131165241;
 			
-			// aapt resource value: 0x7f080018
-			public const int abc_capital_on = 2131230744;
+			// aapt resource value: 0x7f07003a
+			public const int abc_capital_on = 2131165242;
 			
-			// aapt resource value: 0x7f080019
-			public const int abc_search_hint = 2131230745;
+			// aapt resource value: 0x7f07003b
+			public const int abc_search_hint = 2131165243;
 			
-			// aapt resource value: 0x7f08001a
-			public const int abc_searchview_description_clear = 2131230746;
+			// aapt resource value: 0x7f07003c
+			public const int abc_searchview_description_clear = 2131165244;
 			
-			// aapt resource value: 0x7f08001b
-			public const int abc_searchview_description_query = 2131230747;
+			// aapt resource value: 0x7f07003d
+			public const int abc_searchview_description_query = 2131165245;
 			
-			// aapt resource value: 0x7f08001c
-			public const int abc_searchview_description_search = 2131230748;
+			// aapt resource value: 0x7f07003e
+			public const int abc_searchview_description_search = 2131165246;
 			
-			// aapt resource value: 0x7f08001d
-			public const int abc_searchview_description_submit = 2131230749;
+			// aapt resource value: 0x7f07003f
+			public const int abc_searchview_description_submit = 2131165247;
 			
-			// aapt resource value: 0x7f08001e
-			public const int abc_searchview_description_voice = 2131230750;
+			// aapt resource value: 0x7f070040
+			public const int abc_searchview_description_voice = 2131165248;
 			
-			// aapt resource value: 0x7f08001f
-			public const int abc_shareactionprovider_share_with = 2131230751;
+			// aapt resource value: 0x7f070041
+			public const int abc_shareactionprovider_share_with = 2131165249;
 			
-			// aapt resource value: 0x7f080020
-			public const int abc_shareactionprovider_share_with_application = 2131230752;
+			// aapt resource value: 0x7f070042
+			public const int abc_shareactionprovider_share_with_application = 2131165250;
 			
-			// aapt resource value: 0x7f080021
-			public const int abc_toolbar_collapse_description = 2131230753;
+			// aapt resource value: 0x7f070043
+			public const int abc_toolbar_collapse_description = 2131165251;
 			
-			// aapt resource value: 0x7f080023
-			public const int appbar_scrolling_view_behavior = 2131230755;
+			// aapt resource value: 0x7f07002e
+			public const int appbar_scrolling_view_behavior = 2131165230;
 			
-			// aapt resource value: 0x7f080024
-			public const int bottom_sheet_behavior = 2131230756;
+			// aapt resource value: 0x7f07001d
+			public const int auth_google_play_services_client_facebook_display_name = 2131165213;
 			
-			// aapt resource value: 0x7f080025
-			public const int character_counter_pattern = 2131230757;
+			// aapt resource value: 0x7f07001c
+			public const int auth_google_play_services_client_google_display_name = 2131165212;
 			
-			// aapt resource value: 0x7f080000
-			public const int mr_button_content_description = 2131230720;
+			// aapt resource value: 0x7f07002f
+			public const int bottom_sheet_behavior = 2131165231;
 			
-			// aapt resource value: 0x7f080001
-			public const int mr_chooser_searching = 2131230721;
+			// aapt resource value: 0x7f070030
+			public const int character_counter_pattern = 2131165232;
 			
-			// aapt resource value: 0x7f080002
-			public const int mr_chooser_title = 2131230722;
+			// aapt resource value: 0x7f070015
+			public const int common_google_play_services_api_unavailable_text = 2131165205;
 			
-			// aapt resource value: 0x7f080003
-			public const int mr_controller_casting_screen = 2131230723;
+			// aapt resource value: 0x7f070007
+			public const int common_google_play_services_enable_button = 2131165191;
 			
-			// aapt resource value: 0x7f080004
-			public const int mr_controller_close_description = 2131230724;
+			// aapt resource value: 0x7f070006
+			public const int common_google_play_services_enable_text = 2131165190;
 			
-			// aapt resource value: 0x7f080005
-			public const int mr_controller_collapse_group = 2131230725;
+			// aapt resource value: 0x7f070005
+			public const int common_google_play_services_enable_title = 2131165189;
 			
-			// aapt resource value: 0x7f080006
-			public const int mr_controller_disconnect = 2131230726;
+			// aapt resource value: 0x7f070004
+			public const int common_google_play_services_install_button = 2131165188;
 			
-			// aapt resource value: 0x7f080007
-			public const int mr_controller_expand_group = 2131230727;
+			// aapt resource value: 0x7f070002
+			public const int common_google_play_services_install_text_phone = 2131165186;
 			
-			// aapt resource value: 0x7f080008
-			public const int mr_controller_no_info_available = 2131230728;
+			// aapt resource value: 0x7f070003
+			public const int common_google_play_services_install_text_tablet = 2131165187;
 			
-			// aapt resource value: 0x7f080009
-			public const int mr_controller_no_media_selected = 2131230729;
+			// aapt resource value: 0x7f070001
+			public const int common_google_play_services_install_title = 2131165185;
 			
-			// aapt resource value: 0x7f08000a
-			public const int mr_controller_pause = 2131230730;
+			// aapt resource value: 0x7f070010
+			public const int common_google_play_services_invalid_account_text = 2131165200;
 			
-			// aapt resource value: 0x7f08000b
-			public const int mr_controller_play = 2131230731;
+			// aapt resource value: 0x7f07000f
+			public const int common_google_play_services_invalid_account_title = 2131165199;
 			
-			// aapt resource value: 0x7f08000c
-			public const int mr_controller_stop = 2131230732;
+			// aapt resource value: 0x7f07000e
+			public const int common_google_play_services_network_error_text = 2131165198;
 			
-			// aapt resource value: 0x7f08000d
-			public const int mr_system_route_name = 2131230733;
+			// aapt resource value: 0x7f07000d
+			public const int common_google_play_services_network_error_title = 2131165197;
 			
-			// aapt resource value: 0x7f08000e
-			public const int mr_user_route_category_name = 2131230734;
+			// aapt resource value: 0x7f070000
+			public const int common_google_play_services_notification_ticker = 2131165184;
 			
-			// aapt resource value: 0x7f080022
-			public const int status_bar_notification_info_overflow = 2131230754;
+			// aapt resource value: 0x7f070019
+			public const int common_google_play_services_restricted_profile_text = 2131165209;
+			
+			// aapt resource value: 0x7f070018
+			public const int common_google_play_services_restricted_profile_title = 2131165208;
+			
+			// aapt resource value: 0x7f070017
+			public const int common_google_play_services_sign_in_failed_text = 2131165207;
+			
+			// aapt resource value: 0x7f070016
+			public const int common_google_play_services_sign_in_failed_title = 2131165206;
+			
+			// aapt resource value: 0x7f07001e
+			public const int common_google_play_services_unknown_issue = 2131165214;
+			
+			// aapt resource value: 0x7f070012
+			public const int common_google_play_services_unsupported_text = 2131165202;
+			
+			// aapt resource value: 0x7f070011
+			public const int common_google_play_services_unsupported_title = 2131165201;
+			
+			// aapt resource value: 0x7f070013
+			public const int common_google_play_services_update_button = 2131165203;
+			
+			// aapt resource value: 0x7f070009
+			public const int common_google_play_services_update_text = 2131165193;
+			
+			// aapt resource value: 0x7f070008
+			public const int common_google_play_services_update_title = 2131165192;
+			
+			// aapt resource value: 0x7f07000c
+			public const int common_google_play_services_updating_text = 2131165196;
+			
+			// aapt resource value: 0x7f07000b
+			public const int common_google_play_services_updating_title = 2131165195;
+			
+			// aapt resource value: 0x7f07000a
+			public const int common_google_play_services_wear_update_text = 2131165194;
+			
+			// aapt resource value: 0x7f070014
+			public const int common_open_on_phone = 2131165204;
+			
+			// aapt resource value: 0x7f07001a
+			public const int common_signin_button_text = 2131165210;
+			
+			// aapt resource value: 0x7f07001b
+			public const int common_signin_button_text_long = 2131165211;
+			
+			// aapt resource value: 0x7f070045
+			public const int library_name = 2131165253;
+			
+			// aapt resource value: 0x7f07001f
+			public const int mr_button_content_description = 2131165215;
+			
+			// aapt resource value: 0x7f070020
+			public const int mr_chooser_searching = 2131165216;
+			
+			// aapt resource value: 0x7f070021
+			public const int mr_chooser_title = 2131165217;
+			
+			// aapt resource value: 0x7f070022
+			public const int mr_controller_casting_screen = 2131165218;
+			
+			// aapt resource value: 0x7f070023
+			public const int mr_controller_close_description = 2131165219;
+			
+			// aapt resource value: 0x7f070024
+			public const int mr_controller_collapse_group = 2131165220;
+			
+			// aapt resource value: 0x7f070025
+			public const int mr_controller_disconnect = 2131165221;
+			
+			// aapt resource value: 0x7f070026
+			public const int mr_controller_expand_group = 2131165222;
+			
+			// aapt resource value: 0x7f070027
+			public const int mr_controller_no_info_available = 2131165223;
+			
+			// aapt resource value: 0x7f070028
+			public const int mr_controller_no_media_selected = 2131165224;
+			
+			// aapt resource value: 0x7f070029
+			public const int mr_controller_pause = 2131165225;
+			
+			// aapt resource value: 0x7f07002a
+			public const int mr_controller_play = 2131165226;
+			
+			// aapt resource value: 0x7f07002b
+			public const int mr_controller_stop = 2131165227;
+			
+			// aapt resource value: 0x7f07002c
+			public const int mr_system_route_name = 2131165228;
+			
+			// aapt resource value: 0x7f07002d
+			public const int mr_user_route_category_name = 2131165229;
+			
+			// aapt resource value: 0x7f070044
+			public const int status_bar_notification_info_overflow = 2131165252;
 			
 			static String()
 			{
@@ -3064,455 +5394,455 @@ namespace ParkingGrandLyon.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int AlertDialog_AppCompat = 2131361953;
+			// aapt resource value: 0x7f0a00ba
+			public const int AlertDialog_AppCompat = 2131361978;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int AlertDialog_AppCompat_Light = 2131361954;
+			// aapt resource value: 0x7f0a00bb
+			public const int AlertDialog_AppCompat_Light = 2131361979;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int Animation_AppCompat_Dialog = 2131361955;
+			// aapt resource value: 0x7f0a00bc
+			public const int Animation_AppCompat_Dialog = 2131361980;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int Animation_AppCompat_DropDownUp = 2131361956;
+			// aapt resource value: 0x7f0a00bd
+			public const int Animation_AppCompat_DropDownUp = 2131361981;
 			
-			// aapt resource value: 0x7f0a015a
-			public const int Animation_Design_BottomSheetDialog = 2131362138;
+			// aapt resource value: 0x7f0a001c
+			public const int Animation_Design_BottomSheetDialog = 2131361820;
 			
 			// aapt resource value: 0x7f0a0174
 			public const int AppCompatDialogStyle = 2131362164;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int Base_AlertDialog_AppCompat = 2131361957;
+			// aapt resource value: 0x7f0a00be
+			public const int Base_AlertDialog_AppCompat = 2131361982;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int Base_AlertDialog_AppCompat_Light = 2131361958;
+			// aapt resource value: 0x7f0a00bf
+			public const int Base_AlertDialog_AppCompat_Light = 2131361983;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int Base_Animation_AppCompat_Dialog = 2131361959;
+			// aapt resource value: 0x7f0a00c0
+			public const int Base_Animation_AppCompat_Dialog = 2131361984;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int Base_Animation_AppCompat_DropDownUp = 2131361960;
+			// aapt resource value: 0x7f0a00c1
+			public const int Base_Animation_AppCompat_DropDownUp = 2131361985;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int Base_CardView = 2131361816;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int Base_DialogWindowTitle_AppCompat = 2131361961;
-			
-			// aapt resource value: 0x7f0a00aa
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361962;
-			
-			// aapt resource value: 0x7f0a0051
-			public const int Base_TextAppearance_AppCompat = 2131361873;
-			
-			// aapt resource value: 0x7f0a0052
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131361874;
-			
-			// aapt resource value: 0x7f0a0053
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131361875;
-			
-			// aapt resource value: 0x7f0a003b
-			public const int Base_TextAppearance_AppCompat_Button = 2131361851;
-			
-			// aapt resource value: 0x7f0a0054
-			public const int Base_TextAppearance_AppCompat_Caption = 2131361876;
-			
-			// aapt resource value: 0x7f0a0055
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131361877;
-			
-			// aapt resource value: 0x7f0a0056
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131361878;
-			
-			// aapt resource value: 0x7f0a0057
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131361879;
-			
-			// aapt resource value: 0x7f0a0058
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131361880;
-			
-			// aapt resource value: 0x7f0a0059
-			public const int Base_TextAppearance_AppCompat_Headline = 2131361881;
-			
-			// aapt resource value: 0x7f0a0026
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131361830;
-			
-			// aapt resource value: 0x7f0a005a
-			public const int Base_TextAppearance_AppCompat_Large = 2131361882;
-			
-			// aapt resource value: 0x7f0a0027
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131361831;
-			
-			// aapt resource value: 0x7f0a005b
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131361883;
-			
-			// aapt resource value: 0x7f0a005c
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131361884;
-			
-			// aapt resource value: 0x7f0a005d
-			public const int Base_TextAppearance_AppCompat_Medium = 2131361885;
-			
-			// aapt resource value: 0x7f0a0028
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131361832;
-			
-			// aapt resource value: 0x7f0a005e
-			public const int Base_TextAppearance_AppCompat_Menu = 2131361886;
-			
-			// aapt resource value: 0x7f0a00ab
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361963;
-			
-			// aapt resource value: 0x7f0a005f
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131361887;
-			
-			// aapt resource value: 0x7f0a0060
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131361888;
-			
-			// aapt resource value: 0x7f0a0061
-			public const int Base_TextAppearance_AppCompat_Small = 2131361889;
-			
-			// aapt resource value: 0x7f0a0029
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131361833;
-			
-			// aapt resource value: 0x7f0a0062
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131361890;
-			
-			// aapt resource value: 0x7f0a002a
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131361834;
-			
-			// aapt resource value: 0x7f0a0063
-			public const int Base_TextAppearance_AppCompat_Title = 2131361891;
-			
-			// aapt resource value: 0x7f0a002b
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131361835;
-			
-			// aapt resource value: 0x7f0a009a
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131361946;
-			
-			// aapt resource value: 0x7f0a0064
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131361892;
-			
-			// aapt resource value: 0x7f0a0065
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131361893;
-			
-			// aapt resource value: 0x7f0a0066
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131361894;
-			
-			// aapt resource value: 0x7f0a0067
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131361895;
-			
-			// aapt resource value: 0x7f0a0068
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131361896;
-			
-			// aapt resource value: 0x7f0a0069
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131361897;
-			
-			// aapt resource value: 0x7f0a006a
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131361898;
-			
-			// aapt resource value: 0x7f0a009b
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361947;
-			
-			// aapt resource value: 0x7f0a00ac
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131361964;
-			
-			// aapt resource value: 0x7f0a006b
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131361899;
-			
-			// aapt resource value: 0x7f0a006c
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131361900;
-			
-			// aapt resource value: 0x7f0a006d
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131361901;
-			
-			// aapt resource value: 0x7f0a006e
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131361902;
-			
-			// aapt resource value: 0x7f0a00ad
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131361965;
-			
-			// aapt resource value: 0x7f0a006f
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131361903;
-			
-			// aapt resource value: 0x7f0a0070
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131361904;
-			
-			// aapt resource value: 0x7f0a0071
-			public const int Base_Theme_AppCompat = 2131361905;
-			
-			// aapt resource value: 0x7f0a00ae
-			public const int Base_Theme_AppCompat_CompactMenu = 2131361966;
-			
-			// aapt resource value: 0x7f0a002c
-			public const int Base_Theme_AppCompat_Dialog = 2131361836;
-			
-			// aapt resource value: 0x7f0a00af
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131361967;
-			
-			// aapt resource value: 0x7f0a00b0
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131361968;
-			
-			// aapt resource value: 0x7f0a00b1
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131361969;
-			
-			// aapt resource value: 0x7f0a001c
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131361820;
-			
-			// aapt resource value: 0x7f0a0072
-			public const int Base_Theme_AppCompat_Light = 2131361906;
-			
-			// aapt resource value: 0x7f0a00b2
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131361970;
-			
-			// aapt resource value: 0x7f0a002d
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131361837;
-			
-			// aapt resource value: 0x7f0a00b3
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131361971;
-			
-			// aapt resource value: 0x7f0a00b4
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131361972;
-			
-			// aapt resource value: 0x7f0a00b5
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131361973;
-			
-			// aapt resource value: 0x7f0a001d
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131361821;
-			
-			// aapt resource value: 0x7f0a00b6
-			public const int Base_ThemeOverlay_AppCompat = 2131361974;
-			
-			// aapt resource value: 0x7f0a00b7
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131361975;
-			
-			// aapt resource value: 0x7f0a00b8
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131361976;
-			
-			// aapt resource value: 0x7f0a00b9
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131361977;
-			
-			// aapt resource value: 0x7f0a00ba
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131361978;
-			
-			// aapt resource value: 0x7f0a002e
-			public const int Base_V11_Theme_AppCompat_Dialog = 2131361838;
-			
-			// aapt resource value: 0x7f0a002f
-			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131361839;
-			
-			// aapt resource value: 0x7f0a0037
-			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131361847;
-			
-			// aapt resource value: 0x7f0a0038
-			public const int Base_V12_Widget_AppCompat_EditText = 2131361848;
-			
-			// aapt resource value: 0x7f0a0073
-			public const int Base_V21_Theme_AppCompat = 2131361907;
-			
-			// aapt resource value: 0x7f0a0074
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131361908;
-			
-			// aapt resource value: 0x7f0a0075
-			public const int Base_V21_Theme_AppCompat_Light = 2131361909;
-			
-			// aapt resource value: 0x7f0a0076
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131361910;
-			
-			// aapt resource value: 0x7f0a0098
-			public const int Base_V22_Theme_AppCompat = 2131361944;
-			
-			// aapt resource value: 0x7f0a0099
-			public const int Base_V22_Theme_AppCompat_Light = 2131361945;
-			
-			// aapt resource value: 0x7f0a009c
-			public const int Base_V23_Theme_AppCompat = 2131361948;
-			
-			// aapt resource value: 0x7f0a009d
-			public const int Base_V23_Theme_AppCompat_Light = 2131361949;
-			
-			// aapt resource value: 0x7f0a00bb
-			public const int Base_V7_Theme_AppCompat = 2131361979;
-			
-			// aapt resource value: 0x7f0a00bc
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131361980;
-			
-			// aapt resource value: 0x7f0a00bd
-			public const int Base_V7_Theme_AppCompat_Light = 2131361981;
-			
-			// aapt resource value: 0x7f0a00be
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131361982;
-			
-			// aapt resource value: 0x7f0a00bf
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131361983;
-			
-			// aapt resource value: 0x7f0a00c0
-			public const int Base_V7_Widget_AppCompat_EditText = 2131361984;
-			
-			// aapt resource value: 0x7f0a00c1
-			public const int Base_Widget_AppCompat_ActionBar = 2131361985;
-			
 			// aapt resource value: 0x7f0a00c2
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131361986;
+			public const int Base_DialogWindowTitle_AppCompat = 2131361986;
 			
 			// aapt resource value: 0x7f0a00c3
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131361987;
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131361987;
+			
+			// aapt resource value: 0x7f0a006a
+			public const int Base_TextAppearance_AppCompat = 2131361898;
+			
+			// aapt resource value: 0x7f0a006b
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131361899;
+			
+			// aapt resource value: 0x7f0a006c
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131361900;
+			
+			// aapt resource value: 0x7f0a0054
+			public const int Base_TextAppearance_AppCompat_Button = 2131361876;
+			
+			// aapt resource value: 0x7f0a006d
+			public const int Base_TextAppearance_AppCompat_Caption = 2131361901;
+			
+			// aapt resource value: 0x7f0a006e
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131361902;
+			
+			// aapt resource value: 0x7f0a006f
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131361903;
+			
+			// aapt resource value: 0x7f0a0070
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131361904;
+			
+			// aapt resource value: 0x7f0a0071
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131361905;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int Base_TextAppearance_AppCompat_Headline = 2131361906;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131361855;
+			
+			// aapt resource value: 0x7f0a0073
+			public const int Base_TextAppearance_AppCompat_Large = 2131361907;
+			
+			// aapt resource value: 0x7f0a0040
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131361856;
+			
+			// aapt resource value: 0x7f0a0074
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131361908;
+			
+			// aapt resource value: 0x7f0a0075
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131361909;
+			
+			// aapt resource value: 0x7f0a0076
+			public const int Base_TextAppearance_AppCompat_Medium = 2131361910;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131361857;
 			
 			// aapt resource value: 0x7f0a0077
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131361911;
-			
-			// aapt resource value: 0x7f0a0078
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131361912;
-			
-			// aapt resource value: 0x7f0a0079
-			public const int Base_Widget_AppCompat_ActionButton = 2131361913;
-			
-			// aapt resource value: 0x7f0a007a
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131361914;
-			
-			// aapt resource value: 0x7f0a007b
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131361915;
+			public const int Base_TextAppearance_AppCompat_Menu = 2131361911;
 			
 			// aapt resource value: 0x7f0a00c4
-			public const int Base_Widget_AppCompat_ActionMode = 2131361988;
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131361988;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131361989;
+			// aapt resource value: 0x7f0a0078
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131361912;
 			
-			// aapt resource value: 0x7f0a0039
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131361849;
+			// aapt resource value: 0x7f0a0079
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131361913;
+			
+			// aapt resource value: 0x7f0a007a
+			public const int Base_TextAppearance_AppCompat_Small = 2131361914;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131361858;
+			
+			// aapt resource value: 0x7f0a007b
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131361915;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131361859;
 			
 			// aapt resource value: 0x7f0a007c
-			public const int Base_Widget_AppCompat_Button = 2131361916;
+			public const int Base_TextAppearance_AppCompat_Title = 2131361916;
+			
+			// aapt resource value: 0x7f0a0044
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131361860;
+			
+			// aapt resource value: 0x7f0a00b3
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131361971;
 			
 			// aapt resource value: 0x7f0a007d
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131361917;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131361917;
 			
 			// aapt resource value: 0x7f0a007e
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131361918;
-			
-			// aapt resource value: 0x7f0a00c6
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131361990;
-			
-			// aapt resource value: 0x7f0a009e
-			public const int Base_Widget_AppCompat_Button_Colored = 2131361950;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131361918;
 			
 			// aapt resource value: 0x7f0a007f
-			public const int Base_Widget_AppCompat_Button_Small = 2131361919;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131361919;
 			
 			// aapt resource value: 0x7f0a0080
-			public const int Base_Widget_AppCompat_ButtonBar = 2131361920;
-			
-			// aapt resource value: 0x7f0a00c7
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131361991;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131361920;
 			
 			// aapt resource value: 0x7f0a0081
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131361921;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131361921;
 			
 			// aapt resource value: 0x7f0a0082
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131361922;
-			
-			// aapt resource value: 0x7f0a00c8
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131361992;
-			
-			// aapt resource value: 0x7f0a001b
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131361819;
-			
-			// aapt resource value: 0x7f0a00c9
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131361993;
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131361922;
 			
 			// aapt resource value: 0x7f0a0083
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131361923;
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131361923;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int Base_Widget_AppCompat_EditText = 2131361850;
+			// aapt resource value: 0x7f0a00b4
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131361972;
+			
+			// aapt resource value: 0x7f0a00c5
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131361989;
 			
 			// aapt resource value: 0x7f0a0084
-			public const int Base_Widget_AppCompat_ImageButton = 2131361924;
-			
-			// aapt resource value: 0x7f0a00ca
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131361994;
-			
-			// aapt resource value: 0x7f0a00cb
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131361995;
-			
-			// aapt resource value: 0x7f0a00cc
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131361996;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131361924;
 			
 			// aapt resource value: 0x7f0a0085
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131361925;
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131361925;
 			
 			// aapt resource value: 0x7f0a0086
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131361926;
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131361926;
 			
 			// aapt resource value: 0x7f0a0087
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131361927;
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131361927;
+			
+			// aapt resource value: 0x7f0a00c6
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131361990;
 			
 			// aapt resource value: 0x7f0a0088
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131361928;
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131361928;
 			
 			// aapt resource value: 0x7f0a0089
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131361929;
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131361929;
 			
 			// aapt resource value: 0x7f0a008a
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131361930;
+			public const int Base_Theme_AppCompat = 2131361930;
+			
+			// aapt resource value: 0x7f0a00c7
+			public const int Base_Theme_AppCompat_CompactMenu = 2131361991;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int Base_Theme_AppCompat_Dialog = 2131361861;
+			
+			// aapt resource value: 0x7f0a00c8
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131361992;
+			
+			// aapt resource value: 0x7f0a00c9
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131361993;
+			
+			// aapt resource value: 0x7f0a00ca
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131361994;
+			
+			// aapt resource value: 0x7f0a0035
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131361845;
 			
 			// aapt resource value: 0x7f0a008b
-			public const int Base_Widget_AppCompat_ListView = 2131361931;
+			public const int Base_Theme_AppCompat_Light = 2131361931;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131361932;
+			// aapt resource value: 0x7f0a00cb
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131361995;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131361933;
+			// aapt resource value: 0x7f0a0046
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131361862;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int Base_Widget_AppCompat_PopupMenu = 2131361934;
-			
-			// aapt resource value: 0x7f0a008f
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131361935;
+			// aapt resource value: 0x7f0a00cc
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131361996;
 			
 			// aapt resource value: 0x7f0a00cd
-			public const int Base_Widget_AppCompat_PopupWindow = 2131361997;
-			
-			// aapt resource value: 0x7f0a0030
-			public const int Base_Widget_AppCompat_ProgressBar = 2131361840;
-			
-			// aapt resource value: 0x7f0a0031
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131361841;
-			
-			// aapt resource value: 0x7f0a0090
-			public const int Base_Widget_AppCompat_RatingBar = 2131361936;
-			
-			// aapt resource value: 0x7f0a009f
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131361951;
-			
-			// aapt resource value: 0x7f0a00a0
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131361952;
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131361997;
 			
 			// aapt resource value: 0x7f0a00ce
-			public const int Base_Widget_AppCompat_SearchView = 2131361998;
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131361998;
+			
+			// aapt resource value: 0x7f0a0036
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131361846;
 			
 			// aapt resource value: 0x7f0a00cf
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131361999;
-			
-			// aapt resource value: 0x7f0a0091
-			public const int Base_Widget_AppCompat_SeekBar = 2131361937;
-			
-			// aapt resource value: 0x7f0a0092
-			public const int Base_Widget_AppCompat_Spinner = 2131361938;
-			
-			// aapt resource value: 0x7f0a001e
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131361822;
-			
-			// aapt resource value: 0x7f0a0093
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131361939;
+			public const int Base_ThemeOverlay_AppCompat = 2131361999;
 			
 			// aapt resource value: 0x7f0a00d0
-			public const int Base_Widget_AppCompat_Toolbar = 2131362000;
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131362000;
+			
+			// aapt resource value: 0x7f0a00d1
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131362001;
+			
+			// aapt resource value: 0x7f0a00d2
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131362002;
+			
+			// aapt resource value: 0x7f0a00d3
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131362003;
+			
+			// aapt resource value: 0x7f0a0047
+			public const int Base_V11_Theme_AppCompat_Dialog = 2131361863;
+			
+			// aapt resource value: 0x7f0a0048
+			public const int Base_V11_Theme_AppCompat_Light_Dialog = 2131361864;
+			
+			// aapt resource value: 0x7f0a0050
+			public const int Base_V12_Widget_AppCompat_AutoCompleteTextView = 2131361872;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int Base_V12_Widget_AppCompat_EditText = 2131361873;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int Base_V21_Theme_AppCompat = 2131361932;
+			
+			// aapt resource value: 0x7f0a008d
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131361933;
+			
+			// aapt resource value: 0x7f0a008e
+			public const int Base_V21_Theme_AppCompat_Light = 2131361934;
+			
+			// aapt resource value: 0x7f0a008f
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131361935;
+			
+			// aapt resource value: 0x7f0a00b1
+			public const int Base_V22_Theme_AppCompat = 2131361969;
+			
+			// aapt resource value: 0x7f0a00b2
+			public const int Base_V22_Theme_AppCompat_Light = 2131361970;
+			
+			// aapt resource value: 0x7f0a00b5
+			public const int Base_V23_Theme_AppCompat = 2131361973;
+			
+			// aapt resource value: 0x7f0a00b6
+			public const int Base_V23_Theme_AppCompat_Light = 2131361974;
+			
+			// aapt resource value: 0x7f0a00d4
+			public const int Base_V7_Theme_AppCompat = 2131362004;
+			
+			// aapt resource value: 0x7f0a00d5
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131362005;
+			
+			// aapt resource value: 0x7f0a00d6
+			public const int Base_V7_Theme_AppCompat_Light = 2131362006;
+			
+			// aapt resource value: 0x7f0a00d7
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131362007;
+			
+			// aapt resource value: 0x7f0a00d8
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131362008;
+			
+			// aapt resource value: 0x7f0a00d9
+			public const int Base_V7_Widget_AppCompat_EditText = 2131362009;
+			
+			// aapt resource value: 0x7f0a00da
+			public const int Base_Widget_AppCompat_ActionBar = 2131362010;
+			
+			// aapt resource value: 0x7f0a00db
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131362011;
+			
+			// aapt resource value: 0x7f0a00dc
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131362012;
+			
+			// aapt resource value: 0x7f0a0090
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131361936;
+			
+			// aapt resource value: 0x7f0a0091
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131361937;
+			
+			// aapt resource value: 0x7f0a0092
+			public const int Base_Widget_AppCompat_ActionButton = 2131361938;
+			
+			// aapt resource value: 0x7f0a0093
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131361939;
 			
 			// aapt resource value: 0x7f0a0094
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131361940;
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131361940;
 			
-			// aapt resource value: 0x7f0a015b
-			public const int Base_Widget_Design_TabLayout = 2131362139;
+			// aapt resource value: 0x7f0a00dd
+			public const int Base_Widget_AppCompat_ActionMode = 2131362013;
+			
+			// aapt resource value: 0x7f0a00de
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131362014;
+			
+			// aapt resource value: 0x7f0a0052
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131361874;
+			
+			// aapt resource value: 0x7f0a0095
+			public const int Base_Widget_AppCompat_Button = 2131361941;
+			
+			// aapt resource value: 0x7f0a0096
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131361942;
+			
+			// aapt resource value: 0x7f0a0097
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131361943;
+			
+			// aapt resource value: 0x7f0a00df
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362015;
+			
+			// aapt resource value: 0x7f0a00b7
+			public const int Base_Widget_AppCompat_Button_Colored = 2131361975;
+			
+			// aapt resource value: 0x7f0a0098
+			public const int Base_Widget_AppCompat_Button_Small = 2131361944;
+			
+			// aapt resource value: 0x7f0a0099
+			public const int Base_Widget_AppCompat_ButtonBar = 2131361945;
+			
+			// aapt resource value: 0x7f0a00e0
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131362016;
+			
+			// aapt resource value: 0x7f0a009a
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131361946;
+			
+			// aapt resource value: 0x7f0a009b
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131361947;
+			
+			// aapt resource value: 0x7f0a00e1
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131362017;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131361844;
+			
+			// aapt resource value: 0x7f0a00e2
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131362018;
+			
+			// aapt resource value: 0x7f0a009c
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131361948;
+			
+			// aapt resource value: 0x7f0a0053
+			public const int Base_Widget_AppCompat_EditText = 2131361875;
+			
+			// aapt resource value: 0x7f0a009d
+			public const int Base_Widget_AppCompat_ImageButton = 2131361949;
+			
+			// aapt resource value: 0x7f0a00e3
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131362019;
+			
+			// aapt resource value: 0x7f0a00e4
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131362020;
+			
+			// aapt resource value: 0x7f0a00e5
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131362021;
+			
+			// aapt resource value: 0x7f0a009e
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131361950;
+			
+			// aapt resource value: 0x7f0a009f
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131361951;
+			
+			// aapt resource value: 0x7f0a00a0
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131361952;
+			
+			// aapt resource value: 0x7f0a00a1
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131361953;
+			
+			// aapt resource value: 0x7f0a00a2
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131361954;
+			
+			// aapt resource value: 0x7f0a00a3
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131361955;
+			
+			// aapt resource value: 0x7f0a00a4
+			public const int Base_Widget_AppCompat_ListView = 2131361956;
+			
+			// aapt resource value: 0x7f0a00a5
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131361957;
+			
+			// aapt resource value: 0x7f0a00a6
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131361958;
+			
+			// aapt resource value: 0x7f0a00a7
+			public const int Base_Widget_AppCompat_PopupMenu = 2131361959;
+			
+			// aapt resource value: 0x7f0a00a8
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131361960;
+			
+			// aapt resource value: 0x7f0a00e6
+			public const int Base_Widget_AppCompat_PopupWindow = 2131362022;
+			
+			// aapt resource value: 0x7f0a0049
+			public const int Base_Widget_AppCompat_ProgressBar = 2131361865;
+			
+			// aapt resource value: 0x7f0a004a
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131361866;
+			
+			// aapt resource value: 0x7f0a00a9
+			public const int Base_Widget_AppCompat_RatingBar = 2131361961;
+			
+			// aapt resource value: 0x7f0a00b8
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131361976;
+			
+			// aapt resource value: 0x7f0a00b9
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131361977;
+			
+			// aapt resource value: 0x7f0a00e7
+			public const int Base_Widget_AppCompat_SearchView = 2131362023;
+			
+			// aapt resource value: 0x7f0a00e8
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131362024;
+			
+			// aapt resource value: 0x7f0a00aa
+			public const int Base_Widget_AppCompat_SeekBar = 2131361962;
+			
+			// aapt resource value: 0x7f0a00ab
+			public const int Base_Widget_AppCompat_Spinner = 2131361963;
+			
+			// aapt resource value: 0x7f0a0037
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131361847;
+			
+			// aapt resource value: 0x7f0a00ac
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131361964;
+			
+			// aapt resource value: 0x7f0a00e9
+			public const int Base_Widget_AppCompat_Toolbar = 2131362025;
+			
+			// aapt resource value: 0x7f0a00ad
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131361965;
+			
+			// aapt resource value: 0x7f0a001d
+			public const int Base_Widget_Design_TabLayout = 2131361821;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int CardView = 2131361815;
@@ -3529,335 +5859,335 @@ namespace ParkingGrandLyon.Droid
 			// aapt resource value: 0x7f0a0173
 			public const int MyTheme_Base = 2131362163;
 			
-			// aapt resource value: 0x7f0a0032
-			public const int Platform_AppCompat = 2131361842;
-			
-			// aapt resource value: 0x7f0a0033
-			public const int Platform_AppCompat_Light = 2131361843;
-			
-			// aapt resource value: 0x7f0a0095
-			public const int Platform_ThemeOverlay_AppCompat = 2131361941;
-			
-			// aapt resource value: 0x7f0a0096
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131361942;
-			
-			// aapt resource value: 0x7f0a0097
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131361943;
-			
-			// aapt resource value: 0x7f0a0034
-			public const int Platform_V11_AppCompat = 2131361844;
-			
-			// aapt resource value: 0x7f0a0035
-			public const int Platform_V11_AppCompat_Light = 2131361845;
-			
-			// aapt resource value: 0x7f0a003c
-			public const int Platform_V14_AppCompat = 2131361852;
-			
-			// aapt resource value: 0x7f0a003d
-			public const int Platform_V14_AppCompat_Light = 2131361853;
-			
-			// aapt resource value: 0x7f0a0036
-			public const int Platform_Widget_AppCompat_Spinner = 2131361846;
-			
-			// aapt resource value: 0x7f0a0043
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131361859;
-			
-			// aapt resource value: 0x7f0a0044
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131361860;
-			
-			// aapt resource value: 0x7f0a0045
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131361861;
-			
-			// aapt resource value: 0x7f0a0046
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131361862;
-			
-			// aapt resource value: 0x7f0a0047
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131361863;
-			
-			// aapt resource value: 0x7f0a0048
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131361864;
-			
-			// aapt resource value: 0x7f0a0049
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131361865;
-			
-			// aapt resource value: 0x7f0a004a
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131361866;
-			
 			// aapt resource value: 0x7f0a004b
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131361867;
+			public const int Platform_AppCompat = 2131361867;
 			
 			// aapt resource value: 0x7f0a004c
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131361868;
+			public const int Platform_AppCompat_Light = 2131361868;
+			
+			// aapt resource value: 0x7f0a00ae
+			public const int Platform_ThemeOverlay_AppCompat = 2131361966;
+			
+			// aapt resource value: 0x7f0a00af
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131361967;
+			
+			// aapt resource value: 0x7f0a00b0
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131361968;
 			
 			// aapt resource value: 0x7f0a004d
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131361869;
+			public const int Platform_V11_AppCompat = 2131361869;
 			
 			// aapt resource value: 0x7f0a004e
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131361870;
+			public const int Platform_V11_AppCompat_Light = 2131361870;
+			
+			// aapt resource value: 0x7f0a0055
+			public const int Platform_V14_AppCompat = 2131361877;
+			
+			// aapt resource value: 0x7f0a0056
+			public const int Platform_V14_AppCompat_Light = 2131361878;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131361871;
+			public const int Platform_Widget_AppCompat_Spinner = 2131361871;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131361872;
+			// aapt resource value: 0x7f0a005c
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131361884;
 			
-			// aapt resource value: 0x7f0a00d1
-			public const int TextAppearance_AppCompat = 2131362001;
+			// aapt resource value: 0x7f0a005d
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131361885;
 			
-			// aapt resource value: 0x7f0a00d2
-			public const int TextAppearance_AppCompat_Body1 = 2131362002;
+			// aapt resource value: 0x7f0a005e
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131361886;
 			
-			// aapt resource value: 0x7f0a00d3
-			public const int TextAppearance_AppCompat_Body2 = 2131362003;
+			// aapt resource value: 0x7f0a005f
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131361887;
 			
-			// aapt resource value: 0x7f0a00d4
-			public const int TextAppearance_AppCompat_Button = 2131362004;
+			// aapt resource value: 0x7f0a0060
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131361888;
 			
-			// aapt resource value: 0x7f0a00d5
-			public const int TextAppearance_AppCompat_Caption = 2131362005;
+			// aapt resource value: 0x7f0a0061
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131361889;
 			
-			// aapt resource value: 0x7f0a00d6
-			public const int TextAppearance_AppCompat_Display1 = 2131362006;
+			// aapt resource value: 0x7f0a0062
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131361890;
 			
-			// aapt resource value: 0x7f0a00d7
-			public const int TextAppearance_AppCompat_Display2 = 2131362007;
+			// aapt resource value: 0x7f0a0063
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131361891;
 			
-			// aapt resource value: 0x7f0a00d8
-			public const int TextAppearance_AppCompat_Display3 = 2131362008;
+			// aapt resource value: 0x7f0a0064
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131361892;
 			
-			// aapt resource value: 0x7f0a00d9
-			public const int TextAppearance_AppCompat_Display4 = 2131362009;
+			// aapt resource value: 0x7f0a0065
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131361893;
 			
-			// aapt resource value: 0x7f0a00da
-			public const int TextAppearance_AppCompat_Headline = 2131362010;
+			// aapt resource value: 0x7f0a0066
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131361894;
 			
-			// aapt resource value: 0x7f0a00db
-			public const int TextAppearance_AppCompat_Inverse = 2131362011;
+			// aapt resource value: 0x7f0a0067
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131361895;
 			
-			// aapt resource value: 0x7f0a00dc
-			public const int TextAppearance_AppCompat_Large = 2131362012;
+			// aapt resource value: 0x7f0a0068
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131361896;
 			
-			// aapt resource value: 0x7f0a00dd
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131362013;
-			
-			// aapt resource value: 0x7f0a00de
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131362014;
-			
-			// aapt resource value: 0x7f0a00df
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131362015;
-			
-			// aapt resource value: 0x7f0a00e0
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131362016;
-			
-			// aapt resource value: 0x7f0a00e1
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131362017;
-			
-			// aapt resource value: 0x7f0a00e2
-			public const int TextAppearance_AppCompat_Medium = 2131362018;
-			
-			// aapt resource value: 0x7f0a00e3
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131362019;
-			
-			// aapt resource value: 0x7f0a00e4
-			public const int TextAppearance_AppCompat_Menu = 2131362020;
-			
-			// aapt resource value: 0x7f0a00e5
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131362021;
-			
-			// aapt resource value: 0x7f0a00e6
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131362022;
-			
-			// aapt resource value: 0x7f0a00e7
-			public const int TextAppearance_AppCompat_Small = 2131362023;
-			
-			// aapt resource value: 0x7f0a00e8
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131362024;
-			
-			// aapt resource value: 0x7f0a00e9
-			public const int TextAppearance_AppCompat_Subhead = 2131362025;
+			// aapt resource value: 0x7f0a0069
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131361897;
 			
 			// aapt resource value: 0x7f0a00ea
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131362026;
+			public const int TextAppearance_AppCompat = 2131362026;
 			
 			// aapt resource value: 0x7f0a00eb
-			public const int TextAppearance_AppCompat_Title = 2131362027;
+			public const int TextAppearance_AppCompat_Body1 = 2131362027;
 			
 			// aapt resource value: 0x7f0a00ec
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131362028;
+			public const int TextAppearance_AppCompat_Body2 = 2131362028;
 			
 			// aapt resource value: 0x7f0a00ed
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131362029;
+			public const int TextAppearance_AppCompat_Button = 2131362029;
 			
 			// aapt resource value: 0x7f0a00ee
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131362030;
+			public const int TextAppearance_AppCompat_Caption = 2131362030;
 			
 			// aapt resource value: 0x7f0a00ef
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131362031;
+			public const int TextAppearance_AppCompat_Display1 = 2131362031;
 			
 			// aapt resource value: 0x7f0a00f0
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131362032;
+			public const int TextAppearance_AppCompat_Display2 = 2131362032;
 			
 			// aapt resource value: 0x7f0a00f1
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131362033;
+			public const int TextAppearance_AppCompat_Display3 = 2131362033;
 			
 			// aapt resource value: 0x7f0a00f2
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131362034;
+			public const int TextAppearance_AppCompat_Display4 = 2131362034;
 			
 			// aapt resource value: 0x7f0a00f3
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131362035;
+			public const int TextAppearance_AppCompat_Headline = 2131362035;
 			
 			// aapt resource value: 0x7f0a00f4
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131362036;
+			public const int TextAppearance_AppCompat_Inverse = 2131362036;
 			
 			// aapt resource value: 0x7f0a00f5
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131362037;
+			public const int TextAppearance_AppCompat_Large = 2131362037;
 			
 			// aapt resource value: 0x7f0a00f6
-			public const int TextAppearance_AppCompat_Widget_Button = 2131362038;
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131362038;
 			
 			// aapt resource value: 0x7f0a00f7
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131362039;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131362039;
 			
 			// aapt resource value: 0x7f0a00f8
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131362040;
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131362040;
 			
 			// aapt resource value: 0x7f0a00f9
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131362041;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131362041;
 			
 			// aapt resource value: 0x7f0a00fa
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131362042;
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131362042;
 			
 			// aapt resource value: 0x7f0a00fb
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131362043;
+			public const int TextAppearance_AppCompat_Medium = 2131362043;
 			
 			// aapt resource value: 0x7f0a00fc
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131362044;
-			
-			// aapt resource value: 0x7f0a015c
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131362140;
-			
-			// aapt resource value: 0x7f0a015d
-			public const int TextAppearance_Design_Counter = 2131362141;
-			
-			// aapt resource value: 0x7f0a015e
-			public const int TextAppearance_Design_Counter_Overflow = 2131362142;
-			
-			// aapt resource value: 0x7f0a015f
-			public const int TextAppearance_Design_Error = 2131362143;
-			
-			// aapt resource value: 0x7f0a0160
-			public const int TextAppearance_Design_Hint = 2131362144;
-			
-			// aapt resource value: 0x7f0a0161
-			public const int TextAppearance_Design_Snackbar_Message = 2131362145;
-			
-			// aapt resource value: 0x7f0a0162
-			public const int TextAppearance_Design_Tab = 2131362146;
-			
-			// aapt resource value: 0x7f0a003e
-			public const int TextAppearance_StatusBar_EventContent = 2131361854;
-			
-			// aapt resource value: 0x7f0a003f
-			public const int TextAppearance_StatusBar_EventContent_Info = 2131361855;
-			
-			// aapt resource value: 0x7f0a0040
-			public const int TextAppearance_StatusBar_EventContent_Line2 = 2131361856;
-			
-			// aapt resource value: 0x7f0a0041
-			public const int TextAppearance_StatusBar_EventContent_Time = 2131361857;
-			
-			// aapt resource value: 0x7f0a0042
-			public const int TextAppearance_StatusBar_EventContent_Title = 2131361858;
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131362044;
 			
 			// aapt resource value: 0x7f0a00fd
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131362045;
+			public const int TextAppearance_AppCompat_Menu = 2131362045;
 			
 			// aapt resource value: 0x7f0a00fe
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131362046;
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131362046;
 			
 			// aapt resource value: 0x7f0a00ff
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131362047;
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131362047;
 			
 			// aapt resource value: 0x7f0a0100
-			public const int Theme_AppCompat = 2131362048;
+			public const int TextAppearance_AppCompat_Small = 2131362048;
 			
 			// aapt resource value: 0x7f0a0101
-			public const int Theme_AppCompat_CompactMenu = 2131362049;
-			
-			// aapt resource value: 0x7f0a001f
-			public const int Theme_AppCompat_DayNight = 2131361823;
-			
-			// aapt resource value: 0x7f0a0020
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131361824;
-			
-			// aapt resource value: 0x7f0a0021
-			public const int Theme_AppCompat_DayNight_Dialog = 2131361825;
-			
-			// aapt resource value: 0x7f0a0022
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131361826;
-			
-			// aapt resource value: 0x7f0a0023
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131361827;
-			
-			// aapt resource value: 0x7f0a0024
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131361828;
-			
-			// aapt resource value: 0x7f0a0025
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131361829;
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131362049;
 			
 			// aapt resource value: 0x7f0a0102
-			public const int Theme_AppCompat_Dialog = 2131362050;
+			public const int TextAppearance_AppCompat_Subhead = 2131362050;
 			
 			// aapt resource value: 0x7f0a0103
-			public const int Theme_AppCompat_Dialog_Alert = 2131362051;
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131362051;
 			
 			// aapt resource value: 0x7f0a0104
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131362052;
+			public const int TextAppearance_AppCompat_Title = 2131362052;
 			
 			// aapt resource value: 0x7f0a0105
-			public const int Theme_AppCompat_DialogWhenLarge = 2131362053;
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131362053;
 			
 			// aapt resource value: 0x7f0a0106
-			public const int Theme_AppCompat_Light = 2131362054;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131362054;
 			
 			// aapt resource value: 0x7f0a0107
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131362055;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131362055;
 			
 			// aapt resource value: 0x7f0a0108
-			public const int Theme_AppCompat_Light_Dialog = 2131362056;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131362056;
 			
 			// aapt resource value: 0x7f0a0109
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131362057;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131362057;
 			
 			// aapt resource value: 0x7f0a010a
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131362058;
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131362058;
 			
 			// aapt resource value: 0x7f0a010b
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131362059;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131362059;
 			
 			// aapt resource value: 0x7f0a010c
-			public const int Theme_AppCompat_Light_NoActionBar = 2131362060;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131362060;
 			
 			// aapt resource value: 0x7f0a010d
-			public const int Theme_AppCompat_NoActionBar = 2131362061;
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131362061;
 			
-			// aapt resource value: 0x7f0a0163
-			public const int Theme_Design = 2131362147;
+			// aapt resource value: 0x7f0a010e
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131362062;
 			
-			// aapt resource value: 0x7f0a0164
-			public const int Theme_Design_BottomSheetDialog = 2131362148;
+			// aapt resource value: 0x7f0a010f
+			public const int TextAppearance_AppCompat_Widget_Button = 2131362063;
 			
-			// aapt resource value: 0x7f0a0165
-			public const int Theme_Design_Light = 2131362149;
+			// aapt resource value: 0x7f0a0110
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131362064;
 			
-			// aapt resource value: 0x7f0a0166
-			public const int Theme_Design_Light_BottomSheetDialog = 2131362150;
+			// aapt resource value: 0x7f0a0111
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131362065;
 			
-			// aapt resource value: 0x7f0a0167
-			public const int Theme_Design_Light_NoActionBar = 2131362151;
+			// aapt resource value: 0x7f0a0112
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131362066;
 			
-			// aapt resource value: 0x7f0a0168
-			public const int Theme_Design_NoActionBar = 2131362152;
+			// aapt resource value: 0x7f0a0113
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131362067;
+			
+			// aapt resource value: 0x7f0a0114
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131362068;
+			
+			// aapt resource value: 0x7f0a0115
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131362069;
+			
+			// aapt resource value: 0x7f0a001e
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131361822;
+			
+			// aapt resource value: 0x7f0a001f
+			public const int TextAppearance_Design_Counter = 2131361823;
+			
+			// aapt resource value: 0x7f0a0020
+			public const int TextAppearance_Design_Counter_Overflow = 2131361824;
+			
+			// aapt resource value: 0x7f0a0021
+			public const int TextAppearance_Design_Error = 2131361825;
+			
+			// aapt resource value: 0x7f0a0022
+			public const int TextAppearance_Design_Hint = 2131361826;
+			
+			// aapt resource value: 0x7f0a0023
+			public const int TextAppearance_Design_Snackbar_Message = 2131361827;
+			
+			// aapt resource value: 0x7f0a0024
+			public const int TextAppearance_Design_Tab = 2131361828;
+			
+			// aapt resource value: 0x7f0a0057
+			public const int TextAppearance_StatusBar_EventContent = 2131361879;
+			
+			// aapt resource value: 0x7f0a0058
+			public const int TextAppearance_StatusBar_EventContent_Info = 2131361880;
+			
+			// aapt resource value: 0x7f0a0059
+			public const int TextAppearance_StatusBar_EventContent_Line2 = 2131361881;
+			
+			// aapt resource value: 0x7f0a005a
+			public const int TextAppearance_StatusBar_EventContent_Time = 2131361882;
+			
+			// aapt resource value: 0x7f0a005b
+			public const int TextAppearance_StatusBar_EventContent_Title = 2131361883;
+			
+			// aapt resource value: 0x7f0a0116
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131362070;
+			
+			// aapt resource value: 0x7f0a0117
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131362071;
+			
+			// aapt resource value: 0x7f0a0118
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131362072;
+			
+			// aapt resource value: 0x7f0a0119
+			public const int Theme_AppCompat = 2131362073;
+			
+			// aapt resource value: 0x7f0a011a
+			public const int Theme_AppCompat_CompactMenu = 2131362074;
+			
+			// aapt resource value: 0x7f0a0038
+			public const int Theme_AppCompat_DayNight = 2131361848;
+			
+			// aapt resource value: 0x7f0a0039
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131361849;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int Theme_AppCompat_DayNight_Dialog = 2131361850;
+			
+			// aapt resource value: 0x7f0a003b
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131361851;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131361852;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131361853;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131361854;
+			
+			// aapt resource value: 0x7f0a011b
+			public const int Theme_AppCompat_Dialog = 2131362075;
+			
+			// aapt resource value: 0x7f0a011c
+			public const int Theme_AppCompat_Dialog_Alert = 2131362076;
+			
+			// aapt resource value: 0x7f0a011d
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131362077;
+			
+			// aapt resource value: 0x7f0a011e
+			public const int Theme_AppCompat_DialogWhenLarge = 2131362078;
+			
+			// aapt resource value: 0x7f0a011f
+			public const int Theme_AppCompat_Light = 2131362079;
+			
+			// aapt resource value: 0x7f0a0120
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131362080;
+			
+			// aapt resource value: 0x7f0a0121
+			public const int Theme_AppCompat_Light_Dialog = 2131362081;
+			
+			// aapt resource value: 0x7f0a0122
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131362082;
+			
+			// aapt resource value: 0x7f0a0123
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131362083;
+			
+			// aapt resource value: 0x7f0a0124
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131362084;
+			
+			// aapt resource value: 0x7f0a0125
+			public const int Theme_AppCompat_Light_NoActionBar = 2131362085;
+			
+			// aapt resource value: 0x7f0a0126
+			public const int Theme_AppCompat_NoActionBar = 2131362086;
+			
+			// aapt resource value: 0x7f0a0025
+			public const int Theme_Design = 2131361829;
+			
+			// aapt resource value: 0x7f0a0026
+			public const int Theme_Design_BottomSheetDialog = 2131361830;
+			
+			// aapt resource value: 0x7f0a0027
+			public const int Theme_Design_Light = 2131361831;
+			
+			// aapt resource value: 0x7f0a0028
+			public const int Theme_Design_Light_BottomSheetDialog = 2131361832;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int Theme_Design_Light_NoActionBar = 2131361833;
+			
+			// aapt resource value: 0x7f0a002a
+			public const int Theme_Design_NoActionBar = 2131361834;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int Theme_MediaRouter = 2131361792;
@@ -3871,260 +6201,260 @@ namespace ParkingGrandLyon.Droid
 			// aapt resource value: 0x7f0a0003
 			public const int Theme_MediaRouter_LightControlPanel = 2131361795;
 			
-			// aapt resource value: 0x7f0a010e
-			public const int ThemeOverlay_AppCompat = 2131362062;
-			
-			// aapt resource value: 0x7f0a010f
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131362063;
-			
-			// aapt resource value: 0x7f0a0110
-			public const int ThemeOverlay_AppCompat_Dark = 2131362064;
-			
-			// aapt resource value: 0x7f0a0111
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131362065;
-			
-			// aapt resource value: 0x7f0a0112
-			public const int ThemeOverlay_AppCompat_Light = 2131362066;
-			
-			// aapt resource value: 0x7f0a0113
-			public const int Widget_AppCompat_ActionBar = 2131362067;
-			
-			// aapt resource value: 0x7f0a0114
-			public const int Widget_AppCompat_ActionBar_Solid = 2131362068;
-			
-			// aapt resource value: 0x7f0a0115
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131362069;
-			
-			// aapt resource value: 0x7f0a0116
-			public const int Widget_AppCompat_ActionBar_TabText = 2131362070;
-			
-			// aapt resource value: 0x7f0a0117
-			public const int Widget_AppCompat_ActionBar_TabView = 2131362071;
-			
-			// aapt resource value: 0x7f0a0118
-			public const int Widget_AppCompat_ActionButton = 2131362072;
-			
-			// aapt resource value: 0x7f0a0119
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131362073;
-			
-			// aapt resource value: 0x7f0a011a
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131362074;
-			
-			// aapt resource value: 0x7f0a011b
-			public const int Widget_AppCompat_ActionMode = 2131362075;
-			
-			// aapt resource value: 0x7f0a011c
-			public const int Widget_AppCompat_ActivityChooserView = 2131362076;
-			
-			// aapt resource value: 0x7f0a011d
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131362077;
-			
-			// aapt resource value: 0x7f0a011e
-			public const int Widget_AppCompat_Button = 2131362078;
-			
-			// aapt resource value: 0x7f0a011f
-			public const int Widget_AppCompat_Button_Borderless = 2131362079;
-			
-			// aapt resource value: 0x7f0a0120
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131362080;
-			
-			// aapt resource value: 0x7f0a0121
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362081;
-			
-			// aapt resource value: 0x7f0a0122
-			public const int Widget_AppCompat_Button_Colored = 2131362082;
-			
-			// aapt resource value: 0x7f0a0123
-			public const int Widget_AppCompat_Button_Small = 2131362083;
-			
-			// aapt resource value: 0x7f0a0124
-			public const int Widget_AppCompat_ButtonBar = 2131362084;
-			
-			// aapt resource value: 0x7f0a0125
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131362085;
-			
-			// aapt resource value: 0x7f0a0126
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131362086;
-			
 			// aapt resource value: 0x7f0a0127
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131362087;
+			public const int ThemeOverlay_AppCompat = 2131362087;
 			
 			// aapt resource value: 0x7f0a0128
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131362088;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131362088;
 			
 			// aapt resource value: 0x7f0a0129
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131362089;
+			public const int ThemeOverlay_AppCompat_Dark = 2131362089;
 			
 			// aapt resource value: 0x7f0a012a
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131362090;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131362090;
 			
 			// aapt resource value: 0x7f0a012b
-			public const int Widget_AppCompat_EditText = 2131362091;
+			public const int ThemeOverlay_AppCompat_Light = 2131362091;
 			
 			// aapt resource value: 0x7f0a012c
-			public const int Widget_AppCompat_ImageButton = 2131362092;
+			public const int Widget_AppCompat_ActionBar = 2131362092;
 			
 			// aapt resource value: 0x7f0a012d
-			public const int Widget_AppCompat_Light_ActionBar = 2131362093;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131362093;
 			
 			// aapt resource value: 0x7f0a012e
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131362094;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131362094;
 			
 			// aapt resource value: 0x7f0a012f
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131362095;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131362095;
 			
 			// aapt resource value: 0x7f0a0130
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131362096;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131362096;
 			
 			// aapt resource value: 0x7f0a0131
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131362097;
+			public const int Widget_AppCompat_ActionButton = 2131362097;
 			
 			// aapt resource value: 0x7f0a0132
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131362098;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131362098;
 			
 			// aapt resource value: 0x7f0a0133
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131362099;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131362099;
 			
 			// aapt resource value: 0x7f0a0134
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131362100;
+			public const int Widget_AppCompat_ActionMode = 2131362100;
 			
 			// aapt resource value: 0x7f0a0135
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131362101;
+			public const int Widget_AppCompat_ActivityChooserView = 2131362101;
 			
 			// aapt resource value: 0x7f0a0136
-			public const int Widget_AppCompat_Light_ActionButton = 2131362102;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131362102;
 			
 			// aapt resource value: 0x7f0a0137
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131362103;
+			public const int Widget_AppCompat_Button = 2131362103;
 			
 			// aapt resource value: 0x7f0a0138
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131362104;
+			public const int Widget_AppCompat_Button_Borderless = 2131362104;
 			
 			// aapt resource value: 0x7f0a0139
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131362105;
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131362105;
 			
 			// aapt resource value: 0x7f0a013a
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131362106;
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131362106;
 			
 			// aapt resource value: 0x7f0a013b
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131362107;
+			public const int Widget_AppCompat_Button_Colored = 2131362107;
 			
 			// aapt resource value: 0x7f0a013c
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131362108;
+			public const int Widget_AppCompat_Button_Small = 2131362108;
 			
 			// aapt resource value: 0x7f0a013d
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131362109;
+			public const int Widget_AppCompat_ButtonBar = 2131362109;
 			
 			// aapt resource value: 0x7f0a013e
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131362110;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131362110;
 			
 			// aapt resource value: 0x7f0a013f
-			public const int Widget_AppCompat_Light_PopupMenu = 2131362111;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131362111;
 			
 			// aapt resource value: 0x7f0a0140
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131362112;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131362112;
 			
 			// aapt resource value: 0x7f0a0141
-			public const int Widget_AppCompat_Light_SearchView = 2131362113;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131362113;
 			
 			// aapt resource value: 0x7f0a0142
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131362114;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131362114;
 			
 			// aapt resource value: 0x7f0a0143
-			public const int Widget_AppCompat_ListPopupWindow = 2131362115;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131362115;
 			
 			// aapt resource value: 0x7f0a0144
-			public const int Widget_AppCompat_ListView = 2131362116;
+			public const int Widget_AppCompat_EditText = 2131362116;
 			
 			// aapt resource value: 0x7f0a0145
-			public const int Widget_AppCompat_ListView_DropDown = 2131362117;
+			public const int Widget_AppCompat_ImageButton = 2131362117;
 			
 			// aapt resource value: 0x7f0a0146
-			public const int Widget_AppCompat_ListView_Menu = 2131362118;
+			public const int Widget_AppCompat_Light_ActionBar = 2131362118;
 			
 			// aapt resource value: 0x7f0a0147
-			public const int Widget_AppCompat_PopupMenu = 2131362119;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131362119;
 			
 			// aapt resource value: 0x7f0a0148
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131362120;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131362120;
 			
 			// aapt resource value: 0x7f0a0149
-			public const int Widget_AppCompat_PopupWindow = 2131362121;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131362121;
 			
 			// aapt resource value: 0x7f0a014a
-			public const int Widget_AppCompat_ProgressBar = 2131362122;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131362122;
 			
 			// aapt resource value: 0x7f0a014b
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131362123;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131362123;
 			
 			// aapt resource value: 0x7f0a014c
-			public const int Widget_AppCompat_RatingBar = 2131362124;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131362124;
 			
 			// aapt resource value: 0x7f0a014d
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131362125;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131362125;
 			
 			// aapt resource value: 0x7f0a014e
-			public const int Widget_AppCompat_RatingBar_Small = 2131362126;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131362126;
 			
 			// aapt resource value: 0x7f0a014f
-			public const int Widget_AppCompat_SearchView = 2131362127;
+			public const int Widget_AppCompat_Light_ActionButton = 2131362127;
 			
 			// aapt resource value: 0x7f0a0150
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131362128;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131362128;
 			
 			// aapt resource value: 0x7f0a0151
-			public const int Widget_AppCompat_SeekBar = 2131362129;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131362129;
 			
 			// aapt resource value: 0x7f0a0152
-			public const int Widget_AppCompat_Spinner = 2131362130;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131362130;
 			
 			// aapt resource value: 0x7f0a0153
-			public const int Widget_AppCompat_Spinner_DropDown = 2131362131;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131362131;
 			
 			// aapt resource value: 0x7f0a0154
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131362132;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131362132;
 			
 			// aapt resource value: 0x7f0a0155
-			public const int Widget_AppCompat_Spinner_Underlined = 2131362133;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131362133;
 			
 			// aapt resource value: 0x7f0a0156
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131362134;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131362134;
 			
 			// aapt resource value: 0x7f0a0157
-			public const int Widget_AppCompat_Toolbar = 2131362135;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131362135;
 			
 			// aapt resource value: 0x7f0a0158
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131362136;
-			
-			// aapt resource value: 0x7f0a0169
-			public const int Widget_Design_AppBarLayout = 2131362153;
-			
-			// aapt resource value: 0x7f0a016a
-			public const int Widget_Design_BottomSheet_Modal = 2131362154;
-			
-			// aapt resource value: 0x7f0a016b
-			public const int Widget_Design_CollapsingToolbar = 2131362155;
-			
-			// aapt resource value: 0x7f0a016c
-			public const int Widget_Design_CoordinatorLayout = 2131362156;
-			
-			// aapt resource value: 0x7f0a016d
-			public const int Widget_Design_FloatingActionButton = 2131362157;
-			
-			// aapt resource value: 0x7f0a016e
-			public const int Widget_Design_NavigationView = 2131362158;
-			
-			// aapt resource value: 0x7f0a016f
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131362159;
-			
-			// aapt resource value: 0x7f0a0170
-			public const int Widget_Design_Snackbar = 2131362160;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131362136;
 			
 			// aapt resource value: 0x7f0a0159
-			public const int Widget_Design_TabLayout = 2131362137;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131362137;
+			
+			// aapt resource value: 0x7f0a015a
+			public const int Widget_AppCompat_Light_SearchView = 2131362138;
+			
+			// aapt resource value: 0x7f0a015b
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131362139;
+			
+			// aapt resource value: 0x7f0a015c
+			public const int Widget_AppCompat_ListPopupWindow = 2131362140;
+			
+			// aapt resource value: 0x7f0a015d
+			public const int Widget_AppCompat_ListView = 2131362141;
+			
+			// aapt resource value: 0x7f0a015e
+			public const int Widget_AppCompat_ListView_DropDown = 2131362142;
+			
+			// aapt resource value: 0x7f0a015f
+			public const int Widget_AppCompat_ListView_Menu = 2131362143;
+			
+			// aapt resource value: 0x7f0a0160
+			public const int Widget_AppCompat_PopupMenu = 2131362144;
+			
+			// aapt resource value: 0x7f0a0161
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131362145;
+			
+			// aapt resource value: 0x7f0a0162
+			public const int Widget_AppCompat_PopupWindow = 2131362146;
+			
+			// aapt resource value: 0x7f0a0163
+			public const int Widget_AppCompat_ProgressBar = 2131362147;
+			
+			// aapt resource value: 0x7f0a0164
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131362148;
+			
+			// aapt resource value: 0x7f0a0165
+			public const int Widget_AppCompat_RatingBar = 2131362149;
+			
+			// aapt resource value: 0x7f0a0166
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131362150;
+			
+			// aapt resource value: 0x7f0a0167
+			public const int Widget_AppCompat_RatingBar_Small = 2131362151;
+			
+			// aapt resource value: 0x7f0a0168
+			public const int Widget_AppCompat_SearchView = 2131362152;
+			
+			// aapt resource value: 0x7f0a0169
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131362153;
+			
+			// aapt resource value: 0x7f0a016a
+			public const int Widget_AppCompat_SeekBar = 2131362154;
+			
+			// aapt resource value: 0x7f0a016b
+			public const int Widget_AppCompat_Spinner = 2131362155;
+			
+			// aapt resource value: 0x7f0a016c
+			public const int Widget_AppCompat_Spinner_DropDown = 2131362156;
+			
+			// aapt resource value: 0x7f0a016d
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131362157;
+			
+			// aapt resource value: 0x7f0a016e
+			public const int Widget_AppCompat_Spinner_Underlined = 2131362158;
+			
+			// aapt resource value: 0x7f0a016f
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131362159;
+			
+			// aapt resource value: 0x7f0a0170
+			public const int Widget_AppCompat_Toolbar = 2131362160;
 			
 			// aapt resource value: 0x7f0a0171
-			public const int Widget_Design_TextInputLayout = 2131362161;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131362161;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int Widget_Design_AppBarLayout = 2131361835;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int Widget_Design_BottomSheet_Modal = 2131361836;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int Widget_Design_CollapsingToolbar = 2131361837;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int Widget_Design_CoordinatorLayout = 2131361838;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int Widget_Design_FloatingActionButton = 2131361839;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int Widget_Design_NavigationView = 2131361840;
+			
+			// aapt resource value: 0x7f0a0031
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131361841;
+			
+			// aapt resource value: 0x7f0a0032
+			public const int Widget_Design_Snackbar = 2131361842;
+			
+			// aapt resource value: 0x7f0a001b
+			public const int Widget_Design_TabLayout = 2131361819;
+			
+			// aapt resource value: 0x7f0a0033
+			public const int Widget_Design_TextInputLayout = 2131361843;
 			
 			// aapt resource value: 0x7f0a0004
 			public const int Widget_MediaRouter_ChooserText = 2131361796;
@@ -4198,33 +6528,33 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] ActionBar = new int[]
 			{
-					2130772007,
-					2130772009,
-					2130772010,
-					2130772011,
-					2130772012,
-					2130772013,
-					2130772014,
-					2130772015,
-					2130772016,
-					2130772017,
-					2130772018,
-					2130772019,
-					2130772020,
-					2130772021,
-					2130772022,
-					2130772023,
-					2130772024,
-					2130772025,
-					2130772026,
-					2130772027,
-					2130772028,
-					2130772029,
-					2130772030,
-					2130772031,
-					2130772032,
-					2130772033,
-					2130772090};
+					2130772099,
+					2130772101,
+					2130772102,
+					2130772103,
+					2130772104,
+					2130772105,
+					2130772106,
+					2130772107,
+					2130772108,
+					2130772109,
+					2130772110,
+					2130772111,
+					2130772112,
+					2130772113,
+					2130772114,
+					2130772115,
+					2130772116,
+					2130772117,
+					2130772118,
+					2130772119,
+					2130772120,
+					2130772121,
+					2130772122,
+					2130772123,
+					2130772124,
+					2130772125,
+					2130772182};
 			
 			// aapt resource value: 10
 			public const int ActionBar_background = 10;
@@ -4325,12 +6655,12 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] ActionMode = new int[]
 			{
-					2130772007,
-					2130772013,
-					2130772014,
-					2130772018,
-					2130772020,
-					2130772034};
+					2130772099,
+					2130772105,
+					2130772106,
+					2130772110,
+					2130772112,
+					2130772126};
 			
 			// aapt resource value: 3
 			public const int ActionMode_background = 3;
@@ -4352,8 +6682,8 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] ActivityChooserView = new int[]
 			{
-					2130772035,
-					2130772036};
+					2130772127,
+					2130772128};
 			
 			// aapt resource value: 1
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
@@ -4364,11 +6694,11 @@ namespace ParkingGrandLyon.Droid
 			public static int[] AlertDialog = new int[]
 			{
 					16842994,
-					2130772037,
-					2130772038,
-					2130772039,
-					2130772040,
-					2130772041};
+					2130772129,
+					2130772130,
+					2130772131,
+					2130772132,
+					2130772133};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -4391,22 +6721,22 @@ namespace ParkingGrandLyon.Droid
 			public static int[] AppBarLayout = new int[]
 			{
 					16842964,
-					2130772032,
-					2130772215};
+					2130772025,
+					2130772124};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_android_background = 0;
 			
-			// aapt resource value: 1
-			public const int AppBarLayout_elevation = 1;
-			
 			// aapt resource value: 2
-			public const int AppBarLayout_expanded = 2;
+			public const int AppBarLayout_elevation = 2;
+			
+			// aapt resource value: 1
+			public const int AppBarLayout_expanded = 1;
 			
 			public static int[] AppBarLayout_LayoutParams = new int[]
 			{
-					2130772216,
-					2130772217};
+					2130772026,
+					2130772027};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_LayoutParams_layout_scrollFlags = 0;
@@ -4417,7 +6747,7 @@ namespace ParkingGrandLyon.Droid
 			public static int[] AppCompatImageView = new int[]
 			{
 					16843033,
-					2130772042};
+					2130772134};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -4428,7 +6758,7 @@ namespace ParkingGrandLyon.Droid
 			public static int[] AppCompatTextView = new int[]
 			{
 					16842804,
-					2130772043};
+					2130772135};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -4440,98 +6770,6 @@ namespace ParkingGrandLyon.Droid
 			{
 					16842839,
 					16842926,
-					2130772044,
-					2130772045,
-					2130772046,
-					2130772047,
-					2130772048,
-					2130772049,
-					2130772050,
-					2130772051,
-					2130772052,
-					2130772053,
-					2130772054,
-					2130772055,
-					2130772056,
-					2130772057,
-					2130772058,
-					2130772059,
-					2130772060,
-					2130772061,
-					2130772062,
-					2130772063,
-					2130772064,
-					2130772065,
-					2130772066,
-					2130772067,
-					2130772068,
-					2130772069,
-					2130772070,
-					2130772071,
-					2130772072,
-					2130772073,
-					2130772074,
-					2130772075,
-					2130772076,
-					2130772077,
-					2130772078,
-					2130772079,
-					2130772080,
-					2130772081,
-					2130772082,
-					2130772083,
-					2130772084,
-					2130772085,
-					2130772086,
-					2130772087,
-					2130772088,
-					2130772089,
-					2130772090,
-					2130772091,
-					2130772092,
-					2130772093,
-					2130772094,
-					2130772095,
-					2130772096,
-					2130772097,
-					2130772098,
-					2130772099,
-					2130772100,
-					2130772101,
-					2130772102,
-					2130772103,
-					2130772104,
-					2130772105,
-					2130772106,
-					2130772107,
-					2130772108,
-					2130772109,
-					2130772110,
-					2130772111,
-					2130772112,
-					2130772113,
-					2130772114,
-					2130772115,
-					2130772116,
-					2130772117,
-					2130772118,
-					2130772119,
-					2130772120,
-					2130772121,
-					2130772122,
-					2130772123,
-					2130772124,
-					2130772125,
-					2130772126,
-					2130772127,
-					2130772128,
-					2130772129,
-					2130772130,
-					2130772131,
-					2130772132,
-					2130772133,
-					2130772134,
-					2130772135,
 					2130772136,
 					2130772137,
 					2130772138,
@@ -4549,7 +6787,99 @@ namespace ParkingGrandLyon.Droid
 					2130772150,
 					2130772151,
 					2130772152,
-					2130772153};
+					2130772153,
+					2130772154,
+					2130772155,
+					2130772156,
+					2130772157,
+					2130772158,
+					2130772159,
+					2130772160,
+					2130772161,
+					2130772162,
+					2130772163,
+					2130772164,
+					2130772165,
+					2130772166,
+					2130772167,
+					2130772168,
+					2130772169,
+					2130772170,
+					2130772171,
+					2130772172,
+					2130772173,
+					2130772174,
+					2130772175,
+					2130772176,
+					2130772177,
+					2130772178,
+					2130772179,
+					2130772180,
+					2130772181,
+					2130772182,
+					2130772183,
+					2130772184,
+					2130772185,
+					2130772186,
+					2130772187,
+					2130772188,
+					2130772189,
+					2130772190,
+					2130772191,
+					2130772192,
+					2130772193,
+					2130772194,
+					2130772195,
+					2130772196,
+					2130772197,
+					2130772198,
+					2130772199,
+					2130772200,
+					2130772201,
+					2130772202,
+					2130772203,
+					2130772204,
+					2130772205,
+					2130772206,
+					2130772207,
+					2130772208,
+					2130772209,
+					2130772210,
+					2130772211,
+					2130772212,
+					2130772213,
+					2130772214,
+					2130772215,
+					2130772216,
+					2130772217,
+					2130772218,
+					2130772219,
+					2130772220,
+					2130772221,
+					2130772222,
+					2130772223,
+					2130772224,
+					2130772225,
+					2130772226,
+					2130772227,
+					2130772228,
+					2130772229,
+					2130772230,
+					2130772231,
+					2130772232,
+					2130772233,
+					2130772234,
+					2130772235,
+					2130772236,
+					2130772237,
+					2130772238,
+					2130772239,
+					2130772240,
+					2130772241,
+					2130772242,
+					2130772243,
+					2130772244,
+					2130772245};
 			
 			// aapt resource value: 23
 			public const int AppCompatTheme_actionBarDivider = 23;
@@ -4889,8 +7219,8 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] BottomSheetBehavior_Params = new int[]
 			{
-					2130772218,
-					2130772219};
+					2130772028,
+					2130772029};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Params_behavior_hideable = 1;
@@ -4900,7 +7230,7 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] ButtonBarLayout = new int[]
 			{
-					2130772154};
+					2130772246};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
@@ -4909,17 +7239,17 @@ namespace ParkingGrandLyon.Droid
 			{
 					16843071,
 					16843072,
-					2130771995,
-					2130771996,
-					2130771997,
-					2130771998,
-					2130771999,
-					2130772000,
-					2130772001,
-					2130772002,
-					2130772003,
-					2130772004,
-					2130772005};
+					2130772014,
+					2130772015,
+					2130772016,
+					2130772017,
+					2130772018,
+					2130772019,
+					2130772020,
+					2130772021,
+					2130772022,
+					2130772023,
+					2130772024};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -4962,8 +7292,8 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] CollapsingAppBarLayout_LayoutParams = new int[]
 			{
-					2130772220,
-					2130772221};
+					2130772030,
+					2130772031};
 			
 			// aapt resource value: 0
 			public const int CollapsingAppBarLayout_LayoutParams_layout_collapseMode = 0;
@@ -4973,68 +7303,68 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] CollapsingToolbarLayout = new int[]
 			{
-					2130772009,
-					2130772222,
-					2130772223,
-					2130772224,
-					2130772225,
-					2130772226,
-					2130772227,
-					2130772228,
-					2130772229,
-					2130772230,
-					2130772231,
-					2130772232,
-					2130772233,
-					2130772234};
-			
-			// aapt resource value: 11
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 11;
-			
-			// aapt resource value: 7
-			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 7;
-			
-			// aapt resource value: 8
-			public const int CollapsingToolbarLayout_contentScrim = 8;
-			
-			// aapt resource value: 12
-			public const int CollapsingToolbarLayout_expandedTitleGravity = 12;
-			
-			// aapt resource value: 1
-			public const int CollapsingToolbarLayout_expandedTitleMargin = 1;
-			
-			// aapt resource value: 5
-			public const int CollapsingToolbarLayout_expandedTitleMarginBottom = 5;
-			
-			// aapt resource value: 4
-			public const int CollapsingToolbarLayout_expandedTitleMarginEnd = 4;
-			
-			// aapt resource value: 2
-			public const int CollapsingToolbarLayout_expandedTitleMarginStart = 2;
-			
-			// aapt resource value: 3
-			public const int CollapsingToolbarLayout_expandedTitleMarginTop = 3;
-			
-			// aapt resource value: 6
-			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 6;
-			
-			// aapt resource value: 9
-			public const int CollapsingToolbarLayout_statusBarScrim = 9;
-			
-			// aapt resource value: 0
-			public const int CollapsingToolbarLayout_title = 0;
-			
-			// aapt resource value: 13
-			public const int CollapsingToolbarLayout_titleEnabled = 13;
+					2130772032,
+					2130772033,
+					2130772034,
+					2130772035,
+					2130772036,
+					2130772037,
+					2130772038,
+					2130772039,
+					2130772040,
+					2130772041,
+					2130772042,
+					2130772043,
+					2130772044,
+					2130772101};
 			
 			// aapt resource value: 10
-			public const int CollapsingToolbarLayout_toolbarId = 10;
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 10;
+			
+			// aapt resource value: 6
+			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 6;
+			
+			// aapt resource value: 7
+			public const int CollapsingToolbarLayout_contentScrim = 7;
+			
+			// aapt resource value: 11
+			public const int CollapsingToolbarLayout_expandedTitleGravity = 11;
+			
+			// aapt resource value: 0
+			public const int CollapsingToolbarLayout_expandedTitleMargin = 0;
+			
+			// aapt resource value: 4
+			public const int CollapsingToolbarLayout_expandedTitleMarginBottom = 4;
+			
+			// aapt resource value: 3
+			public const int CollapsingToolbarLayout_expandedTitleMarginEnd = 3;
+			
+			// aapt resource value: 1
+			public const int CollapsingToolbarLayout_expandedTitleMarginStart = 1;
+			
+			// aapt resource value: 2
+			public const int CollapsingToolbarLayout_expandedTitleMarginTop = 2;
+			
+			// aapt resource value: 5
+			public const int CollapsingToolbarLayout_expandedTitleTextAppearance = 5;
+			
+			// aapt resource value: 8
+			public const int CollapsingToolbarLayout_statusBarScrim = 8;
+			
+			// aapt resource value: 13
+			public const int CollapsingToolbarLayout_title = 13;
+			
+			// aapt resource value: 12
+			public const int CollapsingToolbarLayout_titleEnabled = 12;
+			
+			// aapt resource value: 9
+			public const int CollapsingToolbarLayout_toolbarId = 9;
 			
 			public static int[] CompoundButton = new int[]
 			{
 					16843015,
-					2130772155,
-					2130772156};
+					2130772247,
+					2130772248};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -5047,8 +7377,8 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] CoordinatorLayout = new int[]
 			{
-					2130772235,
-					2130772236};
+					2130772045,
+					2130772046};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -5059,10 +7389,10 @@ namespace ParkingGrandLyon.Droid
 			public static int[] CoordinatorLayout_LayoutParams = new int[]
 			{
 					16842931,
-					2130772237,
-					2130772238,
-					2130772239,
-					2130772240};
+					2130772047,
+					2130772048,
+					2130772049,
+					2130772050};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_LayoutParams_android_layout_gravity = 0;
@@ -5081,9 +7411,9 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] DesignTheme = new int[]
 			{
-					2130772241,
-					2130772242,
-					2130772243};
+					2130772051,
+					2130772052,
+					2130772053};
 			
 			// aapt resource value: 0
 			public const int DesignTheme_bottomSheetDialogTheme = 0;
@@ -5096,14 +7426,14 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] DrawerArrowToggle = new int[]
 			{
-					2130772157,
-					2130772158,
-					2130772159,
-					2130772160,
-					2130772161,
-					2130772162,
-					2130772163,
-					2130772164};
+					2130772249,
+					2130772250,
+					2130772251,
+					2130772252,
+					2130772253,
+					2130772254,
+					2130772255,
+					2130772256};
 			
 			// aapt resource value: 4
 			public const int DrawerArrowToggle_arrowHeadLength = 4;
@@ -5131,44 +7461,44 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] FloatingActionButton = new int[]
 			{
-					2130772032,
-					2130772213,
-					2130772214,
-					2130772244,
-					2130772245,
-					2130772246,
-					2130772247,
-					2130772248};
-			
-			// aapt resource value: 1
-			public const int FloatingActionButton_backgroundTint = 1;
-			
-			// aapt resource value: 2
-			public const int FloatingActionButton_backgroundTintMode = 2;
+					2130772054,
+					2130772055,
+					2130772056,
+					2130772057,
+					2130772058,
+					2130772124,
+					2130772305,
+					2130772306};
 			
 			// aapt resource value: 6
-			public const int FloatingActionButton_borderWidth = 6;
-			
-			// aapt resource value: 0
-			public const int FloatingActionButton_elevation = 0;
-			
-			// aapt resource value: 4
-			public const int FloatingActionButton_fabSize = 4;
-			
-			// aapt resource value: 5
-			public const int FloatingActionButton_pressedTranslationZ = 5;
-			
-			// aapt resource value: 3
-			public const int FloatingActionButton_rippleColor = 3;
+			public const int FloatingActionButton_backgroundTint = 6;
 			
 			// aapt resource value: 7
-			public const int FloatingActionButton_useCompatPadding = 7;
+			public const int FloatingActionButton_backgroundTintMode = 7;
+			
+			// aapt resource value: 3
+			public const int FloatingActionButton_borderWidth = 3;
+			
+			// aapt resource value: 5
+			public const int FloatingActionButton_elevation = 5;
+			
+			// aapt resource value: 1
+			public const int FloatingActionButton_fabSize = 1;
+			
+			// aapt resource value: 2
+			public const int FloatingActionButton_pressedTranslationZ = 2;
+			
+			// aapt resource value: 0
+			public const int FloatingActionButton_rippleColor = 0;
+			
+			// aapt resource value: 4
+			public const int FloatingActionButton_useCompatPadding = 4;
 			
 			public static int[] ForegroundLinearLayout = new int[]
 			{
 					16843017,
 					16843264,
-					2130772249};
+					2130772059};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -5186,10 +7516,10 @@ namespace ParkingGrandLyon.Droid
 					16843046,
 					16843047,
 					16843048,
-					2130772017,
-					2130772165,
-					2130772166,
-					2130772167};
+					2130772109,
+					2130772257,
+					2130772258,
+					2130772259};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -5248,11 +7578,97 @@ namespace ParkingGrandLyon.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
+			public static int[] LoadingImageView = new int[]
+			{
+					2130771988,
+					2130771989,
+					2130771990};
+			
+			// aapt resource value: 2
+			public const int LoadingImageView_circleCrop = 2;
+			
+			// aapt resource value: 1
+			public const int LoadingImageView_imageAspectRatio = 1;
+			
+			// aapt resource value: 0
+			public const int LoadingImageView_imageAspectRatioAdjust = 0;
+			
+			public static int[] MapAttrs = new int[]
+			{
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984};
+			
+			// aapt resource value: 16
+			public const int MapAttrs_ambientEnabled = 16;
+			
+			// aapt resource value: 1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 6
+			public const int MapAttrs_liteMode = 6;
+			
+			// aapt resource value: 0
+			public const int MapAttrs_mapType = 0;
+			
+			// aapt resource value: 7
+			public const int MapAttrs_uiCompass = 7;
+			
+			// aapt resource value: 15
+			public const int MapAttrs_uiMapToolbar = 15;
+			
+			// aapt resource value: 8
+			public const int MapAttrs_uiRotateGestures = 8;
+			
+			// aapt resource value: 9
+			public const int MapAttrs_uiScrollGestures = 9;
+			
+			// aapt resource value: 10
+			public const int MapAttrs_uiTiltGestures = 10;
+			
+			// aapt resource value: 11
+			public const int MapAttrs_uiZoomControls = 11;
+			
+			// aapt resource value: 12
+			public const int MapAttrs_uiZoomGestures = 12;
+			
+			// aapt resource value: 13
+			public const int MapAttrs_useViewLifecycle = 13;
+			
+			// aapt resource value: 14
+			public const int MapAttrs_zOrderOnTop = 14;
+			
 			public static int[] MediaRouteButton = new int[]
 			{
 					16843071,
 					16843072,
-					2130771994};
+					2130772013};
 			
 			// aapt resource value: 1
 			public const int MediaRouteButton_android_minHeight = 1;
@@ -5305,10 +7721,10 @@ namespace ParkingGrandLyon.Droid
 					16843236,
 					16843237,
 					16843375,
-					2130772168,
-					2130772169,
-					2130772170,
-					2130772171};
+					2130772260,
+					2130772261,
+					2130772262,
+					2130772263};
 			
 			// aapt resource value: 14
 			public const int MenuItem_actionLayout = 14;
@@ -5370,7 +7786,7 @@ namespace ParkingGrandLyon.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130772172};
+					2130772264};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -5401,13 +7817,13 @@ namespace ParkingGrandLyon.Droid
 					16842964,
 					16842973,
 					16843039,
-					2130772032,
-					2130772250,
-					2130772251,
-					2130772252,
-					2130772253,
-					2130772254,
-					2130772255};
+					2130772060,
+					2130772061,
+					2130772062,
+					2130772063,
+					2130772064,
+					2130772065,
+					2130772124};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -5418,31 +7834,31 @@ namespace ParkingGrandLyon.Droid
 			// aapt resource value: 2
 			public const int NavigationView_android_maxWidth = 2;
 			
-			// aapt resource value: 3
-			public const int NavigationView_elevation = 3;
-			
 			// aapt resource value: 9
-			public const int NavigationView_headerLayout = 9;
-			
-			// aapt resource value: 7
-			public const int NavigationView_itemBackground = 7;
-			
-			// aapt resource value: 5
-			public const int NavigationView_itemIconTint = 5;
+			public const int NavigationView_elevation = 9;
 			
 			// aapt resource value: 8
-			public const int NavigationView_itemTextAppearance = 8;
+			public const int NavigationView_headerLayout = 8;
 			
 			// aapt resource value: 6
-			public const int NavigationView_itemTextColor = 6;
+			public const int NavigationView_itemBackground = 6;
 			
 			// aapt resource value: 4
-			public const int NavigationView_menu = 4;
+			public const int NavigationView_itemIconTint = 4;
+			
+			// aapt resource value: 7
+			public const int NavigationView_itemTextAppearance = 7;
+			
+			// aapt resource value: 5
+			public const int NavigationView_itemTextColor = 5;
+			
+			// aapt resource value: 3
+			public const int NavigationView_menu = 3;
 			
 			public static int[] PopupWindow = new int[]
 			{
 					16843126,
-					2130772173};
+					2130772265};
 			
 			// aapt resource value: 0
 			public const int PopupWindow_android_popupBackground = 0;
@@ -5452,7 +7868,7 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] PopupWindowBackgroundState = new int[]
 			{
-					2130772174};
+					2130772266};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -5460,10 +7876,10 @@ namespace ParkingGrandLyon.Droid
 			public static int[] RecyclerView = new int[]
 			{
 					16842948,
-					2130771968,
-					2130771969,
-					2130771970,
-					2130771971};
+					2130772094,
+					2130772095,
+					2130772096,
+					2130772097};
 			
 			// aapt resource value: 0
 			public const int RecyclerView_android_orientation = 0;
@@ -5482,14 +7898,14 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] ScrimInsetsFrameLayout = new int[]
 			{
-					2130772256};
+					2130772066};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
 			public static int[] ScrollingViewBehavior_Params = new int[]
 			{
-					2130772257};
+					2130772067};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Params_behavior_overlapTop = 0;
@@ -5500,19 +7916,19 @@ namespace ParkingGrandLyon.Droid
 					16843039,
 					16843296,
 					16843364,
-					2130772175,
-					2130772176,
-					2130772177,
-					2130772178,
-					2130772179,
-					2130772180,
-					2130772181,
-					2130772182,
-					2130772183,
-					2130772184,
-					2130772185,
-					2130772186,
-					2130772187};
+					2130772267,
+					2130772268,
+					2130772269,
+					2130772270,
+					2130772271,
+					2130772272,
+					2130772273,
+					2130772274,
+					2130772275,
+					2130772276,
+					2130772277,
+					2130772278,
+					2130772279};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -5565,20 +7981,35 @@ namespace ParkingGrandLyon.Droid
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
 			
+			public static int[] SignInButton = new int[]
+			{
+					2130771985,
+					2130771986,
+					2130771987};
+			
+			// aapt resource value: 0
+			public const int SignInButton_buttonSize = 0;
+			
+			// aapt resource value: 1
+			public const int SignInButton_colorScheme = 1;
+			
+			// aapt resource value: 2
+			public const int SignInButton_scopeUris = 2;
+			
 			public static int[] SnackbarLayout = new int[]
 			{
 					16843039,
-					2130772032,
-					2130772258};
+					2130772068,
+					2130772124};
 			
 			// aapt resource value: 0
 			public const int SnackbarLayout_android_maxWidth = 0;
 			
-			// aapt resource value: 1
-			public const int SnackbarLayout_elevation = 1;
-			
 			// aapt resource value: 2
-			public const int SnackbarLayout_maxActionInlineWidth = 2;
+			public const int SnackbarLayout_elevation = 2;
+			
+			// aapt resource value: 1
+			public const int SnackbarLayout_maxActionInlineWidth = 1;
 			
 			public static int[] Spinner = new int[]
 			{
@@ -5586,7 +8017,7 @@ namespace ParkingGrandLyon.Droid
 					16843126,
 					16843131,
 					16843362,
-					2130772033};
+					2130772125};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -5608,13 +8039,13 @@ namespace ParkingGrandLyon.Droid
 					16843044,
 					16843045,
 					16843074,
-					2130772188,
-					2130772189,
-					2130772190,
-					2130772191,
-					2130772192,
-					2130772193,
-					2130772194};
+					2130772280,
+					2130772281,
+					2130772282,
+					2130772283,
+					2130772284,
+					2130772285,
+					2130772286};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -5663,22 +8094,22 @@ namespace ParkingGrandLyon.Droid
 			
 			public static int[] TabLayout = new int[]
 			{
-					2130772259,
-					2130772260,
-					2130772261,
-					2130772262,
-					2130772263,
-					2130772264,
-					2130772265,
-					2130772266,
-					2130772267,
-					2130772268,
-					2130772269,
-					2130772270,
-					2130772271,
-					2130772272,
-					2130772273,
-					2130772274};
+					2130772069,
+					2130772070,
+					2130772071,
+					2130772072,
+					2130772073,
+					2130772074,
+					2130772075,
+					2130772076,
+					2130772077,
+					2130772078,
+					2130772079,
+					2130772080,
+					2130772081,
+					2130772082,
+					2130772083,
+					2130772084};
 			
 			// aapt resource value: 3
 			public const int TabLayout_tabBackground = 3;
@@ -5738,7 +8169,7 @@ namespace ParkingGrandLyon.Droid
 					16843106,
 					16843107,
 					16843108,
-					2130772043};
+					2130772135};
 			
 			// aapt resource value: 4
 			public const int TextAppearance_android_shadowColor = 4;
@@ -5771,15 +8202,15 @@ namespace ParkingGrandLyon.Droid
 			{
 					16842906,
 					16843088,
-					2130772275,
-					2130772276,
-					2130772277,
-					2130772278,
-					2130772279,
-					2130772280,
-					2130772281,
-					2130772282,
-					2130772283};
+					2130772085,
+					2130772086,
+					2130772087,
+					2130772088,
+					2130772089,
+					2130772090,
+					2130772091,
+					2130772092,
+					2130772093};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -5818,29 +8249,29 @@ namespace ParkingGrandLyon.Droid
 			{
 					16842927,
 					16843072,
-					2130772009,
-					2130772012,
-					2130772016,
-					2130772028,
-					2130772029,
-					2130772030,
-					2130772031,
-					2130772033,
-					2130772195,
-					2130772196,
-					2130772197,
-					2130772198,
-					2130772199,
-					2130772200,
-					2130772201,
-					2130772202,
-					2130772203,
-					2130772204,
-					2130772205,
-					2130772206,
-					2130772207,
-					2130772208,
-					2130772209};
+					2130772101,
+					2130772104,
+					2130772108,
+					2130772120,
+					2130772121,
+					2130772122,
+					2130772123,
+					2130772125,
+					2130772287,
+					2130772288,
+					2130772289,
+					2130772290,
+					2130772291,
+					2130772292,
+					2130772293,
+					2130772294,
+					2130772295,
+					2130772296,
+					2130772297,
+					2130772298,
+					2130772299,
+					2130772300,
+					2130772301};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -5921,9 +8352,9 @@ namespace ParkingGrandLyon.Droid
 			{
 					16842752,
 					16842970,
-					2130772210,
-					2130772211,
-					2130772212};
+					2130772302,
+					2130772303,
+					2130772304};
 			
 			// aapt resource value: 1
 			public const int View_android_focusable = 1;
@@ -5943,8 +8374,8 @@ namespace ParkingGrandLyon.Droid
 			public static int[] ViewBackgroundHelper = new int[]
 			{
 					16842964,
-					2130772213,
-					2130772214};
+					2130772305,
+					2130772306};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
