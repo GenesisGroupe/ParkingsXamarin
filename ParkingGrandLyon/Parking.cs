@@ -1,53 +1,118 @@
 ﻿using System;
 using Newtonsoft.Json;
+using Xamarin.Forms;
+using System.Text.RegularExpressions;
+using System.Windows.Input;
+using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace ParkingGrandLyon
 {
 	public class Parking
 	{
-		String nom { get; set; }
-		//String idparking;
-		//int idparkingcriter;
-		//String commune;
-		//String proprietaire;
-		//String gestionnaire;
-		//String idfournisseur;
-		//String voieentree;
-		//String voiesortie;
-		//String avancement;
-		//int annee;
-		//String situation;
-		//String parkingtempsreel;
-		//float gabarit;
-		//int capacite;
-		//int capacite2rm;
-		//int capacitevelo;
-		//int capaciteautopartage;
-		//int capacitepmr;
-		//String usage;
-		//String vocation;
-		//String reglementation;
-		//String fermeture;
-		//String observation;
-		//int codetype;
-		//int gid;
-		//Location the_geom;
+		public String pkgid { get; set; }
+		public String nom { get; set; }
+		public String gestionnaire { get; set; }
+		public String id_fournisseur { get; set; }
+		public String capacitevoiture { get; set; }
+		public String capacitemoto { get; set; }
+		public String capacitevelo { get; set; }
+		public String capaciteautopartage { get; set; }
+		public String capacitepmr { get; set; }
+		public String etat { get; set; }
+		public String etat_code { get; set; }
+		public String gid { get; set; }
+		public String last_update { get; set; }
+		public String last_update_fme { get; set; }
+		public Location location { get; set; }
 
+		public String parkingViewColor { get; set; }
+		public String totalAvailablePlaces { get; set; }
+		public bool noDataAvailable { get; set; }
+
+		public ICommand btnGoCommand { get; set; }
 
 		public static Parking createFromJson(String json)
 		{
-			Parking parkingTest = new Parking { nom = "myParking" };
-			Console.Out.WriteLine("parking cree : " + parkingTest.nom);
-			var myJson = JsonConvert.SerializeObject(parkingTest);
-			Console.Out.WriteLine("serialized object : " + myJson);
-			Parking deserializedParking = JsonConvert.DeserializeObject<Parking>(myJson);
-			Console.Out.WriteLine("deserialized parking :  " + deserializedParking.nom);
-			return null;
-			//Parking p = JsonConvert.DeserializeObject<Parking>(json);
-			//Console.Out.WriteLine("json object : "  + json);
-			//Console.Out.WriteLine("deserialized object : " + p.nom);
-			//return p;
+			Parking p = JsonConvert.DeserializeObject<Parking>(json);
+			p.setEtat(p.etat);
+
+			p.setBtnGoCommand();
+			return p;
 		}
+
+		public void setBtnGoCommand()
+		{
+			btnGoCommand = new Command(param => GoCommand((Location)param));
+		}
+
+		public void GoCommand(Location location)
+		{
+			//here you create your call to the startTimer() method
+			Console.Out.WriteLine("GO " + location.latitude + " / " + location.longitude);
+			switch (Device.RuntimePlatform)
+			{
+				case Device.iOS:
+					Device.OpenUri(new Uri(string.Format("http://maps.apple.com/?q={0},{1}", location.latitude, location.longitude)));
+					break;
+				case Device.Android:
+					Device.OpenUri(new Uri(string.Format("geo:0,0?q={0},{1}", location.latitude, location.longitude)));
+					break;
+				case Device.WinPhone:
+					Device.OpenUri(new Uri(string.Format("bingmaps:?where={0},{1}", location.latitude, location.longitude)));
+					break;
+				case Device.Windows:
+				default:
+					break;
+			}
+		}
+
+		public async Task updateDistanceLocation(ParkingGrandLyonPage vc)
+		{
+			Console.WriteLine("update distance location !");
+			Network network = new Network();
+			Task<string> jsonPoint = network.GetDistanceBetweenPoints(Location.currentLocation, this.location);
+			string jsonDirection = await jsonPoint;
+			this.location.ParseMapsResponse(jsonDirection, vc);
+		}
+
+		async Task updateDistanceParkings(ParkingGrandLyonPage vc)
+		{
+			Console.WriteLine("update distance parking !");
+			await updateDistanceLocation(vc);
 			
+		}
+
+		public void setEtat(String etat)
+		{
+			string resultString = "";
+			resultString = Regex.Match(etat, @"\d+").Value;
+
+			if (resultString == "")
+			{
+				noDataAvailable = true;
+				totalAvailablePlaces = "?";
+				parkingViewColor = "#d8d8d8";
+			}
+			else
+			{
+				totalAvailablePlaces = resultString;
+				Double totInt = Double.Parse(totalAvailablePlaces);
+				Double capInt = Double.Parse(capacitevoiture);
+				if ((totInt / capInt * 100) < 3)
+				{
+					parkingViewColor = "#d36b78";
+				}
+				else if ((totInt / capInt * 100) < 10)
+				{
+					parkingViewColor = "#f5c923";
+				}
+				else
+				{
+					parkingViewColor = "#50e3c2";
+				}
+
+			}
+		}
 	}
 }
