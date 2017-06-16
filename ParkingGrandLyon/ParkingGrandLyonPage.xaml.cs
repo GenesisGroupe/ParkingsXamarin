@@ -1,4 +1,4 @@
-﻿﻿﻿using System;
+﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
@@ -14,7 +14,7 @@ namespace ParkingGrandLyon
 	public partial class ParkingGrandLyonPage : ContentPage, PositionListener
 	{
 
-        public Location currentLocation;
+		public Location currentLocation;
 
 		public ParkingGrandLyonPage()
 		{
@@ -23,15 +23,16 @@ namespace ParkingGrandLyon
 			loadDatas();
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
-			updateDistanceParkings();
 
-			
 		}
 
-        public async void initPositionListener() {
+		public async void initPositionListener()
+		{
 			Geolocation geolocation = new Geolocation(this);
 			await geolocation.getPositionListener();
-        }
+		}
+
+
 
 		public async void loadPosition()
 		{
@@ -58,68 +59,86 @@ namespace ParkingGrandLyon
 		async void loadDatas()
 		{
 
-            loadPosition();
-            var result = await Network.GetCoordinates("50 quai Paul Sédallian Lyon");
+			loadPosition();
+			//var result = await Network.GetCoordinates("50 quai Paul Sédallian Lyon");
 
 			Network network = new Network();
-            if (currentLocation == null) {
-                return;
-            }
-            Task<string> task = network.GetParkings(20, currentLocation);
+			if (currentLocation == null)
+			{
+				return;
+			}
+			Task<string> task = network.GetParkings(20, currentLocation);
 
 
 			string stringReturned = await task;
 
-            if (stringReturned.Equals("") || stringReturned == null) {
-                return;
-            }
+			if (stringReturned.Equals("") || stringReturned == null)
+			{
+				return;
+			}
 			var json = JObject.Parse(stringReturned);
 			JArray featuresArray = (JArray)json["features"];
 
 			ParkingManager parkingManager = ParkingManager.sharedManager();
 			foreach (var item in featuresArray.Children())
 			{
-				
+
 				Parking parking = Parking.createFromJson(item["properties"].ToString());
 				JObject geometry = (JObject)item["geometry"];
 				JArray coordinates = (JArray)geometry["coordinates"];
 				double lat = (float)coordinates[1];
 				double longitude = (float)coordinates[0];
 				parking.location = new Location(longitude, lat);
-                parkingManager.addParking(parking);
+				parkingManager.addParking(parking);
 				Console.WriteLine("parking created");
 				await parking.updateDistanceLocation(this);
-                refreshListView();
+				refreshListView();
 				await parking.updateDistanceLocation(this);
 			}
-            		
+
 		}
-
-		public void positionChanged(Location location)
-		{
-            Map.MoveToRegion(MapSpan.FromCenterAndRadius(new Xamarin.Forms.Maps.Position((double)location.latitude, (double)location.longitude), Distance.FromMiles(1)));
-            currentLocation = location;
-            Network network = new Network();
-            loadDatas();
-            //network.GetParkings(20, location);
-        }
-
 
 
 		async void updateDistanceParkings()
 		{
-			Console.WriteLine("update distance parking !");
+			Console.WriteLine("View controller update distance parking !");
 			foreach (Parking parking in ParkingManager.sharedManager().allParkings)
 			{
 				await parking.updateDistanceLocation(this);
+				if (Map != null)
+				{
+
+					var position = new Xamarin.Forms.Maps.Position(parking.location.latitude, parking.location.longitude); // Latitude, Longitude
+					var pin = new Pin
+					{
+						Type = PinType.Place,
+						Position = position,
+						Label = "custom pin",
+						Address = "custom detail info"
+					};
+					Map.Pins.Add(pin);
+				}
 			}
 		}
 
 		public void refreshListView()
 		{
-			listView.ItemsSource = null;
-			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
+			Device.BeginInvokeOnMainThread(() =>
+				{
+					listView.ItemsSource = null;
+					listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
+				});
+		}
+
+		public void positionChanged(Location location)
+		{
+			Map.MoveToRegion(MapSpan.FromCenterAndRadius(new Xamarin.Forms.Maps.Position((double)location.latitude, (double)location.longitude), Distance.FromMiles(1)));
+			currentLocation = location;
+			Network network = new Network();
+
+			loadDatas();
+			//network.GetParkings(20, location);
 		}
 	}
 }
