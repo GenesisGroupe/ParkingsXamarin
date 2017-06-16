@@ -1,4 +1,5 @@
-﻿﻿using System;
+﻿using System;
+using System.ComponentModel;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator;
@@ -8,9 +9,11 @@ namespace ParkingGrandLyon
 {
 	public class Location
 	{
+
 		public double latitude { get; set; }
 		public double longitude { get; set; }
 		public string distance { get; set; }
+
 		public static Location currentLocation = new Location(45.789285, 4.814896);
 
 		public Location(double longitude, double lat)
@@ -25,9 +28,9 @@ namespace ParkingGrandLyon
 
 		}
 
-		public async Task<string> ParseMapsResponse(Task<string> responseTask)
+		public void ParseMapsResponse(string response, ParkingGrandLyonPage vc)
 		{
-			string response = await responseTask;
+			//string response = await responseTask;
 
 			JObject jsonResponse = JObject.Parse(response);
 			Console.Write("response task : " + jsonResponse);
@@ -38,13 +41,13 @@ namespace ParkingGrandLyon
 				JObject route = (JObject)jsonRoutes[0];
 				JArray legs = (JArray)route["legs"];
 				JObject leg = (JObject)legs[0];
-				JObject distance = (JObject)leg["distance"];
+				JObject jDistance = (JObject)leg["distance"];
 				//int dist = (int)distance["value"];
-				Console.WriteLine("distance: " + distance);
-				this.distance = (string)distance["text"];
+				Console.WriteLine("distance: " + jDistance);
+				this.distance = (string)jDistance["text"];
 
 			}
-			return this.distance;
+			vc.refreshListView();
 		}
 
 
@@ -69,5 +72,5 @@ namespace ParkingGrandLyon
 
 	}
 
-  
+
 }
