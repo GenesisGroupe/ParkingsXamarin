@@ -1,12 +1,16 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
 using Xamarin.Forms;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Runtime.CompilerServices;
 
 namespace ParkingGrandLyon
 {
-    public partial class ParkingGrandLyonPage : Xamarin.Forms.ContentPage, PositionListener
+	public partial class ParkingGrandLyonPage : ContentPage, PositionListener
 	{
 		private double _initialHeight;
 		private Animation _animation;
@@ -14,19 +18,26 @@ namespace ParkingGrandLyon
 		public ParkingGrandLyonPage()
 		{
 			InitializeComponent();
-
-            var model = new UserInterfaceModel(AnimateRow);
-			BindingContext = model;
-
+			//loadPosition();
 			loadDatas();
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
+			updateDistanceParkings();
+		}
 
-			// Store the inital value so we know what to what height to restore to
-            _initialHeight = listRow.Height.Value;
-         }
 
-		void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+		public async void loadPosition()
+		{
+			Console.WriteLine("loadposition");
+			Location location = new Location();
+			await location.getCurrentPosition();
+		}
+
+
+		// Fired when the user tap a cell
+		// get the Parking Object selected
+		// And show it on the map
+		void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
             AnimateRow();
 		}
@@ -83,13 +94,13 @@ namespace ParkingGrandLyon
         // Function to load datas asynchronislou
         async void loadDatas()
 		{
+            var result = await Network.GetCoordinates("50 quai Paul Sédallian Lyon");
 
-
-            Geolocation geolocation = new Geolocation(this);
-            await geolocation.getPositionListener();
+			Geolocation geolocation = new Geolocation(this);
+			await geolocation.getPositionListener();
 
 			Network network = new Network();
-			Task<string> task = network.GetParkings(100);
+			Task<string> task = network.GetParkings(20);
 
 			string stringReturned = await task;
 			var json = JObject.Parse(stringReturned);
@@ -98,24 +109,42 @@ namespace ParkingGrandLyon
 			ParkingManager parkingManager = ParkingManager.sharedManager();
 			foreach (var item in featuresArray.Children())
 			{
+				
 				Parking parking = Parking.createFromJson(item["properties"].ToString());
 				JObject geometry = (JObject)item["geometry"];
 				JArray coordinates = (JArray)geometry["coordinates"];
-				float lat = (float)coordinates[1];
-				float longitude = (float)coordinates[0];
+				double lat = (float)coordinates[1];
+				double longitude = (float)coordinates[0];
 				parking.location = new Location(longitude, lat);
 				parkingManager.addParking(parking);
+				Console.WriteLine("parking created");
+				await parking.updateDistanceLocation(this);
+                refreshListView();
+				await parking.updateDistanceLocation(this);
 			}
 
-			Console.WriteLine("{0} parkings synchronizeds", parkingManager.countParkings());
+
+		}
+
+		public void positionChanged(Position position)
+		{
+			Console.WriteLine("Position changed : {0}, {1}.", position.Latitude, position.Longitude);
+		}
+
+		async void updateDistanceParkings()
+		{
+			Console.WriteLine("update distance parking !");
+			foreach (Parking parking in ParkingManager.sharedManager().allParkings)
+			{
+				await parking.updateDistanceLocation(this);
+			}
+		}
+
+		public void refreshListView()
+		{
 			listView.ItemsSource = null;
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
 		}
-
-        public void positionChanged(Position position)
-        {
-            Console.WriteLine("Position changed : {0}, {1}.", position.Latitude, position.Longitude);
-		}
-    }
+	}
 }
