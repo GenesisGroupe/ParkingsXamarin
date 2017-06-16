@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿﻿﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
@@ -67,6 +67,7 @@ namespace ParkingGrandLyon
             }
             Task<string> task = network.GetParkings(20, currentLocation);
 
+
 			string stringReturned = await task;
 
             if (stringReturned.Equals("") || stringReturned == null) {
@@ -87,6 +88,7 @@ namespace ParkingGrandLyon
 				parking.location = new Location(longitude, lat);
                 parkingManager.addParking(parking);
 				Console.WriteLine("parking created");
+				await parking.updateDistanceLocation(this);
                 refreshListView();
 				await parking.updateDistanceLocation(this);
 			}
