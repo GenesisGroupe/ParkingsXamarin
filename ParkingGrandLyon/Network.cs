@@ -16,10 +16,10 @@ namespace ParkingGrandLyon
 
 		public async Task<string> GetParkings(int limit, Location currentLocation)
 		{
-			double lat1 = currentLocation.latitude - 0.01;
-			double lat2 = currentLocation.latitude + 0.01;
-			double long1 = currentLocation.longitude - 0.01;
-			double long2 = currentLocation.longitude + 0.01;
+			double lat1 = currentLocation.latitude - 0.02;
+			double lat2 = currentLocation.latitude + 0.02;
+			double long1 = currentLocation.longitude - 0.02;
+			double long2 = currentLocation.longitude + 0.02;
 			Console.WriteLine("long1 : " + long1);
 			Console.WriteLine("lat1 : " + lat1);
 			Console.WriteLine("long2 : " + long2);

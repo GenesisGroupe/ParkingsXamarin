@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 using System.Text.RegularExpressions;
@@ -56,7 +56,11 @@ namespace ParkingGrandLyon
 					Device.OpenUri(new Uri(string.Format("http://maps.apple.com/?q={0},{1}", location.latitude, location.longitude)));
 					break;
 				case Device.Android:
-					Device.OpenUri(new Uri(string.Format("geo:0,0?q={0},{1}", location.latitude, location.longitude)));
+					string slong1 = string.Format("{0}", location.longitude);
+					string slat1 = string.Format("{0}", location.latitude);
+					slong1 = slong1.Replace(",", ".");
+					slat1 = slat1.Replace(",", ".");
+					Device.OpenUri(new Uri(string.Format("geo:0,0?q={0},{1}", slat1, slong1)));
 					break;
 				case Device.WinPhone:
 					Device.OpenUri(new Uri(string.Format("bingmaps:?where={0},{1}", location.latitude, location.longitude)));
@@ -71,7 +75,7 @@ namespace ParkingGrandLyon
 		{
 			Console.WriteLine("update distance location !");
 			Network network = new Network();
-            Task<string> jsonPoint = network.GetDistanceBetweenPoints(vc.currentLocation, this.location);
+			Task<string> jsonPoint = network.GetDistanceBetweenPoints(vc.currentLocation, this.location);
 			string jsonDirection = await jsonPoint;
 			this.location.ParseMapsResponse(jsonDirection, vc);
 		}
@@ -80,7 +84,7 @@ namespace ParkingGrandLyon
 		{
 			Console.WriteLine("update distance parking !");
 			await updateDistanceLocation(vc);
-			
+
 		}
 
 		public void setEtat(String etat)

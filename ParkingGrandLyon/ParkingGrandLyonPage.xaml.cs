@@ -8,12 +8,13 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms.Maps;
+using System.Collections;
 
 namespace ParkingGrandLyon
 {
 	public partial class ParkingGrandLyonPage : ContentPage, PositionListener
 	{
-
+		private bool mylock = true;
 		public Location currentLocation;
 
 		public ParkingGrandLyonPage()
@@ -93,7 +94,7 @@ namespace ParkingGrandLyon
 				Console.WriteLine("parking created");
 				await parking.updateDistanceLocation(this);
 				refreshListView();
-				await parking.updateDistanceLocation(this);
+
 			}
 
 		}
@@ -102,13 +103,17 @@ namespace ParkingGrandLyon
 		async void updateDistanceParkings()
 		{
 			Console.WriteLine("View controller update distance parking !");
+			//Map.Pins.Clear();
+			Console.WriteLine("update map");
+			IList<Pin> pins = new List<Pin>();
 			foreach (Parking parking in ParkingManager.sharedManager().allParkings)
 			{
 				await parking.updateDistanceLocation(this);
 				if (Map != null)
 				{
-
+					
 					var position = new Xamarin.Forms.Maps.Position(parking.location.latitude, parking.location.longitude); // Latitude, Longitude
+					Console.WriteLine("creating pin");
 					var pin = new Pin
 					{
 						Type = PinType.Place,
@@ -116,19 +121,25 @@ namespace ParkingGrandLyon
 						Label = "custom pin",
 						Address = "custom detail info"
 					};
-					Map.Pins.Add(pin);
+					pins.Add(pin);
 				}
 			}
+
 		}
 
 		public void refreshListView()
 		{
-			Device.BeginInvokeOnMainThread(() =>
+			if (mylock)
 				{
-					listView.ItemsSource = null;
-					listView.ItemsSource = ParkingManager.sharedManager().allParkings;
-
-				});
+				this.mylock = false;
+					Device.BeginInvokeOnMainThread(() =>
+						{
+							//updateDistanceParkings();
+							listView.ItemsSource = null;
+							listView.ItemsSource = ParkingManager.sharedManager().allParkings;
+							mylock = true;
+						});
+				}
 		}
 
 		public void positionChanged(Location location)
