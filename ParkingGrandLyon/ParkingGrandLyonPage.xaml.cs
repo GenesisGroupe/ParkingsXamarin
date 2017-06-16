@@ -73,8 +73,8 @@ namespace ParkingGrandLyon
 				parkingManager.addParking(parking);
 				Console.WriteLine("parking created");
                 refreshListView();
+				await parking.updateDistanceLocation(this);
 			}
-			updateDistanceParkings();
 
 
 		}
