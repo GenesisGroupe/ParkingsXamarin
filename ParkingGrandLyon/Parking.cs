@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Xamarin.Forms;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
+using System.Threading.Tasks;
 
 namespace ParkingGrandLyon
 {
@@ -58,13 +59,21 @@ namespace ParkingGrandLyon
 					Device.OpenUri(new Uri(string.Format("geo:0,0?q={0},{1}", location.latitude, location.longitude)));
 					break;
 				case Device.WinPhone:
-					Device.OpenUri (new Uri(string.Format ("bingmaps:?where={0},{1}", location.latitude, location.longitude)));
+					Device.OpenUri(new Uri(string.Format("bingmaps:?where={0},{1}", location.latitude, location.longitude)));
 					break;
 				case Device.Windows:
 				default:
 					break;
 			}
 		}
+
+		public Task<string> updateDistanceLocation()
+		{
+			Network network = new Network();
+			Task<string> jsonPoint = network.GetDistanceBetweenPoints(Location.currentLocation, this.location);
+			return jsonPoint;
+		}
+
 
 		public void setEtat(String etat)
 		{
@@ -82,11 +91,11 @@ namespace ParkingGrandLyon
 				totalAvailablePlaces = resultString;
 				Double totInt = Double.Parse(totalAvailablePlaces);
 				Double capInt = Double.Parse(capacitevoiture);
-				if ((totInt/capInt * 100) < 3)
+				if ((totInt / capInt * 100) < 3)
 				{
 					parkingViewColor = "#d36b78";
 				}
-				else if ((totInt/capInt * 100) < 10)
+				else if ((totInt / capInt * 100) < 10)
 				{
 					parkingViewColor = "#f5c923";
 				}
