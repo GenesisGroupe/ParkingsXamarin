@@ -8,7 +8,7 @@ using System.ComponentModel;
 
 namespace ParkingGrandLyon
 {
-	public class Parking 
+	public class Parking
 	{
 		public String pkgid { get; set; }
 		public String nom { get; set; }
@@ -76,6 +76,12 @@ namespace ParkingGrandLyon
 			this.location.ParseMapsResponse(jsonDirection, vc);
 		}
 
+		async Task updateDistanceParkings(ParkingGrandLyonPage vc)
+		{
+			Console.WriteLine("update distance parking !");
+			await updateDistanceLocation(vc);
+			
+		}
 
 		public void setEtat(String etat)
 		{
