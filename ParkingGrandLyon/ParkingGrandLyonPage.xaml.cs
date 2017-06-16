@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
@@ -34,7 +34,7 @@ namespace ParkingGrandLyon
 		// Function to load datas asynchronislou
 		async void loadDatas()
 		{
-
+            var result = await Network.GetCoordinates("50 quai Paul Sédallian Lyon");
 
             Geolocation geolocation = new Geolocation(this);
             await geolocation.getPositionListener();
