@@ -63,8 +63,8 @@ namespace ParkingGrandLyon
 				Parking parking = Parking.createFromJson(item["properties"].ToString());
 				JObject geometry = (JObject)item["geometry"];
 				JArray coordinates = (JArray)geometry["coordinates"];
-				double lat = (float)coordinates[0];
-				double longitude = (float)coordinates[1];
+				double lat = (float)coordinates[1];
+				double longitude = (float)coordinates[0];
 				parking.location = new Location(longitude, lat);
 
 				//string distanceJson = await taskDice;
