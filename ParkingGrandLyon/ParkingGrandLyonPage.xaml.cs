@@ -1,23 +1,27 @@
-using System;
+﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
 using Xamarin.Forms;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Runtime.CompilerServices;
 
 
 namespace ParkingGrandLyon
 {
-    public partial class ParkingGrandLyonPage : ContentPage, PositionListener
+	public partial class ParkingGrandLyonPage : ContentPage, PositionListener
 	{
 		public ParkingGrandLyonPage()
 		{
 			InitializeComponent();
-			loadPosition();
+			//loadPosition();
 			loadDatas();
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
-
-         }
+			updateDistanceParkings();
+		}
 
 
 		public async void loadPosition()
@@ -44,13 +48,13 @@ namespace ParkingGrandLyon
 		// Function to load datas asynchronislou
 		async void loadDatas()
 		{
+            var result = await Network.GetCoordinates("50 quai Paul Sédallian Lyon");
 
-
-            Geolocation geolocation = new Geolocation(this);
-            await geolocation.getPositionListener();
+			Geolocation geolocation = new Geolocation(this);
+			await geolocation.getPositionListener();
 
 			Network network = new Network();
-			Task<string> task = network.GetParkings(100);
+			Task<string> task = network.GetParkings(300);
 
 			string stringReturned = await task;
 			var json = JObject.Parse(stringReturned);
@@ -59,30 +63,41 @@ namespace ParkingGrandLyon
 			ParkingManager parkingManager = ParkingManager.sharedManager();
 			foreach (var item in featuresArray.Children())
 			{
-				Console.WriteLine("creating parking");
+				
 				Parking parking = Parking.createFromJson(item["properties"].ToString());
 				JObject geometry = (JObject)item["geometry"];
 				JArray coordinates = (JArray)geometry["coordinates"];
 				double lat = (float)coordinates[1];
 				double longitude = (float)coordinates[0];
 				parking.location = new Location(longitude, lat);
-
-				//string distanceJson = await taskDice;
-				//Task<string> taskDistance = parking.updateDistanceLocation();
-				//await parking.location.ParseMapsResponse(taskDistance);
-
 				parkingManager.addParking(parking);
+				Console.WriteLine("parking created");
+                refreshListView();
+				await parking.updateDistanceLocation(this);
 			}
 
-			Console.WriteLine("{0} parkings synchronizeds", parkingManager.countParkings());
+
+		}
+
+		public void positionChanged(Position position)
+		{
+			Console.WriteLine("Position changed : {0}, {1}.", position.Latitude, position.Longitude);
+		}
+
+		async void updateDistanceParkings()
+		{
+			Console.WriteLine("update distance parking !");
+			foreach (Parking parking in ParkingManager.sharedManager().allParkings)
+			{
+				await parking.updateDistanceLocation(this);
+			}
+		}
+
+		public void refreshListView()
+		{
 			listView.ItemsSource = null;
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
 		}
-
-        public void positionChanged(Position position)
-        {
-            Console.WriteLine("Position changed : {0}, {1}.", position.Latitude, position.Longitude);
-		}
-    }
+	}
 }

@@ -4,6 +4,7 @@ using Xamarin.Forms;
 using System.Text.RegularExpressions;
 using System.Windows.Input;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace ParkingGrandLyon
 {
@@ -35,8 +36,7 @@ namespace ParkingGrandLyon
 		{
 			Parking p = JsonConvert.DeserializeObject<Parking>(json);
 			p.setEtat(p.etat);
-			Console.Out.WriteLine("json object : " + json);
-			Console.Out.WriteLine("deserialized object : " + p.capacitevoiture);
+
 			p.setBtnGoCommand();
 			return p;
 		}
@@ -67,13 +67,21 @@ namespace ParkingGrandLyon
 			}
 		}
 
-		public Task<string> updateDistanceLocation()
+		public async Task updateDistanceLocation(ParkingGrandLyonPage vc)
 		{
+			Console.WriteLine("update distance location !");
 			Network network = new Network();
 			Task<string> jsonPoint = network.GetDistanceBetweenPoints(Location.currentLocation, this.location);
-			return jsonPoint;
+			string jsonDirection = await jsonPoint;
+			this.location.ParseMapsResponse(jsonDirection, vc);
 		}
 
+		async Task updateDistanceParkings(ParkingGrandLyonPage vc)
+		{
+			Console.WriteLine("update distance parking !");
+			await updateDistanceLocation(vc);
+			
+		}
 
 		public void setEtat(String etat)
 		{
