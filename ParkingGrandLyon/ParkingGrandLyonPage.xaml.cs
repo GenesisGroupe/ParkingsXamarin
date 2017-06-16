@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
@@ -12,11 +12,21 @@ namespace ParkingGrandLyon
 		public ParkingGrandLyonPage()
 		{
 			InitializeComponent();
+			loadPosition();
 			loadDatas();
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
          }
+
+
+		public async void loadPosition()
+		{
+			Console.WriteLine("loadposition");
+			Location location = new Location();
+			await location.getCurrentPosition();
+		}
+
 
 		// Fired when the user tap a cell
 		// get the Parking Object selected
@@ -49,12 +59,18 @@ namespace ParkingGrandLyon
 			ParkingManager parkingManager = ParkingManager.sharedManager();
 			foreach (var item in featuresArray.Children())
 			{
+				Console.WriteLine("creating parking");
 				Parking parking = Parking.createFromJson(item["properties"].ToString());
 				JObject geometry = (JObject)item["geometry"];
 				JArray coordinates = (JArray)geometry["coordinates"];
-				float lat = (float)coordinates[1];
-				float longitude = (float)coordinates[0];
+				double lat = (float)coordinates[0];
+				double longitude = (float)coordinates[1];
 				parking.location = new Location(longitude, lat);
+
+				//string distanceJson = await taskDice;
+				//Task<string> taskDistance = parking.updateDistanceLocation();
+				//await parking.location.ParseMapsResponse(taskDistance);
+
 				parkingManager.addParking(parking);
 			}
 
