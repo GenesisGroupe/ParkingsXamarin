@@ -1,4 +1,8 @@
-﻿using System;
+﻿﻿﻿using System;
+using System.Threading.Tasks;
+using Plugin.Geolocator;
+using Xamarin.Forms;
+
 namespace ParkingGrandLyon
 {
 	public class Location
@@ -11,5 +15,13 @@ namespace ParkingGrandLyon
 			this.latitude = lat;
 			this.longitude = longitude;
 		}
+
+		public Location()
+		{
+			
+		}
+
 	}
+
+  
 }
