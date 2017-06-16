@@ -80,12 +80,13 @@ namespace ParkingGrandLyon
 			else
 			{
 				totalAvailablePlaces = resultString;
-				Int32 totInt = Int32.Parse(totalAvailablePlaces);
-				if (totInt == 0)
+				Double totInt = Double.Parse(totalAvailablePlaces);
+				Double capInt = Double.Parse(capacitevoiture);
+				if ((totInt/capInt * 100) < 3)
 				{
 					parkingViewColor = "#d36b78";
 				}
-				else if (totInt < 4)
+				else if ((totInt/capInt * 100) < 10)
 				{
 					parkingViewColor = "#f5c923";
 				}
