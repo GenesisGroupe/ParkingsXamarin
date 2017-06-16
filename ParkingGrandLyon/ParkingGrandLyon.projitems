@@ -24,5 +24,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Person.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Location.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ParkingManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Geolocation.cs" />
   </ItemGroup>
 </Project>
