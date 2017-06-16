@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
@@ -37,7 +37,6 @@ namespace ParkingGrandLyon
 
 		public async void loadPosition()
 		{
-			Console.WriteLine("loadposition");
 			Location location = new Location();
 			currentLocation = await location.getCurrentPosition();
 		}
@@ -97,6 +96,8 @@ namespace ParkingGrandLyon
 
 			}
 
+            updateDistanceParkings();
+
 		}
 
 
@@ -116,12 +117,11 @@ namespace ParkingGrandLyon
 					Console.WriteLine("creating pin");
 					var pin = new Pin
 					{
-						Type = PinType.Place,
 						Position = position,
-						Label = "custom pin",
-						Address = "custom detail info"
+                        Label = parking.nom
 					};
-					pins.Add(pin);
+                    Map.Pins.Add(pin);
+					//pins.Add(pin);
 				}
 			}
 
