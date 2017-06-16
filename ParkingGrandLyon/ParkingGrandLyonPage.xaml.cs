@@ -54,7 +54,7 @@ namespace ParkingGrandLyon
 			await geolocation.getPositionListener();
 
 			Network network = new Network();
-			Task<string> task = network.GetParkings(300);
+			Task<string> task = network.GetParkings(20);
 
 			string stringReturned = await task;
 			var json = JObject.Parse(stringReturned);
@@ -72,6 +72,7 @@ namespace ParkingGrandLyon
 				parking.location = new Location(longitude, lat);
 				parkingManager.addParking(parking);
 				Console.WriteLine("parking created");
+				await parking.updateDistanceLocation(this);
                 refreshListView();
 				await parking.updateDistanceLocation(this);
 			}
