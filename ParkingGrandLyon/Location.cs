@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Threading.Tasks;
 using Plugin.Geolocator;
 using Xamarin.Forms;
@@ -33,7 +33,7 @@ namespace ParkingGrandLyon
 				return location;
             } 
 
-            Location currentLocation = new Location(45.789285, 4.814896);
+            Location currentLocation = new Location((float)45.789285, (float)4.814896);
 
             return currentLocation;
         }
