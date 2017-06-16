@@ -15,6 +15,8 @@ namespace ParkingGrandLyon
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
+            Location location = new Location();
+            location.getCurrentPosition();
 		}
 
 		// Fired when the user tap a cell
