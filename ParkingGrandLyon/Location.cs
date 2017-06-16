@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.ComponentModel;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
@@ -13,8 +13,6 @@ namespace ParkingGrandLyon
 		public double latitude { get; set; }
 		public double longitude { get; set; }
 		public string distance { get; set; }
-
-		public static Location currentLocation = new Location(45.789285, 4.814896);
 
 		public Location(double longitude, double lat)
 		{

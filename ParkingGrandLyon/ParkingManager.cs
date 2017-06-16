@@ -29,11 +29,20 @@ namespace ParkingGrandLyon
 
 		public void addParking(Parking parking)
 		{
-			if (!this.allParkings.Contains(parking))
+            if (!parkingExists(parking))
 			{
 				this.allParkings.Add(parking);
 			}
 		}
+
+        public Boolean parkingExists(Parking parking) {
+            foreach(Parking p in this.allParkings) {
+                if (p.nom == parking.nom) {
+                    return true;
+                }
+            }
+            return false;
+        }
 
 		public int countParkings()
 		{

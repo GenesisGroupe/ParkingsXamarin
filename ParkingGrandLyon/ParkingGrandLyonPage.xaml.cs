@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
@@ -7,28 +7,37 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Runtime.CompilerServices;
-
+using Xamarin.Forms.Maps;
 
 namespace ParkingGrandLyon
 {
 	public partial class ParkingGrandLyonPage : ContentPage, PositionListener
 	{
+
+        public Location currentLocation;
+
 		public ParkingGrandLyonPage()
 		{
 			InitializeComponent();
-			//loadPosition();
+			initPositionListener();
 			loadDatas();
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 			updateDistanceParkings();
+
+			
 		}
 
+        public async void initPositionListener() {
+			Geolocation geolocation = new Geolocation(this);
+			await geolocation.getPositionListener();
+        }
 
 		public async void loadPosition()
 		{
 			Console.WriteLine("loadposition");
 			Location location = new Location();
-			await location.getCurrentPosition();
+			currentLocation = await location.getCurrentPosition();
 		}
 
 
@@ -48,15 +57,21 @@ namespace ParkingGrandLyon
 		// Function to load datas asynchronislou
 		async void loadDatas()
 		{
+
+            loadPosition();
             var result = await Network.GetCoordinates("50 quai Paul Sédallian Lyon");
 
-			Geolocation geolocation = new Geolocation(this);
-			await geolocation.getPositionListener();
-
 			Network network = new Network();
-			Task<string> task = network.GetParkings(300);
+            if (currentLocation == null) {
+                return;
+            }
+            Task<string> task = network.GetParkings(20, currentLocation);
 
 			string stringReturned = await task;
+
+            if (stringReturned.Equals("") || stringReturned == null) {
+                return;
+            }
 			var json = JObject.Parse(stringReturned);
 			JArray featuresArray = (JArray)json["features"];
 
@@ -70,19 +85,24 @@ namespace ParkingGrandLyon
 				double lat = (float)coordinates[1];
 				double longitude = (float)coordinates[0];
 				parking.location = new Location(longitude, lat);
-				parkingManager.addParking(parking);
+                parkingManager.addParking(parking);
 				Console.WriteLine("parking created");
                 refreshListView();
 				await parking.updateDistanceLocation(this);
 			}
-
-
+            		
 		}
 
-		public void positionChanged(Position position)
+		public void positionChanged(Location location)
 		{
-			Console.WriteLine("Position changed : {0}, {1}.", position.Latitude, position.Longitude);
-		}
+            Map.MoveToRegion(MapSpan.FromCenterAndRadius(new Xamarin.Forms.Maps.Position((double)location.latitude, (double)location.longitude), Distance.FromMiles(1)));
+            currentLocation = location;
+            Network network = new Network();
+            loadDatas();
+            //network.GetParkings(20, location);
+        }
+
+
 
 		async void updateDistanceParkings()
 		{

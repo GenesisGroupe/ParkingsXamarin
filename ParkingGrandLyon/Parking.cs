@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using Newtonsoft.Json;
 using Xamarin.Forms;
 using System.Text.RegularExpressions;
@@ -71,7 +71,7 @@ namespace ParkingGrandLyon
 		{
 			Console.WriteLine("update distance location !");
 			Network network = new Network();
-			Task<string> jsonPoint = network.GetDistanceBetweenPoints(Location.currentLocation, this.location);
+            Task<string> jsonPoint = network.GetDistanceBetweenPoints(vc.currentLocation, this.location);
 			string jsonDirection = await jsonPoint;
 			this.location.ParseMapsResponse(jsonDirection, vc);
 		}

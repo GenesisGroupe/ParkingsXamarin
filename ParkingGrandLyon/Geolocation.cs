@@ -54,7 +54,9 @@ namespace ParkingGrandLyon
 			Device.BeginInvokeOnMainThread(() =>
 			{
                 if (mListener != null) {
-                    mListener.positionChanged(e.Position);
+                    Location location = new Location(e.Position.Longitude, e.Position.Latitude);
+                    mListener.positionChanged(location);
+
                 }
 			});
 		}
@@ -62,6 +64,7 @@ namespace ParkingGrandLyon
 
 	public interface PositionListener
 	{
-        void positionChanged(Position position);
+        void positionChanged(Location location);
+
 	}
 }
