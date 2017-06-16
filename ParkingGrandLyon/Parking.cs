@@ -34,6 +34,7 @@ namespace ParkingGrandLyon
 		{
 			Parking p = JsonConvert.DeserializeObject<Parking>(json);
 			p.setEtat(p.etat);
+
 			Console.Out.WriteLine("json object : " + json);
 			Console.Out.WriteLine("deserialized object : " + p.capacitevoiture);
 			p.setBtnGoCommand();

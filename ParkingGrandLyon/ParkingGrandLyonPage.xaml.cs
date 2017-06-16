@@ -4,35 +4,84 @@ using Newtonsoft.Json.Linq;
 using Plugin.Geolocator.Abstractions;
 using Xamarin.Forms;
 
-
 namespace ParkingGrandLyon
 {
-    public partial class ParkingGrandLyonPage : ContentPage, PositionListener
+    public partial class ParkingGrandLyonPage : Xamarin.Forms.ContentPage, PositionListener
 	{
+		private double _initialHeight;
+		private Animation _animation;
+
 		public ParkingGrandLyonPage()
 		{
 			InitializeComponent();
+
+            var model = new UserInterfaceModel(AnimateRow);
+			BindingContext = model;
+
 			loadDatas();
 			// Set Datasource to the Parking List
 			listView.ItemsSource = ParkingManager.sharedManager().allParkings;
 
+			// Store the inital value so we know what to what height to restore to
+            _initialHeight = listRow.Height.Value;
          }
 
-		// Fired when the user tap a cell
-		// get the Parking Object selected
-		// And show it on the map
-		void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+		void OnTapGestureRecognizerTapped(object sender, EventArgs args)
 		{
-			if (e.SelectedItem != null)
-			{
-				var selectedParking = e.SelectedItem as Parking;
-				DisplayAlert("You selected", selectedParking.nom, "OK");
-			}
+            AnimateRow();
 		}
 
 
-		// Function to load datas asynchronislou
-		async void loadDatas()
+		private void AnimateRow()
+		{
+            if (listRow.Height.Value < _initialHeight)
+			{
+				// Move back to original height
+				_animation = new Animation(
+					(d) => listRow.Height = new GridLength(Clamp(d, 0, double.MaxValue)),
+					listRow.Height.Value, _initialHeight, Easing.SpringIn, () => _animation = null);
+			}
+			else
+			{
+				// Hide the row
+				_animation = new Animation(
+                    (d) => listRow.Height = new GridLength(Clamp(d, 0, double.MaxValue)),
+					_initialHeight, 0, Easing.SpringIn, () => _animation = null);
+			}
+
+			_animation.Commit(this, "the animation");
+		}
+
+		// Make sure we don't go below zero
+		private double Clamp(double value, double minValue, double maxValue)
+		{
+			if (value < minValue)
+			{
+				return minValue;
+			}
+
+			if (value > maxValue)
+			{
+				return maxValue;
+			}
+
+			return value;
+		}
+
+        // Fired when the user tap a cell
+        // get the Parking Object selected
+        // And show it on the map
+        void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            if (e.SelectedItem != null)
+            {
+                var selectedParking = e.SelectedItem as Parking;
+                DisplayAlert("You selected", selectedParking.nom, "OK");
+            }
+        }
+
+        // Function to load datas asynchronislou
+        async void loadDatas()
 		{
 
 
